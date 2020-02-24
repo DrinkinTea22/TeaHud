@@ -53,7 +53,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultSmall"
+			"font"			"Blank"
 			"xpos"			"c-1"
 			"ypos"			"0"
 			"wide"			"50"
@@ -67,28 +67,6 @@
 			"textAlignment"		"Left"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}
-		"NotBuiltBg"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"NotBuiltBg"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"proportionaltoparent"	"1"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"		"1"
-			"border"		"QuickplayBorder"
-			"image"			"../hud/color_panel_brown"
-			"src_corner_width"	"30"
-			"src_corner_height" 	"30"
-			"draw_corner_width"	"0"
-			"draw_corner_height" 	"0"
 		}
 	}
 
