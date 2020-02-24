@@ -22,7 +22,7 @@ Scheme
 		"Positive"								"80 255 80 255"			//Positive metal, Health
 		"Negative"								"255 80 80 255"			//Negative metal
 		
-		"Last Damage Done"						"235 235 235 255"		//Last Damage Done
+		"Last Damage Done"						"255 255 0 255"			//Last Damage Done
 		
 		"Ubercharge Full"						"80 255 80 255"			//When Uber = 100
 		"Ubercharge Full"						"80 255 80 255"			//When Uber = 100
