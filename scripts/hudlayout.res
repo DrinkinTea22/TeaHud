@@ -95,8 +95,8 @@
 	}
 	CHealthAccountPanel
 	{
-		"xpos"	"c-236"		
-		"ypos"	"c130"	
+		"xpos"	"c-170"		
+		"ypos"	"c30"	
 		"zpos"	"2"
 		"wide"	"160"
 		"tall"	"80"
