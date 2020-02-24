@@ -122,11 +122,18 @@
 	
 	"TauntLoadoutButton"
 	{
+		"xpos"			"c-168"
+		"ypos"			"c-180"	
 		"border_default"		   "QuickplayBorder"       
 		"border_armed"			   "QuickplayBorder"	 		
 	}
 	"CharacterLoadoutButton"
 	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CharacterLoadoutButton"
+		"labelText"		""
+		"xpos"			"c-168"
+		"ypos"			"c-156"	
 		"border_default"		   "QuickplayBorder"       
 		"border_armed"			   "QuickplayBorder"	 		
 	}	
