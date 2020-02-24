@@ -1,0 +1,12 @@
+hudanimations_manifest
+{	
+	//DrinkinTea Preference
+	"file"		"scripts/uber.txt"
+	"file"		"scripts/respawn.txt"
+	"file"		"scripts/disguise.txt"
+	"file"		"scripts/Ammo.txt"
+	"file"		"scripts/Health.txt"		
+	
+	// default animations they are only for reference and override features.
+	"file"		"scripts/hudanimations_tf.txt"
+}
