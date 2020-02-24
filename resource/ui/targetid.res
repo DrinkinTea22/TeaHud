@@ -166,8 +166,8 @@
 			"tall"			"36"
 			"visible"		"1"
 			"enabled"		"1"
-			"icon"			"obj_status_alert_background_tall_nocolor"
-			"iconColor"		"HudBlack"
+			"icon"			"../hud/color_panel_brown"
+			"DrawColor"		"HudBlack"
 			"scaleImage"	"1"
 		}
 		
