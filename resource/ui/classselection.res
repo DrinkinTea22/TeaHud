@@ -64,8 +64,8 @@
 	//textos
 	"Offense"
 	{
-		"xpos"			"c-300"
-		"ypos"			"96"
+		"xpos"			"0"
+		"ypos"			"-110"
 		"zpos"			"2"
 		"wide"			"145"
 		"visible"		"1"
@@ -77,7 +77,8 @@
 		"paintbackground"	"1"
 		"BgColor_override"		"TanDark"	
 		
-		"border"		"QuickplayBorder"	
+		"border"		"QuickplayBorder"
+		"pin_to_sibling" 	"scout"		
 	}
 	"Defense"
 	{
@@ -117,11 +118,11 @@
 	}
 	
 	
-	//clases
+	//clases	//MAIN PINNER DONT TOUCH THIS
 	"scout"
 	{
 		"xpos"				"c-300"
-		"ypos"				"-5"
+		"ypos"				"c-200"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -154,7 +155,7 @@
 	"soldier"
 	{
 		"xpos"				"-50"
-		"ypos"				"0"
+		"ypos"				"-2"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -187,7 +188,7 @@
 	"pyro"
 	{
 		"xpos"				"-50"
-		"ypos"				"-5"
+		"ypos"				"0"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
@@ -444,10 +445,10 @@
 	"CancelButton"  
 	{
 		"xpos"			"0"
-		"ypos"			"-25"
+		"ypos"			"-20"
 		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"145"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_ClassMenu_Cancel"
@@ -470,10 +471,10 @@
 	"EditLoadoutButton"  
 	{
 		"xpos"			"0"
-		"ypos"			"-160"
+		"ypos"			"-150"
 		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"25"
+		"wide"			"145"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -496,6 +497,28 @@
 		"border"												"QuickplayBorder"		
 		"pin_to_sibling" 	"medic"					
 	}
+	"RandomLuL"
+	{		
+		"ControlName"												"CExButton"
+		"fieldName"													"RandomLuL"
+		"labelText"													"Random"
+		"font"														"HudFontSmallestBold"
+		"zpos"														"10"
+		"wide"														"145"
+		"tall"														"20"		
+		"xpos"														"0"
+		"ypos"														"20"	
+		"textAlignment"												"center"			
+
+		"Command"													"select 12"
+
+		"sound_depressed"											"UI/buttonclick.wav"
+		"sound_released"											"UI/buttonclickrelease.wav"
+
+		"pin_to_sibling" 											"EditLoadoutButton"		
+		"border_default"										"QuickplayBorder"
+		"border_armed"											"QuickplayBorder"
+	}	
 	
 	//numero de clases por personaje
 	"numScout" 
