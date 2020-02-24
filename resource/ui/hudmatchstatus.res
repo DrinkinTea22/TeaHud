@@ -48,7 +48,7 @@
 			"overhealbar"
 			{																	
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"0"
 				"zpos"					"1"
 				"wide"					"f0"
 				"tall"					"21"	
