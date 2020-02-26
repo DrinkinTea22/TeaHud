@@ -44,7 +44,7 @@
 			"show_name"		"0"
 		}
 
-		"RestoreCasualSearchCriteria"	//boton para resetear tus datos de busqueda Casual
+		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
@@ -90,7 +90,7 @@
 			}
 		}
 
-		"SaveCasualSearchCriteria"	//boton para guardar tus datos de busqueda Casual
+		"SaveCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
@@ -135,14 +135,14 @@
 			}
 		}
 
-		"ShowExplanationsButton"	//boton de explicacion de Casual
+		"ShowExplanationsButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
 			"xpos" 	"9999"
 		}
 
-		"Title"		//texto de "Map Selection"
+		"Title"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"Title"
@@ -159,7 +159,7 @@
 			"mouseinputenabled"	"0"
 		}
 
-		"SelectedCount"		//texto de "maps Selected"
+		"SelectedCount"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
@@ -197,14 +197,14 @@
 			"mouseinputenabled"	"0"
 		}
 
-		"PlayListDropShadow"	//borde alrededor de las posibles selecciones
+		"PlayListDropShadow"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayListDropShadow"
 			"border"		"noborder"
 		}
 
-		"GameModesList"			//lista de modos de juego
+		"GameModesList"
 		{
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
@@ -218,7 +218,7 @@
 
 			"border"		"QuickplayBorder"	//MainMenuBGBorder
 
-			"ScrollBar"		//barra para subir - bajar
+			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
