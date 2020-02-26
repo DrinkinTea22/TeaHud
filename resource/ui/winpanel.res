@@ -16,7 +16,7 @@
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"86"
 			"ypos"			"22"
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -29,7 +29,7 @@
 			"fieldName"		"RedScoreBG"
 			"xpos"			"191"	//86 + 105
 			"ypos"			"22"
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -44,7 +44,7 @@
 			"xpos"			"86"
 			"ypos"			"22"
 			"zpos"			"10"			
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -60,7 +60,7 @@
 			"xpos"			"86"
 			"ypos"			"22"
 			"zpos"			"4"			
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -76,7 +76,7 @@
 			"xpos"			"-1"
 			"ypos"			"-1"
 			"zpos"			"3"
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -106,7 +106,7 @@
 			"xpos"			"191"
 			"ypos"			"22"
 			"zpos"			"10"
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"	
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -122,7 +122,7 @@
 			"xpos"			"191"
 			"ypos"			"22"
 			"zpos"			"3"
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"	
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
@@ -138,7 +138,7 @@
 			"xpos"			"-1"
 			"ypos"			"-1"
 			"zpos"			"3"
-			"wide"			"105"	//mitad de WinPanelBGBorder
+			"wide"			"105"	
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
