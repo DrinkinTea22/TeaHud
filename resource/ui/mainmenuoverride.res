@@ -1,5 +1,5 @@
 #base "Def_Files/mainmenuoverride.res"
-//overrides
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -118,8 +118,8 @@
 		"xpos"			"9999"
 	}		
 	
-	///////////////////////////////////////////////////////rank///////////////////////////////////////////////////////////////////////
-	"RankModelPanel"			//Medalla de Casual
+	//rank
+	"RankModelPanel"			//Casual-Comp Medal icon
 	{
 		"xpos"				"270"
 		"ypos"				"325"
@@ -127,7 +127,7 @@
 		"wide"				"600"	
 		"pin_to_sibling" 	"Pin"		
 	}	
-	"RankPanel"			//nombre, nivel, etc
+	"RankPanel"			//names, level, etc
 	{
 		"xpos"			"120"
 		"ypos"			"130"
@@ -180,7 +180,7 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Servers"
-		"labelText"													"Servers"
+		"labelText"													"#MMenu_BrowseServers"
 		"font"														"HudFontMediumSmallBold"
 		"zpos"														"10"
 		"auto_wide_tocontents" 										"1"	
@@ -204,7 +204,7 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Loadout"
-		"labelText"													"Loadout"
+		"labelText"													"#MMenu_CharacterSetup"
 		"font"														"HudFontMediumSmallBold"
 		"zpos"														"10"
 		"auto_wide_tocontents" 										"1"	
@@ -228,7 +228,7 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Settings"
-		"labelText"													"Settings"
+		"labelText"													"#TF_OfflinePractice_Settings"
 		"font"														"HudFontMediumSmallBold"
 		"zpos"														"10"
 		"auto_wide_tocontents" 										"1"	
@@ -252,7 +252,7 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Advance"
-		"labelText"													"Advance"
+		"labelText"													"#TF_Quickplay_AdvancedOptions"
 		"font"														"HudFontMediumSmallBold"
 		"zpos"														"10"
 		"auto_wide_tocontents" 										"1"	
@@ -276,7 +276,7 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Console"
-		"labelText"													"Console"
+		"labelText"													"#TF_DemoSupport_Notify_ConsoleOnly"
 		"font"														"HudFontMediumSmallBold"
 		"zpos"														"10"
 		"auto_wide_tocontents" 										"1"	
@@ -300,7 +300,7 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Store"
-		"labelText"													"Store"
+		"labelText"													"#TF_TrialNeedSpace_Store"
 		"font"														"HudFontMediumSmallBold"
 		"zpos"														"10"
 		"auto_wide_tocontents" 										"1"	
