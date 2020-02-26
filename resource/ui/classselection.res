@@ -118,7 +118,7 @@
 	}
 	
 	
-	//clases	//MAIN PINNER DONT TOUCH THIS
+	//classes	//MAIN PINNER DONT TOUCH THIS
 	"scout"
 	{
 		"xpos"				"c-300"
@@ -417,7 +417,7 @@
 		}				
 	}	
 	
-	//botones
+	//buttons
 	"QuickBind"
 	{
 		"controlName"		"CExButton"
@@ -520,7 +520,7 @@
 		"border_armed"											"QuickplayBorder"
 	}	
 	
-	//numero de clases por personaje
+	//number per class
 	"numScout" 
 	{
 		"xpos"			"0"
