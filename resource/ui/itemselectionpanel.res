@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"BackpackBGColor"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
@@ -176,13 +176,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Selection_ShowBackpack"
+		"labelText"		"#TF_Wearable_Backpack"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"show_backpack"
-		"border_default"		   "Borde"   	     
-		"border_armed"			   "Borde"		 
+		"border_default"		   "QuickplayBorder"   	     
+		"border_armed"			   "QuickplayBorder"		 
 	}	
 	
 	"OnlyAllowUniqueQuality"
@@ -241,8 +241,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"prevpage"
-		"border_default"		   "Borde"   	     
-		"border_armed"			   "Borde"	
+		"border_default"		   "QuickplayBorder"   	     
+		"border_armed"			   "QuickplayBorder"	
 	}		
 	"CurPageLabel"
 	{
@@ -277,8 +277,8 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		"nextpage"
-		"border_default"		   "Borde"   	     
-		"border_armed"			   "Borde"		 
+		"border_default"		   "QuickplayBorder"   	     
+		"border_armed"			   "QuickplayBorder"		 
 	}		
 	
 	
