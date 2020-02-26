@@ -18,9 +18,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
+		"xpos"			"c-300"	
+		"ypos"			"50"	
+		"wide"			"600"	
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
