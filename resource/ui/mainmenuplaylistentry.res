@@ -1,6 +1,6 @@
 "Resource/UI/MainMenuPlayListEntry.res"
 {
-	"ModeButton"	//propiedades de los botones en "Modo de Juego"
+	"ModeButton"	//Properties used for gamemodes buttons
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
