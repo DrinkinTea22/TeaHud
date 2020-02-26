@@ -16,7 +16,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"Blank"
+		"bgcolor_override"				"BackpackBGColor"
 		"infocus_bgcolor_override"		"Blank"
 		"outoffocus_bgcolor_override"	"Blank"
 		
@@ -33,7 +33,7 @@
 	}
 	"ReloadSchemeButton"
 	{
-		"xpos"   "5"   "ypos"   "30"   "visible"   "1"		
+		"xpos"   "5"   "ypos"   "30"   "visible"   "0"		
 	}	
 	"BackgroundHeader"
 	{
@@ -88,6 +88,7 @@
 		"tall"			"460"
 		"transition_time" 	"0"
 		"yoffset"		"14"
+		"bgcolor_override"				"BackpackBGColor"
 		"Border"		"QuickplayBorder"		
 
 		"HeaderLine"
