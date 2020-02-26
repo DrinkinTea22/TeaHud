@@ -2,7 +2,6 @@
 
 "Resource/UI/MatchMakingDashboardPlayList.res"
 {
-	//cuando presionas en "Find A Game" esto es lo primero que se encuentra
 	"ExpandableList"
 	{
 		"fieldName"		"ExpandableList"
