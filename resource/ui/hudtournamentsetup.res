@@ -107,8 +107,8 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"Red"
-		"border_default"		   "Borde"   	     
-		"border_armed"			   "Borde"		 
+		"border_default"		   "QuickplayBorder"   	     
+		"border_armed"			   "QuickplayBorder"		 
 	}
 	"TournamentReadyButton"
 	{
@@ -131,7 +131,7 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"FooterBGBlack"
-		"border_default"		   "Borde"   	     
-		"border_armed"			   "Borde"		 
+		"border_default"		   "QuickplayBorder"   	     
+		"border_armed"			   "QuickplayBorder"		 
 	}
 }
