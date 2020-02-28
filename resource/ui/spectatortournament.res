@@ -8,13 +8,13 @@
 {
 	"specgui"
 	{
-		"team1_player_base_offset_x"	"0"		//posicion de equipo blu horizontal TODO		//eng: Position from blue team Xpos ALL
-		"team1_player_base_y"			"149"	//posicion de equipo blu Vertical TODO			//eng: Position from blue team Ypos ALL
-		"team1_player_delta_x"			"0"		//posicion de equipo blu horizontal				//eng: Position from blue team Xpos Individual
-		"team1_player_delta_y"			"15"	//posicion de equipo blu Vertical Individual	//eng: Position from blue team Ypos Individual
-		"team2_player_base_y"			"149"   //posicion de equipo red Vertical TODO			//eng: Position from red team Ypos ALL
-		"team2_player_delta_x"			"0"     //posicion de equipo red horizontal TODO		//eng: Position from blue team Xpos ALL
-		"team2_player_delta_y"			"15"	//posicion de equipo red Vertical Individual	//eng: Position from blue team Ypos Individual
+		"team1_player_base_offset_x"	"0"
+		"team1_player_base_y"			"149"
+		"team1_player_delta_x"			"0"
+		"team1_player_delta_y"			"15"
+		"team2_player_base_y"			"149"
+		"team2_player_delta_x"			"0"
+		"team2_player_delta_y"			"15"
 
 		"playerpanels_kv"
 		{
@@ -106,9 +106,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
+		"xpos"			"c-300"	
+		"ypos"			"50"	
+		"wide"			"600"	
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"

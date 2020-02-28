@@ -31,8 +31,7 @@
 	}
 	
 2.	//Use of #base 
-	#base 	"Asistencia/NAMEFILE.res"
-	#base 	"Asistencia/Especial/NAMEFILE.res"
+	#base 	"Def_Files/NAMEFILE.res"
 
 
 
@@ -84,10 +83,10 @@
 
 
 4.	//Button HOVER
-	"paintBorder"			"1"
 	"border_default"		"QuickplayBorder"
 	"border_armed"			"QuickplayBorder"
-	"border"				"QuickplayBorder"		
+	"border"				"QuickplayBorder"	
+	"paintborder"			"1"	
 	
 	"image_drawcolor"		"Color"
 	"image_armedcolor"		"Color"
@@ -101,6 +100,9 @@
 	"Bgcolor"				"Color"	
 	"paintbackground"		"1"	
 	
+	"fillcolor"     "HUDBlueTeam"
+	"alpha"         "204"	
+
 5.	"ReloadSchemeButton"
 	{
 		"ControlName"	"CExImageButton"

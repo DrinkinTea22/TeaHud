@@ -20,51 +20,111 @@
 	{
 		"playerpanels_kv"
 		{
-			"color_portrait_bg_red"			"Blank"
-			"color_portrait_bg_blue"		"Blank"
-			"color_portrait_bg_red_dead"	"Blank"
-			"color_portrait_bg_blue_dead"	"Blank"
+			"color_portrait_bg_red"			"189 59 61 255"
+			"color_portrait_bg_blue"		"90 122 143 255"
+			"color_portrait_bg_red_dead"	"15 15 15 255"
+			"color_portrait_bg_blue_dead"	"15 15 15 255"
 			
-			"color_bar_health_high"				"Health"	//normal hp
-			"color_bar_health_med"				"255 255 0 255"	//mid hp
-			"percentage_health_med"	"0.8"
-			"color_bar_health_low"				"Health Hurt"	//low hp
-			"percentage_health_low"	"0.3"
+			"color_bar_health_high"			"Health"	//normal hp
+			"color_bar_health_med"			"255 200 0 255"	//mid hp
+			"percentage_health_med"			"0.8"
+			"color_bar_health_low"			"Health Hurt"	//low hp
+			"percentage_health_low"			"0.3"
+			
 			"color_portrait_blend_dead_red"	 "white"
 			"color_portrait_blend_dead_blue" "white"	
 			
-			"respawntime"
+			"classimage"
 			{
-				"font"			"ItemFontNameLarge"
+				"xpos"								"cs-0.5"
+				"ypos"								"0"
+				"zpos"								"5"
+				"wide"								"15"
+				"tall"								"15"
 			}
-			"healthbar"
-			{																		
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"0"
-				"tall"					"21"	
-				"bgcolor_override"	    "80 80 80 195"	//background
-			}
-			"overhealbar"
-			{																	
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"1"
-				"wide"					"f0"
-				"tall"					"21"	
-				"bgcolor_override"	    "Blank"
-				"fgcolor_override"	    "Health Buff"
-			}	
 			"classimagebg"
 			{
-				"ControlName"		"Panel"
-				"fieldName"		"classimagebg"
-				"zpos"			"-1"
-				"wide"			"f0"
-				"tall"			"21"
-			}			
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"2"
+				"wide"								"f0"
+				"tall"								"15"
+			}
+			"healthbar"
+			{
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"3"
+				"wide"								"f0"
+				"tall"								"18"
+				"bgcolor_override"	  				"80 80 80 255"
+			}
+			"overhealbar"
+			{
+				"xpos"								"0"
+				"ypos"								"0"
+				"zpos"								"4"
+				"wide"								"f0"
+				"tall"								"18"
+				"bgcolor_override"	   				"blank"
+				"fgcolor_override"	   				"Health Buff"
+			}
+			"HealthIcon"
+			{
+				"xpos"								"22"
+				"ypos"								"-3"
+				"zpos"								"3"
+				"wide"								"32"
+				"tall"								"32"
+			}
+			"respawntime"
+			{
+				"font"							"ItemFontNameLarge"
+				"xpos"							"cs-0.5"
+				"ypos"							"0"
+				"zpos"							"5"
+				"wide"							"f0"
+				"tall"							"25"
+				"visible"						"1"
+				"labelText"						"%respawntime%"
+				"textAlignment"					"center"
+			}
+			
+			"chargeamount"
+			{
+				"xpos"							"25"
+				"ypos"							"17"
+				"zpos"							"6"
+				"wide"							"25"
+				"tall"							"15"
+				"visible"						"0"
+				"labelText"						"%chargeamount%"
+				"textAlignment"					"north"
+				"fgcolor"						"White"
+			}
+			"DeathPanel"
+			{
+			}
+			"ReadyBG"
+			{
+				"xpos"							"9999"
+			}
+			"ReadyImage"
+			{
+				"xpos"							"9999"
+			}
+			"specindex"
+			{
+				"xpos"							"9999"
+			}
+			"SkullPanel"
+			{
+				"xpos"							"9999"
+			}
 		}
-	}	
+	}
+
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
@@ -86,12 +146,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontSmallestBold"
-
+			"font"			"HudFontSmallishBold"
+			"xpos"			"10"			
+			"ypos"			"-5"
+			"wide"			"90"
+			
 			if_match
 			{
 				"proportionaltoparent"	"1"
-
 				"xpos"			"cs-0.5"
 				"ypos"			"12"
 				"tall"			"10"

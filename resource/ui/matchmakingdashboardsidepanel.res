@@ -1,27 +1,27 @@
 "Resource/UI/MatchMakingDashboardSidePanel.res"
 {
-	"Shade"	//no hace nada (?
+	"Shade"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
 		"xpos" 	"9999" 
 	}
 
-	"TitleGradient"	//fondo
+	"TitleGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TitleGradient"
 		"xpos" 	"9999" 
 	}
 	
-	"InnerGradient"	//nada
+	"InnerGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
 		"xpos" 	"9999" 
 	}
 
-	"OuterGradient"	//nada
+	"OuterGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"OuterGradient"

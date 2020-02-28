@@ -180,7 +180,253 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"G_HighlightText"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"G_Highlight"
 	}
-	
+	Borders
+	{
+		FrameBorder
+		{
+			// square corners for frames
+			"backgroundtype" "0"
+
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		DepressedBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		RaisedBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ScrollBarButtonBorder
+		{
+			"inset" "2 2 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ScrollBarButtonDepressedBorder
+		{
+			"inset" "2 2 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ScrollBarSliderBorder
+		{
+			"inset" "2 2 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		ScrollBarSliderBorderHover	ScrollBarSliderBorder
+		ScrollBarSliderBorderDragging	ScrollBarSliderBorder
+	}	
 	Fonts
 	{
 		"MainMenuFont"

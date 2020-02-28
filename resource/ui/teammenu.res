@@ -113,7 +113,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_ScoreBoard_Blue"	[$WIN32]
+		"labelText"		"#TF_ScoreBoard_Blue"	
 		"textAlignment"	"center"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
@@ -131,7 +131,7 @@
 		"depressedFgColor_override" 							"White"
 		"border_default"										"QuickPlayBorder"
 		"border_armed"											"QuickPlayBorder"
-		"border"												"QuickPlayBorder"		
+		"border"												"QuickPlayBorder"
 		"pin_to_sibling" "QuickPin"
 	}
 
@@ -147,7 +147,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"#TF_ScoreBoard_Red"	[$WIN32]
+		"labelText"		"#TF_ScoreBoard_Red"	
 		"textAlignment"	"center"
 		"command"		"jointeam red"
 		"team"				"2"		// team red
@@ -181,7 +181,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"#TF_Random"	[$WIN32]
+		"labelText"		"#TF_Random"	
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
 		"associated_model"	"autodoor"
@@ -212,7 +212,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"#TF_Spectate"	[$WIN32]
+		"labelText"		"#TF_Spectate"	
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
@@ -230,7 +230,7 @@
 		"border"												"QuickplayBorder"		
 		"pin_to_sibling"										"QuickPin"
 	}
-	"CancelButton" [$WIN32] 
+	"CancelButton"  
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -280,10 +280,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"c-280" [$WIN32] 
+		"xpos"			"c-280"  
 		"ypos"			"55"
 		"zpos"			"1"
-		"wide"			"102" [$WIN32]
+		"wide"			"102" 
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
@@ -656,7 +656,7 @@
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}		
-	"HighlanderLabel" [$WIN32] 
+	"HighlanderLabel"  
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
@@ -669,7 +669,7 @@
 		"enabled"		"0"
 		"fov"			"0"
 	}	
-	"HighlanderLabelShadow" [$WIN32] 
+	"HighlanderLabelShadow"  
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
@@ -682,7 +682,7 @@
 		"enabled"		"0"
 		"fov"			"0"
 	}
-	"TeamsFullLabel" [$WIN32] 
+	"TeamsFullLabel"  
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabel"
@@ -695,7 +695,7 @@
 		"enabled"		"0"
 		"fov"			"0"
 	}
-	"TeamsFullLabelShadow" [$WIN32] 
+	"TeamsFullLabelShadow"  
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
@@ -708,7 +708,7 @@
 		"enabled"		"0"
 		"fov"			"0"
 	}
-	"TeamsFullArrow" [$WIN32]
+	"TeamsFullArrow" 
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamsFullArrow"

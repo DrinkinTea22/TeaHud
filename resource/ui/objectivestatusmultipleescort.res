@@ -18,7 +18,7 @@
 			"ypos"				"r150"
 		}
 		
-		"EscortItemPanel"		//No estaba originalmente aqui
+		"EscortItemPanel"
 		{
 			"EscortTeardrop"
 			{
@@ -42,7 +42,7 @@
 		
 		"EscortItemPanel"
 		{
-			"EscortTeardrop"		//No estaba originalmente aqui
+			"EscortTeardrop"
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"EscortTeardrop"

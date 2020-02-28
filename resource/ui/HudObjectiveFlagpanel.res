@@ -229,7 +229,7 @@
 		"brighttext"		"0"
 		"font"			"Default"
 		"fgcolor"		"TanLight"
-		"border"		"borde"
+		"border"		"QuickplayBorder"
 		"bgcolor_override"	"33 33 33 233"
 		
 		"src_corner_height"	"0"

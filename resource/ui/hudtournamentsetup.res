@@ -8,6 +8,14 @@
 		"tall"	"0"
 		"wide"	"0"
 	}
+	"HudTournamentNameBG"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"HudTournamentNameBG"
+		"xpos" 	"9999" 
+		"tall"	"0"
+		"wide"	"0"
+	}	
 	"BG_Fillcolor"
 	{
 		"ControlName"	"ImagePanel"
@@ -19,12 +27,12 @@
 		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"TransparentLightBlack"
+		"fillcolor"		"Black"
 	}	
 
 	"TournamentSetupLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TournamentLabel"
 		"font"			"HudFontSmallBold"
 		"xpos"			"8"
@@ -36,12 +44,11 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 	}
-
 	"TournamentTeamNameLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"font"			"HudFontSmallest"
 		"xpos"			"0"
@@ -53,48 +60,42 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"#Tournament_TeamNamePanel"
-		"textAlignment"		"east"
+		"textAlignment"	"east"
 	}
 
 	"TournamentNameEdit"
 	{
-		"ControlName"		"TextEntry"
+		"ControlName"	"TextEntry"
 		"fieldName"		"TournamentNameEdit"
-		"xpos"		"0"
-		"ypos"		"27"
-		"wide"		"180"
-		"tall"		"16"
+		"xpos"			"0"
+		"ypos"			"27"
+		"wide"			"180"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"0"
-		"textHidden"		"0"
+		"tabPosition"	"0"
+		"textHidden"	"0"
 		"editable"		"1"
 		"maxchars"		"5"
-		"NumericInputOnly"	"0"
+		"NumericInputOnly""0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"White"
-		"bgcolor_override"		"0 0 0 255"
-		"labelText"		"%teamname%"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"0 0 0 255"
+		"labelText"			"%teamname%"
 		"textAlignment"		"left"
-	}
-
-	"HudTournamentNameBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"HudTournamentNameBG"
-		"fillcolor"	"Blank"
+		"paintbackgroundtype""0"	
 	}
 
 	"TournamentNotReadyButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentNotReadyButton"
-		"xpos"		"0"
-		"ypos"		"46"
-		"wide"		"70"
-		"tall"		"14"
-		"zpos"		"0"
+		"xpos"			"0"
+		"ypos"			"46"
+		"wide"			"70"
+		"tall"			"14"
+		"zpos"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -107,18 +108,18 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"Red"
-		"border_default"		   "Borde"   	     
-		"border_armed"			   "Borde"		 
+		"border_default""QuickplayBorder"   	     
+		"border_armed"	"QuickplayBorder"		 
 	}
 	"TournamentReadyButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TournamentReadyButton"
-		"xpos"		"110"
-		"ypos"		"46"
-		"wide"		"70"
-		"tall"		"14"
-		"zpos"		"0"
+		"xpos"			"110"
+		"ypos"			"46"
+		"wide"			"70"
+		"tall"			"14"
+		"zpos"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -131,7 +132,7 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"FooterBGBlack"
-		"border_default"		   "Borde"   	     
-		"border_armed"			   "Borde"		 
+		"border_default" "QuickplayBorder"   	     
+		"border_armed"  "QuickplayBorder"		 
 	}
 }

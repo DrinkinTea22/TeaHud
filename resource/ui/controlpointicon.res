@@ -7,8 +7,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"26"	//tamaño de los iconos (puntos de control)
-		"tall"			"26"	//tamaño de los iconos (puntos de control)
+		"wide"			"26"	//size of icons (control points)
+		"tall"			"26"	//size of icons (control points)
 		"visible"		"1"
 		"enabled"		"1"
 	}
