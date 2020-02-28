@@ -19,7 +19,7 @@ Scheme
 	{
 		"White"									"235 226 202 255"		//tanLight
 
-		"BackpackBGColor"						"52 50 52 255"			//thanks Wiet :D
+		"BackpackBGColor"						"46 43 42 255"
 		
 		"Positive"								"80 255 80 255"			//Positive metal, Health
 		"Negative"								"255 80 80 255"			//Negative metal
