@@ -108,13 +108,8 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"Red"
-<<<<<<< HEAD
 		"border_default""QuickplayBorder"   	     
 		"border_armed"	"QuickplayBorder"		 
-=======
-		"border_default"		   "QuickplayBorder"   	     
-		"border_armed"			   "QuickplayBorder"		 
->>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
 	}
 	"TournamentReadyButton"
 	{
@@ -137,12 +132,7 @@
 		"default"		"1"
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"FooterBGBlack"
-<<<<<<< HEAD
 		"border_default" "QuickplayBorder"   	     
 		"border_armed"  "QuickplayBorder"		 
-=======
-		"border_default"		   "QuickplayBorder"   	     
-		"border_armed"			   "QuickplayBorder"		 
->>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
 	}
 }
