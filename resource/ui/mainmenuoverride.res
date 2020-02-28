@@ -139,8 +139,8 @@
 		"ypos"			"0"
 		"zpos"			"-99"
 		"wide"			"260"			
-		"font"			"HudFontSmallBold"
-		"BgColor_override"	"White"
+		"font"			"HudFontSmallestBold"
+		"BgColor_override"	"Black"
 		
 		"pin_to_sibling" "RankPanel"
 	}	
@@ -324,34 +324,43 @@
 	"ReportPlayerButton"
 	{
 		"ypos"					   "60"
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"		 
+		"paintborder"				"1"	
+		
 		"SubButton"
 		{
+			"border"				   "QuickplayBorder"		
+			"border_default"		   "QuickplayBorder"   	      
+			"border_armed"			   "QuickplayBorder"
 			"RoundedCorners"		   "0"	
+			"paintborder"				"1"	
 		}		
 	}	
 	"CallVoteButton"
 	{
 		"ypos"					   "60"
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"		 
+		"paintborder"				"1"	
+		
 		"SubButton"
 		{
+			"border"				   "QuickplayBorder"		
+			"border_default"		   "QuickplayBorder"   	      
+			"border_armed"			   "QuickplayBorder"		
 			"RoundedCorners"		   "0"	
+			"paintborder"				"1"	
 		}
 	}	
 	"MutePlayersButton"
 	{
-		"ypos"					   "60"
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"		 	
+		"ypos"					   "60"	
+		"paintborder"				"1"	
+	 	
 		"SubButton"
 		{
+			"border"				   "QuickplayBorder"		
+			"border_default"		   "QuickplayBorder"   	      
+			"border_armed"			   "QuickplayBorder"				
 			"RoundedCorners"		   "0"	
+			"paintborder"				"1"	
 		}
 	}	
 	
@@ -469,30 +478,48 @@
 	
 	"FriendsContainer"
 	{
-		"xpos"			"5"
-		"ypos"			"-20"
-		"zpos"			"5"
-		"wide"			"260"
-		"tall"			"150"
-		"visible"		"1"
-		"border"		"noborder"
-
-		"pin_to_sibling" 	"Store"		
-
+		"xpos"				"5"
+		"ypos"				"5"
+		"tall"				"210"
+		"border"			"noborder"
+		"pin_to_sibling" 	"Store"	
+		
+		"InnerShadow"
+		{
+			"ypos"			"25"
+			"tall"			"175"
+		}
 		"TitleLabel"
 		{
 			"fgcolor_override"	"blank"
 		}
-
-		"InnerShadow"
-		{
-			"border"		"noborder"
-		}
-
 		"BelowDarken"
 		{
+
+			"ypos"				"25"
+			"tall"				"175"		
 			"border"			"QuickplayBorder"
-			"bgcolor_override"	"0 0 0 100"
+			"bgcolor_override"	"TransparentLightBlack"
+		}	
+		"InnerShadow"
+		{
+			"border"			"noborder"
+		}		
+		"SteamFriendsList"
+		{
+			"ypos"			"25"
+			"tall"			"175"
+			"columns_count"	"3"
+			"row_gap"		"2"
+			"column_gap"	"2"
+			"inset_x"		"4"
+			"inset_y"		"4"
+			
+			"friendpanel_kv"
+			{
+				"wide"		"78"
+				"tall"		"19"
+			}
 		}
-	}		
+	}	
 }
