@@ -82,7 +82,7 @@
 				"font"							"ItemFontNameLarge"
 				"xpos"							"cs-0.5"
 				"ypos"							"0"
-				"zpos"							"5"
+				"zpos"							"7"
 				"wide"							"f0"
 				"tall"							"25"
 				"visible"						"1"
