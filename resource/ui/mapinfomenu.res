@@ -132,7 +132,7 @@
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
