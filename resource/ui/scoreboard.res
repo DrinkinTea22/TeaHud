@@ -92,6 +92,10 @@
         "fillcolor"     "HUDRedTeam"
         "alpha"         "204"
 		"border"				"QuickplayBorder"
+<<<<<<< HEAD
+=======
+         
+>>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
         
         if_mvm
         {
@@ -223,7 +227,11 @@
         "tall"          "20"
         "fgcolor"       "TanLight"
         "font"          "HudFontSmallBold"
+<<<<<<< HEAD
         "textAlignment" "east"
+=======
+        "textAlignment" "center"
+>>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
     }
   
  
@@ -565,11 +573,19 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
+<<<<<<< HEAD
 			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%assists%"
 			"textAlignment"		"center"
 			"xpos"			"410"
 			"ypos"			"20"
+=======
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%assists%"
+			"textAlignment"		"center"
+			"xpos"			"410"
+			"ypos"			"15"
+>>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
 			"zpos"			"3"
 			"wide"			"90"
 			"tall"			"15"
@@ -595,11 +611,19 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
+<<<<<<< HEAD
 			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%support%"
 			"textAlignment"	"center"
 			"xpos"			"500"
 			"ypos"			"20"
+=======
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%support%"
+			"textAlignment"	"center"
+			"xpos"			"500"
+			"ypos"			"15"
+>>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
 			"zpos"			"3"
 			"wide"			"90"
 			"tall"			"15"
@@ -699,8 +723,13 @@
         "font"          "HudFontSmallestBold"
         "labelText"     "%mapname%"
         "textAlignment"     "west"
+<<<<<<< HEAD
         "xpos"          "c-265"
         "ypos"          "0"    
+=======
+        "xpos"          "c-270"
+        "ypos"          "98"    
+>>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
         "zpos"          "4"
         "wide"          "816"
         "tall"          "25"
@@ -721,8 +750,13 @@
         "font"          "HudFontSmallestBold"
         "labelText"     "%server%"
         "textAlignment"     "west"
+<<<<<<< HEAD
         "xpos"          "c-265"
         "ypos"          "15"    
+=======
+        "xpos"          "c-270"
+        "ypos"          "113"    
+>>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
         "zpos"          "4"
         "wide"          "816"
         "tall"          "25"
@@ -743,8 +777,13 @@
         "fieldName"     "Spectators"
         "font"          "HudFontSmallestBold"
         "textAlignment"     "west"
+<<<<<<< HEAD
         "xpos"          "c-265"
         "ypos"          "30"    
+=======
+        "xpos"          "c-270"
+        "ypos"          "125"    
+>>>>>>> 4f22db590ba53a74ff28a0fefa0066a955d36a4d
         "zpos"          "4"
         "wide"          "816"
         "tall"          "25"
