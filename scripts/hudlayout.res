@@ -139,9 +139,9 @@
 	
 	HudMedicCharge
 	{
-		"xpos"	"c-50"	
-		"ypos"	"c20"	
-		"wide"	"100"
-		"tall"	"120"	
+		"xpos"	"0"	
+		"ypos"	"0"	
+		"wide"	"f0"
+		"tall"	"480"
 	}	
 }
