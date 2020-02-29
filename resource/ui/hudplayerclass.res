@@ -70,18 +70,22 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"10"
-		"ypos"			"r88"
+		"xpos"			"0"
+		"ypos"			"r200"
 		"zpos"			"2"		
-		"wide"			"52"
-		"tall"			"102"
-		"autoResize"	"1"
+		"wide"			"240"
+		"wide_minmode"	"240"
+		"tall"			"200"
+		"tall_minmode"	"200"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"200 0 0 0"
 		
 		"render_texture"	"0"
-		"fov"			"28"
+		"fov"			"52"
 		"allow_rot"		"1"
 				
 		"model"
@@ -89,165 +93,122 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "270"
+			"angles_y" "172"
 			"angles_z" "0"
 			"origin_x" "200"
-			"origin_y" "28"
+			"origin_y" "0"
 			"origin_z" "-60"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
+			"fov"		"100"
 		
 			"modelname"		""
-			//	STAND/SWIM/RUN/CROUCH/CROUCHWALK
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
+			
 		}
 
 		"customclassdata"
 		{
 			"undefined"
 			{
+				"fov"			"100"
+				"angles_x"		"-17"
+				"angles_y"		"200"
+				"angles_z"		"-10"
+				"origin_x"		"105"
+				"origin_y"		"5"
+				"origin_z"		"-78"
 			}
 			"Scout"
 			{
-				"fov"			"27"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"-10"
-				"origin_x"		"105"
-				"origin_y"		"15"
-				"origin_z"		"-47"
+				"fov"		"11"
+				"angles_x"	"-5"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"825"
+				"origin_y"	"60"
+				"origin_z"	"-98"
 			}
 			"Sniper"
 			{
-				"fov"			"30"
-				"angles_x"		"-2"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"130"
-				"origin_y"		"15"
-				"origin_z"		"-47"	//-67
+				"fov"		"12"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"58"
+				"origin_z"	"-108"
 			}
 			"Soldier"
 			{
-				"fov"			"27"
-				"angles_x"		"0"
-				"angles_y"		"260"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"24"
-				"origin_z"		"-52"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"190"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Demoman"
 			{
-				"fov"			"28"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"138"
-				"origin_y"		"20"
-				"origin_z"		"-55"
+				"fov"		"13"
+				"angles_x"	"-3"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Medic"
 			{
-				"fov"			"22"
-				"angles_x"		"4"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"15"
-				"origin_z"		"-57"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Heavy"
 			{
-				"fov"			"20"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"200"
-				"origin_y"		"15"
-				"origin_z"		"-55"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"63"
+				"origin_z"	"-108"
 			}
 			"Pyro"
 			{
-				"fov"			"23"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"175"
-				"origin_y"		"22"
-				"origin_z"		"-50"
+				"fov"		"13"
+				"angles_x"	"0"
+				"angles_y"	"210"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"67"
+				"origin_z"	"-108"
 			}
 			"Spy"
 			{
-				"fov"			"23"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"15"
-				"origin_z"		"-60"
+				"fov"		"12"
+				"angles_x"	"-3"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"60"
+				"origin_z"	"-108"
 			}
 			"Engineer"
 			{
-				"fov"			"23"
-				"angles_x"		"0"
-				"angles_y"		"270"
-				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"15"
-				"origin_z"		"-52"
+				"fov"		"12"
+				"angles_x"	"0"
+				"angles_y"	"200"
+				"angles_z"	"0"
+				"origin_x"	"805"
+				"origin_y"	"60"
+				"origin_z"	"-100"
 			}
 		}
 	}
