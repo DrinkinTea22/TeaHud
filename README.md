@@ -15,7 +15,7 @@ a HUD for TF2
 
 -Arekk (ArekkHud) ChatScheme
 
-HUGE THANKS TO:
+# HUGE THANKS TO:
 
 -Wiethoofd (Wiethud)	
 
