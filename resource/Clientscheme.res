@@ -4,7 +4,11 @@
 //		clientscheme													- Default Override 
 
 #base "borders.res"
-#base "Fonts.res"
+
+//to enable Surface Font only remove the "//" and left them in "FONTS.res"
+#base "FONTS.res"
+//#base "FONTS_Surface.res"
+
 #base "base/clientscheme.res"
 
 Scheme
@@ -40,11 +44,27 @@ Scheme
 		"Ammo In Reserve Low"					"255 80 80 255"
 		"Ammo No Clip Low"						"255 80 80 255"
 	}
+	Fonts
+	{
+		//Only Selft-Made Font Definition
+		"Blank"
+		{
+			"1"
+			{
+				"name"  "Blank"  "tall"  "1"  "antialias"  "1"
+			}
+		}
+	}	
 	CustomFontFiles
 	{
+		"11" 
+		{
+			"font" "resource/Fonts/surface.otf"
+			"name" "surface"
+		}
 		"111" 
 		{
-			"font" "resource/Blank.ttf"
+			"font" "resource/Fonts/Blank.ttf"
 			"name" "Blank"
 		}
 	}	
