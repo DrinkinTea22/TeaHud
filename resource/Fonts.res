@@ -1,847 +1,1551 @@
-//		Fonts															- Font Definitions + Edits	(Higher - Lower tall)
-
 Scheme
 {
 	Fonts
 	{
-		//Only Selft-Made Font Definition
-		"Blank"
-		{
-			"1"
-			{
-				"name"  "Blank"  "tall"  "1"  "antialias"  "1"
-			}
-		}
-		
-		//Start TF2 Build
 		"HudFontGiantBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "44"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		MatchmakingDialogTitle
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "36"  "weight"  "0"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"TeamMenuBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "36"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}			
 		"HudFontBiggerBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "35"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"HudFontMediumBigBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "30"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}	
 		MatchmakingDialogSessionOptionsTitle
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "30"  "weight"  "0"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}				
 		"HudFontMediumBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "24"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		"EconFontMedium"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "24"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}	
 		"ReplayBrowserTab"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "24"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}					
 		"HudFontMediumSmallBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"ItemFontNameLarger"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}				
 		"HudFontSmallishBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "16"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		"FontCartPrice"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "16"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"HudFontSmallBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		"HudFontSmallBoldShadow"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"  "dropshadow"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
+				"dropshadow"	"1"
 			}
 		}		
 		"ReplayMedium"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}	
 		"EconFontSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"MapVotesPercentage"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "12"  "weight"  "0"  "additive"  "0"  "antialias"  "1"  "dropshadow"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
+				"dropshadow"	"1"
 			}
 		}			
 		"ItemFontNameLarge"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "12"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"HudFontSmallestBold"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		"ReplayMediumSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"XPSource_Glow"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "11"  "weight"  "0"  "blur"  "3"  "additive"  "1"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
+				"blur"		"3"
 			}
 		}		
 		"XPSource"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "11"  "weight"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"StorePromotionsTitle"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "10"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}		
 		"FontStorePrice"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "9"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}				
 		"ItemFontNameSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "9"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		"AchievementTracker_Name"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "9"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		"AchievementTracker_NameGlow"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "9"  "weight"  "0"  "blur"  "3"  "additive"  "1"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
+				"blur"		"3"
 			}
 		}				
 		"PerformanceModeSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "4"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
 		"FontStorePriceSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "6"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}			
 		"ItemFontNameSmallest"
 		{
 			"1"
 			{
-				"name"  "TF2 Build"  "tall"  "8"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Build"
+				"weight"	"0"
 			}
 		}
-		//End TF2 Build
+		//End "TF2 Build""////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		//Start TF2
+		//Start "TF2"//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"ScoreboardTeamScore"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "52"  "range"  "0x0000 0x00FF"  "weight"	"0"  "yres"  "1 599"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "TF2"  "tall"  "72"  "range"  "0x0000 0x00FF"  "weight"  "0"  "yres"  "600 767"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "TF2"  "tall"  "100"  "range"  "0x0000 0x00FF"  "weight"  "0"  "yres"  "768 1023"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"4"
 			{
-				"name"  "TF2"  "tall"  "140"  "range"  "0x0000 0x00FF"  "weight"  "0"  "yres"  "1024 1199"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"5"
 			{
-				"name"  "TF2"  "tall"  "180"  "range"  "0x0000 0x00FF"  "weight"  "0"  "yres"  "1200 10000"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}
 		"HudFontBig"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "36"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}
 		"ScoreboardTeamScoreNew"
  		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "36"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "36"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias" "1"  "additive"  "0"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}				
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "24"  "weight"  "0"  "additive"  "0"  "antialias"  "1"  "yres"  "480 599"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "TF2"  "tall"  "32"  "weight"  "0"  "additive"  "0"  "antialias" "1"  "yres"  "600 767"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "TF2"  "tall"  "44"  "weight"  "0"  "additive"  "0"  "antialias"  "1"  "yres"  "768 1023"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"4"
 			{
-				"name"  "TF2"  "tall"  "48"  "weight"  "0"  "additive"  "0"  "antialias"  "1"  "yres"  "1024 1199"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"5"
 			{
-				"name"		"TF2"  "tall"  "52"  "weight"  "0"  "additive"  "0"  "antialias"  "1"  "yres"  "1200 10000"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		"HudFontMediumBig"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "30"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}	
 		"MenuMainTitle"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "24"  "antialias"  "1"  "weight"  "0"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		"HudFontMedium"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "24"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		"HudFontMediumSmall"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		"ReplayMediumBig"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}				
 		"HudClassHealth"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "16"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		"HudSelectionText"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "15"  "weight"  "700"  "antialias"  "1"  "yres"  "1 599"  "range"  "0x0000 0x017F"  "additive"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "TF2"  "tall"  "15"  "weight"  "700"  "antialias"  "1"  "yres"  "600 767"  "range"  "0x0000 0x017F"  "additive"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "TF2"  "tall"  "18"  "weight"  "0"  "antialias"  "1"  "yres"  "768 1023"  "range"  "0x0000 0x017F"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"4"
 			{
-				"name"  "TF2"  "tall"  "21"  "weight"  "0"  "antialias"  "1"  "yres"  "1024 1199"  "range"  "0x0000 0x017F"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 			"5"
 			{
-				"name"  "TF2"  "tall"  "24"  "weight"  "1000"  "antialias"  "1"  "yres"  "1200 10000"  "range"  "0x0000 0x017F"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}					
 		"ScoreboardMediumSmall"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "14"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias"  "1"  "additive"  "0"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		MenuSmallFont
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "14"  "range"  "0x0000 0x00FF"  "weight"  "300"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}	
 		"MenuKeys"
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "12"  "antialias"  "1"  "weight"  "0"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}			
-		CapPlayerFont		//Font used in CapPlayer Font 
+		CapPlayerFont
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "12"  "weight"  "0"  "range"  "0x0000 0x017F"  "TextColor"  "White"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
 			}
 		}		
 		CapPlayerFontSmall
 		{
 			"1"
 			{
-				"name"  "TF2"  "tall"  "8"  "weight"  "0"  "range"  "0x0000 0x017F"  "TextColor"  "Black"  "antialias"  "1"
+				"name"		"TF2"
+				"weight"	"0"
+				"TextColor"	"Black"
 			}
 		}				
-		//End TF2
+		//End "TF2"//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		
-		//Start TF2 Secondary
+		//Start "TF2 Secondary""////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "34"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias"  "1"  "additive"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}	
 		MatchmakingDialogMenuLarge
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "28"  "weight"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}			
 		"HudFontMediumSecondary"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "24"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "22"  "weight"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}			
 		"ScoreboardMedium"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "20"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias"  "1"  "additive"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"ScoreboardTeamName"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "20"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias"  "1"  "additive"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"ScoreboardTeamNameNew"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "20"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias"  "1"  "additive"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"MatchSummaryWinner"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "20"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		MatchmakingDialogMenuMediumSmall
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "18"  "weight"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"GameUIButtonText"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}	
 		"HudFontMediumSmallSecondary"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"ReplayLarger"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"IntroMenuCaption"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}				
 		"QuestLargeText_Merasmus"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "16"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		ControllerHintText
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "15"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias" "1"  "additive"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"HudFontSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}	
 		"ItemFontAttribLarger"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"ScoreboardTeamCountNew"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "range"  "0x0000 0x007F"  "antialias"  "1"  "additive"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"MatchSummaryStatsAndMedals"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"CompMatchStartTeamNames"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"QuestMediumText_Merasmus"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "13"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"FontStorePromotion"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "12"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}			
 		"HudFontSmallest"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"HudFontSmallestShadow"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"  "1"  "dropshadow"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
+				"dropshadow"	"1"
 			}
 		}		
 		"ItemFontAttribLarge"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}	
 		"TextTooltipFont"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"   1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}			
 		"MenuClassBuckets"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "11"  "antialias"  "1"  "weight"  "0"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}	
 		"TeamMenu"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}			
 		"ReplayBrowserSmallest"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "11"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"ScoreboardSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "10"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"ControlPointTimer"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "10"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"Link"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "10"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}				
 		"QuestInstructionText_Merasmus"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "10"  "weight"  "0"  "yres"  "480 599"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "yres"  "600 1023"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "TF2 Secondary"  "tall"  "22"  "weight"  "0"  "additive"  "0"  "yres"  "1024 6000"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"QuestFlavorText_Merasmus"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "10"  "weight"  "0"  "yres"  "480 599"  "additive"  "0"  "antialias"  "1"  "italic"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "yres"  "600 1023"  "antialias"  "1"  "italic"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
+				"italic"	"1"
 			}
 			"3"
 			{
-				"name"  "TF2 Secondary"  "tall"  "22"  "weight"  "0"  "additive"  "0"  "yres"  "1024 6000"  "antialias"  "1"  "italic"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
+				"italic"	"1"
 			}
 		}
 		"QuestObjectiveText_Merasmus"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "10"  "weight"  "0"  "yres"  "480 599"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "TF2 Secondary"  "tall"  "14"  "weight"  "0"  "additive"  "0"  "yres"  "600 1023"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "TF2 Secondary"  "tall"  "18"  "weight"  "0"  "additive"  "0"  "yres"  "1024 6000"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}
 		"AdFont_ItemName"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "10"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"MMenuPlayListDesc"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "9"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}				
 		"FontStoreOriginalPrice"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "9"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"ItemFontAttribSmall"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "8"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"ItemFontAttribSmallest"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "7"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}		
 		"ControlPointTimerSmaller"
 		{
 			"1"
 			{
-				"name"  "TF2 Secondary"  "tall"  "7"  "weight"  "0"  "additive"  "0"  "antialias"  "1"
+				"name"		"TF2 Secondary"
+				"weight"	"0"
 			}
 		}			
-		//End "TF2 Secondary
+		//End "TF2 Secondary""////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		//Start Default Fonts
+		
 		"Default"
 		{
 			"1"
 			{
-				"name"  "Verdana"  "tall"  "11"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "480 599"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "Verdana"  "tall"  "12"	[$WIN32]  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "600 767"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "Verdana"  "tall"  "13"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "768 1023"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"4"
 			{
-				"name"  "Verdana"  "tall"  "20"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1024 1199"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"5"
 			{
-				"name"  "Verdana"  "tall"  "24"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1200 6000"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"6"
 			{
-				"name"  "Verdana"  "tall"  "12"  "range"  "0x0000 0x00FF"  "weight"  "0"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"7"
 			{
-				"name"  "Arial"  "tall"  "12"  "range"  "0x0000 0x00FF"  "weight"  "0"  "antialias"  "1"
-			}	
-		}	
+				"weight"	"0"
+			}			
+		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"  "Tahoma"  "tall"  "12"  "weight"  "500"  "underline"  "1"  "range"  "0x0000 0x017F"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "Arial"  "tall"  "11"  "range"  "0x0000 0x00FF"  "weight"  "800"  "antialias"  "1"
+				"weight"	"0"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"  "Verdana"  "tall"  "12"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "480 599"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "Verdana"  "tall"  "13"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "600 767"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "Verdana"  "tall"  "14"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "768 1023"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"4"
 			{
-				"name"  "Verdana"  "tall"  "20"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1024 1199"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"5"
 			{
-				"name"  "Verdana"  "tall"  "22"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1200 6000"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"6"
 			{
-				"name"  "Arial"  "tall"  "12"  "range"  "0x0000 0x00FF"  "weight"  "0"  "antialias"  "1"
+				"weight"	"0"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"  "Verdana"  "tall"  "12"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "480 599"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "Verdana"  "tall"  "12"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "600 767"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "Verdana"  "tall"  "12"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "768 1023"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"4"
 			{
-				"name"  "Verdana"  "tall"  "14"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1024 1199"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"5"
 			{
-				"name"  "Verdana"  "tall"  "16"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1200 6000"  "antialias"  "1"
+				"weight"	"0"
 			}
 		}
 		DefaultLarge
 		{
 			"1"
 			{
-				"name"  "Verdana"  "tall"  "18"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "480 599"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"2"
 			{
-				"name"  "Verdana"  "tall"  "21"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "600 767"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"3"
 			{
-				"name"  "Verdana"  "tall"  "22"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "768 1023"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"4"
 			{
-				"name"  "Verdana"  "tall"  "28"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1024 1199"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"5"
 			{
-				"name"  "Verdana"  "tall"  "30"  "weight"  "0"  "range"  "0x0000 0x017F"  "yres"  "1200 6000"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"6"
 			{
-				"name"  "Verdana"  "tall"  "20"  "range"  "0x0000 0x00FF"  "weight"  "0"  "antialias"  "1"
+				"weight"	"0"
 			}
 			"7"
 			{
-				"name"  "Arial"  "tall"  "20"  "range"  "0x0000 0x00FF"  "weight"  "800"  "antialias"  "1"
+				"weight"	"0"
 			}
-		}	
-		//End Default Fonts	
+		}
+		CenterPrintText
+		{
+			// note that this scales with the screen resolution
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+
+		"PlayerPanelPlayerName"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		HudHintText
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+			"4"
+			{
+				"weight"	"0"
+			}
+			"5"
+			{
+				"weight"	"0"
+			}
+		}
+	
+		"SpectatorKeyHints"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ClockSubText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ClockSubTextSuddenDeath"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ClockSubTextTiny"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		DebugOverlay
+		{
+			"1"	[$WIN32]
+			{
+				"weight"	"0"
+			}
+			"1"	[$X360]
+			{
+				"weight"	"0"
+				"outline"	"1"
+			}
+		}		
+		TFTypeDeath
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		Icons
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"BetaFont"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+
+		HudNumbers
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+		}
+		"CloseCaption_Normal"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"CloseCaption_Italic"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"CloseCaption_Bold"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"CloseCaption_BoldItalic"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"CloseCaption_Small"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+	
+		"GoalText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}		
+		
+		"ChalkboardTitle"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ChalkboardTitleBig"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ChalkboardTitleMedium"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ChalkboardText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ScoreboardVerySmall"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		"TargetID"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+			"4"
+			{
+				"weight"	"0"
+			}
+			"5"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		"ChatFont"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+			"4"
+			{
+				"weight"	"0"
+			}
+			"5"
+			{
+				"weight"	"0"
+			}
+		}
+		"ChatMiniFont"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+			"4"
+			{
+				"weight"	"0"
+			}
+			"5"
+			{
+				"weight"	"0"
+			}
+		}
+
+		MenuSmallestFont
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}		
+		
+		TFFontSmall
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}		
+		TFFontMedium
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}		
+		
+		InstructionalText
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}		
+		
+		MatchmakingDialogMenuBrowserHostname
+		{
+			"1"			// brower item hostname
+			{
+				"weight"	"0"
+			}
+		}
+		MatchmakingDialogMenuBrowserDetails
+		{
+			"1"			// browser item players and map name
+			{
+				"weight"	"0"
+			}
+		}			
+		MatchmakingDialogMenuSmall
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		MatchmakingDialogMenuSmallest
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		RankingDialogHeaders
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		
+	
+		"AchievementNotification"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ImportToolSmallestBold"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"ImportToolSmallest"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"SpectatorVerySmall"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
+		"DefaultVerySmallFallBack"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+		}
+
+		ItemFontAttribSmallv2
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		"AchievementTracker_Desc"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"QuestObjectiveTracker_Desc"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"QuestObjectiveTracker_DescGlow"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"QuestObjectiveTracker_DescBlur"
+		{
+			"1"
+			{
+				"weight"	"0"
+				"blur"		"3"
+			}
+		}
+		"ItemTrackerScore_InGame"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+
+		"QuestFlavorText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+		}
+
+		"QuestObjectiveText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		"QuestLargeText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+
+		"QuestStickyText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+
+		"AdFont_AdText"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"AdFont_PurchaseButton"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+
+		"TradeUp_Text"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+
+		"TradeUp_Quote"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		//
+		//////////////////// REPLAY FONTS //////////////////////////////
+		//
+		"ReplayVerySmall"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+			"4"
+			{
+				"weight"	"0"
+			}
+			"5"
+			{
+				"weight"	"0"
+			}
+		}
+		"ReplaySmaller"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+			"2"
+			{
+				"weight"	"0"
+			}
+			"3"
+			{
+				"weight"	"0"
+			}
+			"4"
+			{
+				"weight"	"0"
+			}
+			"5"
+			{
+				"weight"	"0"
+			}
+			"6"
+			{
+				"weight"	"0"
+			}
+		}
+		
+		//
+		//////////////////// ECON FONTS //////////////////////////////
+		//
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"weight"	"0"
+				"blur"		"3"
+			}
+		}
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"weight"	"0"
+			}
+		}
 	}
 }
-
