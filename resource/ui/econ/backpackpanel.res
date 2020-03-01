@@ -1,5 +1,7 @@
 #base "../../Tools/reloadscheme_button.res"
 #base "../Def_Files/econ/backpackpanel.res"
+
+#base "../../../Customization/Enabled/BackGround.res"
 //Your Items, Filters, Pages, etc.
 
 "Resource/UI/FullLoadoutPanel.res"
@@ -67,14 +69,18 @@
 	}
 	"ShowBaseItemsCheckbox"
 	{
-		"xpos"			"c-76"
+		"labeltext"		"#ShowBaseItems"
+		"xpos"			"c-195"
+		"ypos"			"35"	
 	}	
 	"NameFilterLabel"
 	{
-		"fgcolor"		"White"	
+		"fgcolor"		"Blank"	
 	}	
 	"NameFilterTextEntry"
 	{
+		"xpos"		"c-285"
+		"ypos"		"36"	
 	}
 	"SortByComboBox"
 	{
@@ -121,10 +127,14 @@
 	}	
 	"ClassLabel"			 // Backpack Text
 	{
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"	
 		"font"			"HudFontSmallBold"
-		"ypos"			"10"
+		"ypos"			"0"
 		"tall"			"40"
-		"wrap"			"1"
+		"wrap"			"0"
 	}
 	
 	"DragToNextPageButton"

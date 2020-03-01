@@ -1,5 +1,7 @@
 #base "Def_Files/ClassLoadoutPanel.res"
 //Your specific class Loadout.
+
+#base "../../Customization/Enabled/BackGround.res"
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"

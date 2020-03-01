@@ -1,3 +1,5 @@
+#base "../../Customization/Enabled/BackGround.res"
+
 "Resource/UI/ItemSelectionPanel.res"
 {
 	"ItemSelectionPanel"

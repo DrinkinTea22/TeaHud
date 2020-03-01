@@ -1,4 +1,5 @@
 #base "../Tools/reloadscheme_button.res"
+#base "../../Customization/Enabled/BackGround.res"
 "Resource/UI/CharInfoPanel.res"
 {
 	"character_info"

@@ -1,5 +1,7 @@
 #base "Def_Files/CharInfoLoadoutSubPanel.res"
 // inventary, classes, catalog, warpaints, etc.	[Buttons , positions, etc.]
+
+#base "../../Customization/Enabled/BackGround.res"
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"
