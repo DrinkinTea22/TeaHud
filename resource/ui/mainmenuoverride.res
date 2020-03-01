@@ -28,7 +28,7 @@
 		"Command"		"back"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 	"Background"
 	{
 		"xpos"			"9999"
