@@ -71,6 +71,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
+		"scaleImage"	"1"	
 		"fillcolor"		"RBG_Value"
 	}		
 	//Delete a Element
