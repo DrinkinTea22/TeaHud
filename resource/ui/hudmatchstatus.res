@@ -28,7 +28,7 @@
 			"color_bar_health_high"			"Health"	//normal hp
 			"color_bar_health_med"			"255 200 0 255"	//mid hp
 			"percentage_health_med"			"0.8"
-			"color_bar_health_low"			"Health Hurt"	//low hp
+			"color_bar_health_low"			"HealthLow"	//low hp
 			"percentage_health_low"			"0.3"
 			
 			"color_portrait_blend_dead_red"	 "white"
@@ -37,10 +37,10 @@
 			"classimage"
 			{
 				"xpos"								"cs-0.5"
-				"ypos"								"0"
+				"ypos"								"2"
 				"zpos"								"5"
-				"wide"								"15"
-				"tall"								"15"
+				"wide"								"16"
+				"tall"								"18"
 			}
 			"classimagebg"
 			{
@@ -48,7 +48,7 @@
 				"ypos"								"0"
 				"zpos"								"2"
 				"wide"								"f0"
-				"tall"								"15"
+				"tall"								"22"
 			}
 			"healthbar"
 			{
@@ -56,7 +56,7 @@
 				"ypos"								"0"
 				"zpos"								"3"
 				"wide"								"f0"
-				"tall"								"18"
+				"tall"								"22"
 				"bgcolor_override"	  				"80 80 80 255"
 			}
 			"overhealbar"
@@ -65,7 +65,7 @@
 				"ypos"								"0"
 				"zpos"								"4"
 				"wide"								"f0"
-				"tall"								"18"
+				"tall"								"22"
 				"bgcolor_override"	   				"blank"
 				"fgcolor_override"	   				"Health Buff"
 			}
