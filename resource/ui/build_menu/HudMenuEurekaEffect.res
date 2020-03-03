@@ -30,6 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"TransparentLightBlack"
+		"border"		"QuickplayBorder"
 	}	
 	
 	"BuildIcon"	

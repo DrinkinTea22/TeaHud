@@ -145,6 +145,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"TransparentLightBlack"
+		"border"		"QuickplayBorder"
 	}
 	
 	"class_item_red_1"
