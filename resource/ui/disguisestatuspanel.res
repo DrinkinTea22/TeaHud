@@ -51,6 +51,7 @@
 		"src_corner_width"		"25"
 		"draw_corner_width"		"0"			
 		"draw_corner_height" 	"0"	
+		"border"		"QuickplayBorder"
 	}
 
 	"DisguiseNameLabel"
