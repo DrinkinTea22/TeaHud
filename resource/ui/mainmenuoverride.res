@@ -56,31 +56,11 @@
 	"StoreHasNewItemsImage"
 	{
 		"xpos"			"9999"
-	}
-	"ReportBugButton"
-	{
-		"xpos"			"9999"
-	}
-	"CommentaryButton"
-	{
-		"xpos"			"9999"
 	}	
-	"NewUserForumsButton"
-	{
-		"xpos"			"9999"
-	}
 	"TF2SettingsButton"
 	{
 		"xpos"			"9999"
 	}
-	"RequestCoachButton"
-	{
-		"xpos"			"9999"
-	}
-	"CoachPlayersButton"
-	{
-		"xpos"			"9999"
-	}	
 	"RankBorder"
 	{
 		"xpos"			"9999"
@@ -101,19 +81,15 @@
 	{
 		"xpos"			"9999"	
 	}
-	"AchievementsButton"
+	"QuestLogButton"
 	{
 		"xpos"			"9999"
 	}	
-	"WorkshopButton"
+	"RequestCoachButton"
 	{
 		"xpos"			"9999"
 	}
-	"ReplayButton"
-	{
-		"xpos"			"9999"		
-	}	
-	"QuestLogButton"
+	"CoachPlayersButton"
 	{
 		"xpos"			"9999"
 	}		
@@ -174,6 +150,18 @@
 		"visible"			"1"	
 		"enabled"			"1"
 		"labeltext"			""
+	}
+	"Pin3"
+	{
+		"controlName"		"CExButton"
+		"FieldName"			"Pin3"
+		"xpos"				"r120"
+		"ypos"				"r40"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"1"	
+		"enabled"			"1"
+		"labeltext"			""
 	}	
 	
 	"Servers"
@@ -190,7 +178,7 @@
 		"textAlignment"												"center"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"OpenServerBrowser"
@@ -214,7 +202,7 @@
 		"textAlignment"												"center"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"engine open_charinfo"
@@ -238,7 +226,7 @@
 		"textAlignment"												"center"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"OpenOptionsDialog"
@@ -262,7 +250,7 @@
 		"textAlignment"												"center"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"opentf2options"
@@ -286,7 +274,7 @@
 		"textAlignment"												"center"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"engine toggleconsole"
@@ -310,7 +298,7 @@
 		"textAlignment"												"center"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"engine open_store"
@@ -324,7 +312,7 @@
 	"ReportPlayerButton"
 	{
 		"ypos"					   "60"
-		"paintborder"				"1"	
+		"paintborder"			   "1"	
 		
 		"SubButton"
 		{
@@ -332,13 +320,13 @@
 			"border_default"		   "QuickplayBorder"   	      
 			"border_armed"			   "QuickplayBorder"
 			"RoundedCorners"		   "0"	
-			"paintborder"				"1"	
+			"paintborder"			   "1"	
 		}		
 	}	
 	"CallVoteButton"
 	{
 		"ypos"					   "60"
-		"paintborder"				"1"	
+		"paintborder"			   "1"	
 		
 		"SubButton"
 		{
@@ -346,13 +334,13 @@
 			"border_default"		   "QuickplayBorder"   	      
 			"border_armed"			   "QuickplayBorder"		
 			"RoundedCorners"		   "0"	
-			"paintborder"				"1"	
+			"paintborder"			   "1"	
 		}
 	}	
 	"MutePlayersButton"
 	{
 		"ypos"					   "60"	
-		"paintborder"				"1"	
+		"paintborder"			   "1"	
 	 	
 		"SubButton"
 		{
@@ -360,7 +348,7 @@
 			"border_default"		   "QuickplayBorder"   	      
 			"border_armed"			   "QuickplayBorder"				
 			"RoundedCorners"		   "0"	
-			"paintborder"				"1"	
+			"paintborder"			   "1"	
 		}
 	}	
 	
@@ -368,17 +356,17 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Streams"
-		"labelText"													"Streams"
+		"labelText"													"#MMenu_Stream_LiveStream"
 		"font"														"ItemFontNameLarge"
 		"zpos"														"10"
-		"auto_wide_tocontents" 										"1"	
+		"wide" 														"120"	
 		"auto_tall_tocontents" 										"1"			
-		"xpos"														"-30"
+		"xpos"														"0"
 		"ypos"														"0"	
-		"textAlignment"												"center"			
+		"textAlignment"												"east"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"watch_stream"
@@ -392,17 +380,17 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Quest"
-		"labelText"													"Contracts"
+		"labelText"													"#Context_ConTracker"
 		"font"														"ItemFontNameLarge"
 		"zpos"														"10"
-		"auto_wide_tocontents" 										"1"	
+		"wide" 														"120"	
 		"auto_tall_tocontents" 										"1"			
 		"xpos"														"0"
 		"ypos"														"-10"	
-		"textAlignment"												"center"			
+		"textAlignment"												"east"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"questlog"
@@ -419,14 +407,14 @@
 		"labelText"													"MOTD"
 		"font"														"ItemFontNameLarge"
 		"zpos"														"10"
-		"auto_wide_tocontents" 										"1"	
+		"wide" 														"120"	
 		"auto_tall_tocontents" 										"1"			
 		"xpos"														"0"
 		"ypos"														"-10"	
-		"textAlignment"												"center"			
+		"textAlignment"												"east"			
 		
 		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"HUDBlueTeam"	
+		"armedFgColor_override" 									"MainBlue"	
 		
 		"paintbackground"											"0"
 		"Command"													"motd_show"
@@ -435,24 +423,7 @@
 		"sound_released"											"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling" 											"Quest"		
-	}	
-	"Promocion"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Promocion"
-		"xpos"			"2"
-		"ypos"			"r10"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"TeaHud MADE BY DrinkinTea"
-		"font"			"ItemFontNameLarge"
-		"textAlignment"	"Left"
-		"Fgcolor"		"White"
-	}	
+	}		
 	"WatchStreamButton"
 	{
 		"visible"		"0"		
@@ -521,5 +492,138 @@
 				"tall"		"19"
 			}
 		}
+	}	
+	
+	"ReportBugButton"
+	{
+		"xpos"					"-257"
+		"ypos"					"-175"
+		
+		"border"				   "QuickplayBorder"		
+		"border_default"		   "QuickplayBorder"   	      
+		"border_armed"			   "QuickplayBorder"				
+		"RoundedCorners"		   "0"	
+		"paintborder"			   "1"	
+		
+		"pin_to_sibling" 			"FriendsContainer"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"8"
+		}	
+	}
+	"CommentaryButton"
+	{
+		"xpos"						"-30"
+		"ypos"						"0"
+		
+		"border"				   "QuickplayBorder"		
+		"border_default"		   "QuickplayBorder"   	      
+		"border_armed"			   "QuickplayBorder"				
+		"RoundedCorners"		   "0"	
+		"paintborder"			   "1"	
+		
+		"pin_to_sibling" 			"ReportBugButton"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"8"
+		}	
+	}	
+	"NewUserForumsButton"
+	{
+		"xpos"						"-30"
+		"ypos"						"0"
+		
+		"border"				   "QuickplayBorder"		
+		"border_default"		   "QuickplayBorder"   	      
+		"border_armed"			   "QuickplayBorder"				
+		"RoundedCorners"		   "0"	
+		"paintborder"			   "1"	
+		
+		"pin_to_sibling" 			"CommentaryButton"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"8"
+		}
+	}	
+	"AchievementsButton"
+	{
+		"xpos"						"-30"
+		"ypos"						"0"
+		
+		"border"				   "QuickplayBorder"		
+		"border_default"		   "QuickplayBorder"   	      
+		"border_armed"			   "QuickplayBorder"				
+		"RoundedCorners"		   "0"	
+		"paintborder"			   "1"	
+		
+		"pin_to_sibling" 			"NewUserForumsButton"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"8"
+		}
+	}	
+	"WorkshopButton"
+	{
+		"xpos"						"-30"
+		"ypos"						"0"
+		
+		"border"				   "QuickplayBorder"		
+		"border_default"		   "QuickplayBorder"   	      
+		"border_armed"			   "QuickplayBorder"				
+		"RoundedCorners"		   "0"	
+		"paintborder"			   "1"	
+		
+		"pin_to_sibling" 			"AchievementsButton"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"8"
+		}
+	}
+	"ReplayButton"
+	{
+		"xpos"						"-30"
+		"ypos"						"0"
+		
+		"border"				   "QuickplayBorder"		
+		"border_default"		   "QuickplayBorder"   	      
+		"border_armed"			   "QuickplayBorder"				
+		"RoundedCorners"		   "0"	
+		"paintborder"			   "1"	
+		
+		"pin_to_sibling" 			"WorkshopButton"
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"6"
+		}	
+	}	
+
+	"Promotion"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Promotion"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"2"
+		"wide"			"165"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"TeaHud MADE BY DrinkinTea"
+		"font"			"ItemFontNameLarge"
+		"textAlignment"	"East"
+		"Fgcolor"		"White"
+		"pin_to_sibling" 			"ReportBugButton"
 	}	
 }
