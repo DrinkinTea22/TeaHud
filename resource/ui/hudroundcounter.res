@@ -59,7 +59,6 @@
 		"tall"					"14"
 		"proportionaltoparent"	"1"
 		"bgcolor_override"		"Black"
-		"border"				"QuickplayBorder"
 	}
 	"BlueTeamBackground"
 	{
@@ -71,8 +70,7 @@
 		"wide"					"40"
 		"tall"					"11"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"		"HUDBlueTeam"
-		"border"				"QuickplayBorder"
+		"bgcolor_override"		"MainBlue"
 	}
 	"RedTeamBackground"
 	{
@@ -84,7 +82,6 @@
 		"wide"					"40"
 		"tall"					"11"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"		"HUDRedTeam"
-		"border"				"QuickplayBorder"
+		"bgcolor_override"		"MainRed"
 	}
 }

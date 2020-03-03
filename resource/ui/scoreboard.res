@@ -55,7 +55,7 @@
         "tall"          "25"
         "visible"       "1"
         "enabled"       "1"
-        "fillcolor"     "HUDBlueTeam"
+        "fillcolor"     "MainBlue"
         "alpha"         "204"
 		"border"				"QuickplayBorder"
 
@@ -89,7 +89,7 @@
         "tall"          "25"
         "visible"       "1"
         "enabled"       "1"
-        "fillcolor"     "HUDRedTeam"
+        "fillcolor"     "MainRed"
         "alpha"         "204"
 		"border"				"QuickplayBorder"
         
