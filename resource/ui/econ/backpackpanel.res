@@ -8,6 +8,8 @@
 {
 	"backpack_panel"
 	{
+		"bgcolor_override"	"MenuBGColor"	
+		
 		"pagebuttons_kv"
 		{
 			"ControlName"	"EditablePanel"

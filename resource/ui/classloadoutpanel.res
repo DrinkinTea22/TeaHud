@@ -6,6 +6,8 @@
 {
 	"class_loadout_panel"
 	{	
+		"bgcolor_override"		"MenuBGColor"
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"

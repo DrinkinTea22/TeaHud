@@ -6,7 +6,7 @@
 	"armory_panel"
 	{
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"BackpackBGColor"
+		"bgcolor_override"		"MenuBGColor"
 		
 		"thumbnail_bgcolor"				"51 47 46 255"
 		"thumbnail_bgcolor_mouseover"	"156 146 128 255"

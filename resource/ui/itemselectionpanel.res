@@ -17,7 +17,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"BackpackBGColor"
+		"bgcolor_override"	"MenuBGColor"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"

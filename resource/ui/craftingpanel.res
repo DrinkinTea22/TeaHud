@@ -5,7 +5,7 @@
 {
 	"crafting_panel"
 	{
-		"bgcolor_override"	"BackpackBGColor"
+		"bgcolor_override"	"MenuBGColor"
 		
 		"modelpanels_kv"
 		{

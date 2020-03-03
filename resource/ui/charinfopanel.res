@@ -1,4 +1,5 @@
 #base "../Tools/reloadscheme_button.res"
+
 #base "../../Customization/Enabled/BackGround.res"
 "Resource/UI/CharInfoPanel.res"
 {
@@ -17,7 +18,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"BackpackBGColor"
+		"bgcolor_override"				"MenuBGColor"
 		"infocus_bgcolor_override"		"Blank"
 		"outoffocus_bgcolor_override"	"Blank"
 		
@@ -47,7 +48,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor_override"	"BackpackBGColor"
+		"fillcolor_override"	"MenuBGColor"
 		"tileImage"		"1"
 		"Border"		"QuickplayBorder"		
 	}
@@ -62,7 +63,7 @@
 		"tall"			"46"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor_override"	"BackpackBGColor"
+		"fillcolor_override"	"MenuBGColor"
 		"tileImage"		"1"
 		"Border"		"QuickplayBorder"				
 	}
@@ -82,15 +83,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"		"40"	// Left offset of tabs
-		"tabxdelta"		"5"	// Horizontal offset between buttons
-		"tabxfittotext"		"1"	// Auto width
+		"tabxindent"	"40"	// Left offset of tabs
+		"tabxdelta"		"5"			// Horizontal offset between buttons
+		"tabxfittotext"	"1"		// Auto width
 		"tabheight"		"20"
 		"tall"			"460"
-		"transition_time" 	"0"
+		"transition_time""0"
 		"yoffset"		"14"
-		"bgcolor_override"				"BackpackBGColor"
-		"Border"		"QuickplayBorder"		
+		"Border"		"QuickplayBorder"	
+		"bgcolor_override""Sheet"	
 
 		"HeaderLine"
 		{
@@ -117,7 +118,7 @@
 			"selectedcolor"				"White"
 			"unselectedcolor"			"130 120 104 255"
 			"defaultBgColor_override"	"TanDark"
-			"armedBgColor_override"		"BackpackBGColor"
+			"armedBgColor_override"		"MenuBGColor"
 			"selectedBgColor_override"	"Gray"
 			"paintbackground"			"2"
 			"paintborder"				"1"
