@@ -26,8 +26,8 @@
 		}
 		"ToggleChatButton"
 		{
-			"defaultBgColor_override""DC_GrayDark"
-			"armedBgColor_override"	"DC_Gray"
+			"defaultBgColor_override""MainBlue"
+			"armedBgColor_override"	"MainBlueHover"
 			"roundedcorners"		"0"
 		}
 		
@@ -56,8 +56,8 @@
 			"RoundedCorners"	"0"
 
 			"paintbackground"										"1"
-			"defaultBgColor_override"								"DC_GrayDark"
-			"armedBgColor_override"									"DC_Gray"
+			"defaultBgColor_override"								"MainBlue"
+			"armedBgColor_override"									"MainBlueHover"
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
@@ -70,8 +70,6 @@
 			"RoundedCorners"	"0"
 
 			"paintbackground"										"1"
-			"defaultBgColor_override"								"DC_Green"
-			"armedBgColor_override"									"DC_GreenBlue"
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
