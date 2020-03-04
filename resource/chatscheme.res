@@ -834,7 +834,7 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"		
 		"3"
 		{
-			"font"	"resource/ProductSans-Regular.ttf"
+			"font"	"resource/Fonts/ProductSans-Regular.ttf"
 			"name"	"Product Sans"
 		}
 	}
