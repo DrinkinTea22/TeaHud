@@ -11,85 +11,91 @@ Scheme
 {
 	BaseSettings
 	{
-		Button.BgColor							"Black"				//BG button color
 		ProgressBar.BgColor						"0 0 0 30"				//item Meters SecondaryColor [BG]		
 	}
 	
 	Colors
 	{
-		"DC_Green"								"0 192 154 255"			//#00C09A 
-		"DC_GreenBlue"							"0 131 105 255"			//#008369 
-		"DC_Blue"								"0 153 225 255"			//#0099E1  
-		"DC_BlueDark"							"0 103 152 255"			//#006798  
-		"DC_Pink"								"166 82 187 255"		//#A652BB  
-		"DC_PinkDark"							"122 47 43 255"			//#7A2F8F  
-		"DC_Yellow"								"248 195 0 255"			//#f8C300  
-		"DC_YellowDark"							"204 121 0 255"			//#CC7900  
-		"DC_Gray"								"89 126 216 255"		//#597ED8  
-		"DC_GrayDark"							"78 111 123 255"		//#4E6F7B  
+		//										Scheme										//
 		
-		"MainBlue"								"0 103 152 255"			//#006798 		
-		"MainBlueHover"							"104 124 155 127"		//#006798 		
-		"MainRed"								"192 56 63 255"			//#C0383F  		
-		"MainRedHover"							"180 92 77 127"			//#C0383F  		
+		//not blue (?
+		"Tomato" 								"255 80 80 255"			//#ff5050
+		"HealthLow"								"255 80 80 255"			//Self-Hurt, Spec-Hurt, Target-Hurt		
+		"AmmoLow"								"255 80 80 255"			//Low Animation
+		"AmmoRLow"								"255 80 80 255"			//Low Animation
+		"AmmoNCLow"								"255 80 80 255"			//Low Animation
+		"MainRed"								"255 80 80 255"			//Main Red Color 		  		
+		"MainRedHover"							"255 80 80 155"			//Main Red Color Hover		  			
+		"Negative"								"255 80 80 255"			//Negative metal
 		
-		"White"									"235 226 202 255"		//tanLight
-
-		"MenuBGColor"							"46 43 42 255"			//Color Of [backpack, ClassLoadout, Craft Panel, etc]
-		"Sheet"									"46 43 42 255"			//Color Of ["Sheet"]
-	
-		"Positive"								"80 255 80 255"			//Positive metal, Health
-		"Negative"								"192 56 63 255"			//Negative metal
+		"Blue1" 								"62 118 186 255"		//#3E76BA 
+		"Last Damage Done"						"62 118 186 255"		//Last Damage Done
 		
-		"Last Damage Done"						"248 195 0 255"			//Last Damage Done
+		"Blue2" 								"34 65 103 255"			//#224167  
+		"MenuBGColor"							"34 65 103 255"			//Color Of [backpack, ClassLoadout, Craft Panel, etc]
+		"Sheet"									"34 65 103 255"			//Color Of ["Sheet"]
 		
-		"Uber"									"235 226 202 255"		//When Uber = 0%
-		"UberFull"								"0 192 154 255"			//When Uber = 100%
+		"white" 								"244 248 251 255"		//#f4f8fb 	
+		"Health"								"244 248 251 255"		//Self-Health, Spec-Health, Target-Health		
+		"Ammo"									"244 248 251 255"		//Normal Ammo
+		"AmmoR"									"244 248 251 255"		//Reserve Ammo
+		"AmmoNC"								"244 248 251 255"		//No Reload Ammo [Pyro, Heavy, Sniper]
+		"Uber"									"244 248 251 255"		//When Uber = 0%		
 		
-		"Health"								"235 226 202 255"		//Self-Health, Spec-Health, Target-Health
-		"HealthHigh"							"0 192 154 255"			//Self-Buff, Spec-Buff, Target-Buff
-		"HealthLow"								"192 56 63 255"			//Self-Hurt, Spec-Hurt, Target-Hurt
+		"Blue3" 								"185 206 232 255"		//#b9cee8   
+		"HealthHigh"							"185 206 232 255"		//Self-Buff, Spec-Buff, Target-Buff
+		"MainBlue"								"185 206 232 255"		//Main Blue Color 		
+		"MainBlueHover"							"185 206 232 155"		//Main Blue Color Hover	 		
+		"Positive"								"185 206 232 255"		//Positive metal, Health
+		"UberFull"								"185 206 232 255"		//When Uber = 100%		
 		
-		"Ammo"									"235 226 202 255"		//Normal Ammo
-		"AmmoR"									"235 226 202 255"		//Reserve Ammo
-		"AmmoNC"								"235 226 202 255"		//No Reload Ammo [Pyro, Heavy, Sniper]
-		"AmmoLow"								"192 56 63 255"			//Shadows
-		"AmmoRLow"								"192 56 63 255"			//Shadows
-		"AmmoNCLow"								"192 56 63 255"			//Shadows
+		//										Scheme										// 
 	}
 	Borders
 	{	
+		ButtonBorder
+		{
+			"backgroundtype" "0"
+		}
+		ButtonKeyFocusBorder
+		{
+			"backgroundtype" "0"
+		}
+		ButtonDepressedBorder
+		{
+			"backgroundtype" "0"
+		}	
 		QuickplayBorder													//Most Used border
 		{
 			Left
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color"												"white"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color"												"white"
 				}
 			}
 			Top
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color"												"white"
 				}
 			}
 			Bottom
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color"												"white"
 				}
 			}
-		}
+		}		
 	}	
 	Fonts
 	{
@@ -98,12 +104,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Blank"  "tall"  "1"  "antialias"  "1"
+				"name"  "Blank"
+				"tall"  "1"
+				"antialias"  "1"
 			}
 		}
 	}	
 	CustomFontFiles
 	{
+		"18" 
+		{
+			"font" "resource/Fonts/Roboto-Regular.ttf"
+			"name" "Roboto Regular"
+		}
+		"19" 
+		{
+			"font" "resource/Fonts/Roboto-Medium.ttf"
+			"name" "Roboto Medium"
+		}
+		"20" 
+		{
+			"font" "resource/Fonts/Roboto-Bold.ttf"
+			"name" "Roboto Bold"
+		}
 		"111" 
 		{
 			"font" "resource/Fonts/Blank.ttf"
