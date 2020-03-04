@@ -129,13 +129,16 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-
+		
+		"delta_item_x"			"42"
+		"delta_item_end_y"		"70"
 		"PositiveColor"			"Positive"
 		"NegativeColor"			"255 0 0 255"
 		"delta_item_font"		"HudFontSmallestBold"
 
 		if_match
 		{
+			"delta_item_x"			"52"
 			"PositiveColor"			"Positive"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
