@@ -25,7 +25,7 @@
 			"playername"
 			{
 				"font"							"ItemFontNameSmall"
-				"xpos"							"12"
+				"xpos"							"40"
 				"ypos"							"2"
 				"wide"							"100"
 				"tall"							"20"
@@ -38,7 +38,7 @@
 			
 			"classimage"
 			{
-				"xpos"							"0"
+				"xpos"							"28"
 				"ypos"							"0"
 				"wide"							"12"
 				"tall"							"12"
@@ -46,7 +46,7 @@
 			
 			"HealthIcon"
 			{
-				"xpos"							"76"
+				"xpos"							"-18"
 				"ypos"							"-12"
 				"wide"							"60"
 				"tall"							"32"
@@ -55,11 +55,11 @@
 			"respawntime"
 			{
 				"font"							"HudFontSmallestBold"
-				"xpos"							"91"
-				"ypos"							"-4"
+				"xpos"							"10"
+				"ypos"							"-2"
 				"wide"							"30"
 				"tall"							"20"
-				"textAlignment"					"east"
+				"textAlignment"					"left"
 				
 				if_mvm
 				{
@@ -75,12 +75,12 @@
 			"chargeamount"
 			{
 				"font"							"HudFontSmallestBold"
-				"xpos"							"71"
+				"xpos"							"100"
 				"ypos"							"-2"
-				"wide"							"30"
+				"wide"							"25"
 				"tall"							"20"
-				"textAlignment"					"Left"
-				"Fgcolor"						"White"
+				"textAlignment"					"center"
+				"Fgcolor"						"White"	
 			}
 			
 			"specindex"
