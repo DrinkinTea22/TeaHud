@@ -14,20 +14,13 @@
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"25"
-		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_BackCarat"
+		"labelText"		"e"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"Command"		"back"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"Command"		""	
 	}
 	"Background"
 	{
@@ -64,11 +57,7 @@
 	"RankBorder"
 	{
 		"xpos"			"9999"
-	}		
-	"CycleRankTypeButton"
-	{
-		"xpos"			"9999"
-	}		
+	}				
 	"GeneralStoreButton"
 	{
 		"xpos"			"9999"		
@@ -108,6 +97,23 @@
 		"xpos"			"120"
 		"ypos"			"130"
 		"pin_to_sibling" "Servers"
+	}	
+	"CycleRankTypeButton"
+	{
+		"xpos"			"-300"
+		"ypos"			"-36"
+		"pin_to_sibling" "RankPanel"
+	}
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"-20"
+		"ypos"			"-1"
+		"wide"			"12"
+		"tall"			"12"
+		"alpha"			"255"		
+		"pin_to_sibling" "CycleRankTypeButton"
 	}	
 	"NoGCMessage" 			//text "no internet" or "no client connected"
 	{
@@ -192,14 +198,14 @@
 	{		
 		"ControlName"												"CExButton"
 		"fieldName"													"Loadout"
-		"labelText"													"#MMenu_CharacterSetup"
+		"labelText"													"#MMenu_LoadoutHighlightPanel_Title"
 		"font"														"HudFontMediumSmallBold"
 		"zpos"														"10"
 		"auto_wide_tocontents" 										"1"	
 		"auto_tall_tocontents" 										"1"			
 		"xpos"														"0"
 		"ypos"														"-20"	
-		"textAlignment"												"center"			
+		"textAlignment"												"center"	
 		
 		"defaultFgColor_override" 									"White"
 		"armedFgColor_override" 									"MainBlue"	
@@ -616,13 +622,13 @@
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"2"
-		"wide"			"165"
+		"wide"			"173"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"TeaHud MADE BY DrinkinTea"
 		"font"			"ItemFontNameLarge"
-		"textAlignment"	"East"
+		"textAlignment"	"center"
 		"Fgcolor"		"White"
 		"pin_to_sibling" 			"ReportBugButton"
 	}	
