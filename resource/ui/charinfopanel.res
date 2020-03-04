@@ -92,21 +92,23 @@
 		"yoffset"		"14"
 		"Border"		"QuickplayBorder"	
 		"bgcolor_override""Sheet"	
+		"paintborder"			"1"	
 
 		"HeaderLine"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"	"HeaderLine"
 			"xpos"		"0"
-			"ypos"		"32"
+			"ypos"		"-10"
 			"zpos"		"5"
 			"wide"		"f0"
-			"tall"		"2"
+			"tall"		"44"
 			"visible"	"1"
 			"enabled"	"1"
 			//"image"		"loadout_solid_line"
-			"fillcolor"	"blank"
+			"fillcolor"	"255 255 255 10"
 			"scaleImage"	"1"
+			"Border"		"QuickplayBorder"	
 		}
 
 		"tabskv"
@@ -124,7 +126,7 @@
 			"paintborder"				"1"
 			"activeborder_override"		"QuickplayBorder"
 			"normalborder_override" 	"noborder"
-		}
+		}		
 	}
 	
 	"QuickPin"
