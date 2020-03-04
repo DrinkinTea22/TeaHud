@@ -75,7 +75,7 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"paintbackground"	"1"
-		"BgColor_override"		"Black"	
+		"BgColor_override"		"TanDark"	
 		
 		"border"		"QuickplayBorder"
 		"pin_to_sibling" 	"scout"		
@@ -93,7 +93,7 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"paintbackground"	"1"
-		"BgColor_override"		"Black"	
+		"BgColor_override"		"TanDark"	
 		
 		"border"		"QuickplayBorder"
 		"pin_to_sibling" 	"Offense"		
@@ -111,7 +111,7 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"paintbackground"	"1"
-		"BgColor_override"		"Black"	
+		"BgColor_override"		"TanDark"	
 		
 		"border"		"QuickplayBorder"
 		"pin_to_sibling" 	"Defense"		
@@ -417,31 +417,7 @@
 		}				
 	}	
 	
-	//buttons
-	"QuickBind"
-	{
-		"controlName"		"CExButton"
-		"FieldName"			"QuickBind"
-		"xpos"				"9999"
-		"ypos"				"0"
-		"tall"				"0"
-		"visible"			"1"	
-		"enabled"			"1"
-		"labeltext"			"&q"
-		"command"			"vguicancel"
-	}
-	"QuickBind2"
-	{
-		"controlName"		"CExButton"
-		"FieldName"			"QuickBind2"
-		"xpos"				"9999"
-		"ypos"				"0"
-		"tall"				"0"
-		"visible"			"1"	
-		"enabled"			"1"
-		"labeltext"			"&e"
-		"command"			"openloadout"
-	}	
+	//buttons	
 	"CancelButton"  
 	{
 		"xpos"			"0"
@@ -457,7 +433,7 @@
 		"font"			"HudFontSmallestBold"
 		"paintbackground"										"1"
 		"paintborder"											"1"		
-		"defaultBgColor_override"								"Black"
+		"defaultBgColor_override"								"TanDark"
 		"armedBgColor_override"									"TFOrange"
 		"depressedBgColor_override"								"TFOrange"
 		"defaultFgColor_override"								"White"
@@ -486,7 +462,7 @@
 		"font"			"HudFontSmallestBold"
 		"paintbackground"										"1"
 		"paintborder"											"1"		
-		"defaultBgColor_override"								"Black"
+		"defaultBgColor_override"								"TanDark"
 		"armedBgColor_override"									"TFOrange"
 		"depressedBgColor_override"								"TFOrange"
 		"defaultFgColor_override"								"White"
@@ -512,12 +488,16 @@
 
 		"Command"													"select 12"
 
-		"sound_depressed"											"UI/buttonclick.wav"
-		"sound_released"											"UI/buttonclickrelease.wav"
-
 		"pin_to_sibling" 											"EditLoadoutButton"		
+		"defaultBgColor_override"								"TanDark"
+		"armedBgColor_override"									"TFOrange"
+		"depressedBgColor_override"								"TFOrange"
+		"defaultFgColor_override"								"White"
+		"armedFgColor_override" 								"White"
+		"depressedFgColor_override" 							"White"		
 		"border_default"										"QuickplayBorder"
 		"border_armed"											"QuickplayBorder"
+		"border"												"QuickplayBorder"
 	}	
 	
 	//number per class
