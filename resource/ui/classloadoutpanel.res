@@ -52,24 +52,7 @@
 		"bgcolor_override"		"BackpackPopupBGColor"
 		"border_default"		"QuickplayBorder"
 		"border_armed"			"QuickplayBorder"
-	}	
-	
-	"1_9Label"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"1_9Label"
-		"font"			"HudFontSmallestBold"
-		"labelText"		"1-9 Switch classes"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-	}	
-	
+	}		
 	"TauntLoadoutButton"
 	{
 		"xpos"			"c-168"
@@ -181,7 +164,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}	
 	"ZoomLabel"
 	{
@@ -199,7 +182,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}
 	"RotateButton"
 	{
@@ -217,7 +200,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}	
 	"RotateLabel"
 	{
@@ -235,7 +218,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}
 	"MoveButton"
 	{
@@ -253,7 +236,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}	
 	"MoveLabel"
 	{
@@ -271,7 +254,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}
 	"SpotlightButton"
 	{
@@ -289,7 +272,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}	
 	"SpotlightLabel"
 	{
@@ -307,7 +290,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "Blank"
 	}	
 	"CaratLabel"
 	{
