@@ -103,7 +103,12 @@
 	}	
 	WinPanel
 	{
+		"xpos"	"c-159"
 		"ypos"	"c60"
+		"wide"	"318"
+		"tall"	"150"
+		"Bgcolor_override""black"	
+		"border""QuickplayBorder"
 	}	
 	"HudMenuSpyDisguise"
 	{
