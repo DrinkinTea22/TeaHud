@@ -7,7 +7,7 @@
 	}	
 	"TestClientschemeButton"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TestClientschemeButton"
 		"xpos"			"c-80"
 		"ypos"			"r300"
@@ -21,6 +21,7 @@
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"Command"		""	
+		"border"		"shct"
 	}
 	"Background"
 	{
