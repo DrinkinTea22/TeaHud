@@ -95,6 +95,16 @@ Scheme
 					"color"												"white"
 				}
 			}
+		}
+		shct
+		{
+			"image"					"../hud/ico_key_blank"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"	
 		}		
 	}	
 	Fonts
