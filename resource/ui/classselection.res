@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 	}	
 	"QuickPin"
