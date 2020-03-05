@@ -23,7 +23,7 @@
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"East"
-		"font"					"TFFontSmall"
+		"font"					"ItemFontNameSmallest"
 	}
 	"ItemEffectMeter"
 	{	
