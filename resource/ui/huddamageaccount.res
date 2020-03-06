@@ -9,8 +9,8 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"Positive"
 		"NegativeColor"			"Negative"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMediumSmallBold"
-		"delta_item_font_big"	"HudFontMediumSmallBold"
+		"delta_lifetime"		"1"
+		"delta_item_font"		"HudFontSmallBoldShadow"
+		"delta_item_font_big"	"HudFontSmallBoldShadow"
 	}	
 }
