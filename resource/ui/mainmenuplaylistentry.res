@@ -23,6 +23,9 @@
 
 		//"border_default"	"MainMenuMiniButtonDefault"
 		//"border_armed"		"MainMenuMiniButtonArmed"
+
+		"border_default"	"MainMenuMiniButtonDefault"
+		"border_armed"										"QuickplayBorder"		
 		"paintbackground"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
