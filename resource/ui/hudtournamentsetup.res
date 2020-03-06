@@ -28,6 +28,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Black"
+		"border"		"QuickplayBorder"
 	}	
 
 	"TournamentSetupLabel"
@@ -51,10 +52,10 @@
 		"ControlName"	"Label"
 		"fieldName"		"TournamentTeamNameLabel"
 		"font"			"HudFontSmallest"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"28"
 		"zpos"			"1"
-		"wide"			"180"
+		"wide"			"175"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
