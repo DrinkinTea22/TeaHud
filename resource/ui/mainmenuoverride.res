@@ -70,10 +70,6 @@
 	"SettingsButton"
 	{
 		"xpos"			"9999"	
-	}
-	"QuestLogButton"
-	{
-		"xpos"			"9999"
 	}	
 	"RequestCoachButton"
 	{
@@ -359,99 +355,78 @@
 		}
 	}	
 	
-	"Streams"
-	{		
-		"ControlName"												"CExButton"
-		"fieldName"													"Streams"
-		"labelText"													"#MMenu_Stream_LiveStream"
-		"font"														"ItemFontNameLarge"
-		"zpos"														"10"
-		"wide" 														"120"	
-		"auto_tall_tocontents" 										"1"			
-		"xpos"														"0"
-		"ypos"														"0"	
-		"textAlignment"												"east"			
+	"QuestLogButton"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"25"
+		"tall"			"25"		
+		"pin_to_sibling" "Pin2"	
 		
-		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"MainBlue"	
-		
-		"paintbackground"											"0"
-		"Command"													"watch_stream"
-
-		"sound_depressed"											"UI/buttonclick.wav"
-		"sound_released"											"UI/buttonclickrelease.wav"
-
-		"pin_to_sibling" 											"Pin2"		
-	}
-	"Quest"
-	{		
-		"ControlName"												"CExButton"
-		"fieldName"													"Quest"
-		"labelText"													"#Context_ConTracker"
-		"font"														"ItemFontNameLarge"
-		"zpos"														"10"
-		"wide" 														"120"	
-		"auto_tall_tocontents" 										"1"			
-		"xpos"														"0"
-		"ypos"														"-10"	
-		"textAlignment"												"east"			
-		
-		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"MainBlue"	
-		
-		"paintbackground"											"0"
-		"Command"													"questlog"
-
-		"sound_depressed"											"UI/buttonclick.wav"
-		"sound_released"											"UI/buttonclickrelease.wav"
-
-		"pin_to_sibling" 											"Streams"		
-	}
-	"MOTD"
-	{		
-		"ControlName"												"CExButton"
-		"fieldName"													"MOTD"
-		"labelText"													"MOTD"
-		"font"														"ItemFontNameLarge"
-		"zpos"														"10"
-		"wide" 														"120"	
-		"auto_tall_tocontents" 										"1"			
-		"xpos"														"0"
-		"ypos"														"-10"	
-		"textAlignment"												"east"			
-		
-		"defaultFgColor_override" 									"White"
-		"armedFgColor_override" 									"MainBlue"	
-		
-		"paintbackground"											"0"
-		"Command"													"motd_show"
-
-		"sound_depressed"											"UI/buttonclick.wav"
-		"sound_released"											"UI/buttonclickrelease.wav"
-
-		"pin_to_sibling" 											"Quest"		
-	}		
+		"SubButton"
+		{
+			"wide"			"25"
+			"tall"			"25"	
+			
+			"SubImage"
+			{
+				"wide"			"25"
+				"tall"			"25"
+			}		
+		}		
+	}			
 	"WatchStreamButton"
 	{
-		"visible"		"0"		
+		"xpos"			"-25"
+		"ypos"			"0"
+		"wide"			"25"
+		"tall"			"25"		
+		"pin_to_sibling" "QuestLogButton"			
+
+		"SubButton"
+		{
+			"wide"			"25"
+			"tall"			"25"	
+			
+			"SubImage"
+			{
+				"wide"			"25"
+				"tall"			"25"
+			}		
+		}	
 	}
 	"MOTD_ShowButtonPanel"
 	{
-		"tall"		"0"	
-		"wide"		"0"	
+		"xpos"			"-25"
+		"ypos"			"0"
+		"wide"			"25"
+		"tall"			"25"		
+		"pin_to_sibling" "WatchStreamButton"		
+
+		"MOTD_ShowButtonPanel_SB"
+		{
+			"wide"			"25"
+			"tall"			"25"	
+			
+			"SubImage"
+			{
+				"wide"			"25"
+				"tall"			"25"
+			}		
+		}
 	}	
 	
-	"MOTD_Panel"		//fix buttons
+	"MOTD_Panel"		//fixed Panels
 	{
 		"xpos"			"200"
 		"ypos"			"-50"
-		"pin_to_sibling" 											"Pin2"				
+		"pin_to_sibling""Pin2"				
 	}
-	"StreamListPanel"	//fix buttons
+	"StreamListPanel"	//fixed Panels
 	{
 		"xpos"			"200"
 		"ypos"			"-50"
-		"pin_to_sibling" 											"Pin2"
+		"pin_to_sibling""Pin2"
 	}	
 	
 	"FriendsContainer"
@@ -485,18 +460,18 @@
 		}		
 		"SteamFriendsList"
 		{
-			"ypos"			"25"
-			"tall"			"175"
-			"columns_count"	"3"
-			"row_gap"		"2"
-			"column_gap"	"2"
-			"inset_x"		"4"
-			"inset_y"		"4"
+			"ypos"				"25"
+			"tall"				"175"
+			"columns_count"		"3"
+			"row_gap"			"2"
+			"column_gap"		"2"
+			"inset_x"			"4"
+			"inset_y"			"4"
 			
 			"friendpanel_kv"
 			{
-				"wide"		"78"
-				"tall"		"19"
+				"wide"			"78"
+				"tall"			"19"
 			}
 		}
 	}	
@@ -506,113 +481,113 @@
 		"xpos"					"-257"
 		"ypos"					"-175"
 		
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"				
-		"RoundedCorners"		   "0"	
-		"paintborder"			   "1"	
+		"border"			    "QuickplayBorder"		
+		"border_default"	    "QuickplayBorder"   	      
+		"border_armed"		    "QuickplayBorder"				
+		"RoundedCorners"	    "0"	
+		"paintborder"		    "1"	
 		
-		"pin_to_sibling" 			"FriendsContainer"
+		"pin_to_sibling" 	    "FriendsContainer"
 		"SubImage"
 		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SubImage"
-			"xpos"					"8"
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"8"
 		}	
 	}
 	"CommentaryButton"
 	{
-		"xpos"						"-30"
-		"ypos"						"0"
+		"xpos"					"-30"
+		"ypos"					"0"
 		
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"				
-		"RoundedCorners"		   "0"	
-		"paintborder"			   "1"	
+		"border"				"QuickplayBorder"		
+		"border_default"		"QuickplayBorder"   	      
+		"border_armed"			"QuickplayBorder"				
+		"RoundedCorners"		"0"	
+		"paintborder"			"1"	
 		
-		"pin_to_sibling" 			"ReportBugButton"
+		"pin_to_sibling"		"ReportBugButton"
 		"SubImage"
 		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SubImage"
-			"xpos"					"8"
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"8"
 		}	
 	}	
 	"NewUserForumsButton"
 	{
-		"xpos"						"-30"
-		"ypos"						"0"
+		"xpos"					"-30"
+		"ypos"					"0"
 		
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"				
-		"RoundedCorners"		   "0"	
-		"paintborder"			   "1"	
+		"border"				"QuickplayBorder"		
+		"border_default"		"QuickplayBorder"   	      
+		"border_armed"			"QuickplayBorder"				
+		"RoundedCorners"		"0"	
+		"paintborder"			"1"	
 		
-		"pin_to_sibling" 			"CommentaryButton"
+		"pin_to_sibling"		"CommentaryButton"
 		"SubImage"
 		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SubImage"
-			"xpos"					"8"
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"8"
 		}
 	}	
 	"AchievementsButton"
 	{
-		"xpos"						"-30"
-		"ypos"						"0"
+		"xpos"					"-30"
+		"ypos"					"0"
 		
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"				
-		"RoundedCorners"		   "0"	
-		"paintborder"			   "1"	
+		"border"				"QuickplayBorder"		
+		"border_default"		"QuickplayBorder"   	      
+		"border_armed"			"QuickplayBorder"				
+		"RoundedCorners"		"0"	
+		"paintborder"			"1"	
 		
-		"pin_to_sibling" 			"NewUserForumsButton"
+		"pin_to_sibling"		"NewUserForumsButton"
 		"SubImage"
 		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SubImage"
-			"xpos"					"8"
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"8"
 		}
 	}	
 	"WorkshopButton"
 	{
-		"xpos"						"-30"
-		"ypos"						"0"
+		"xpos"					"-30"
+		"ypos"					"0"
 		
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"				
-		"RoundedCorners"		   "0"	
-		"paintborder"			   "1"	
+		"border"				"QuickplayBorder"		
+		"border_default"		"QuickplayBorder"   	      
+		"border_armed"			"QuickplayBorder"				
+		"RoundedCorners"		"0"	
+		"paintborder"			"1"	
 		
-		"pin_to_sibling" 			"AchievementsButton"
+		"pin_to_sibling"		"AchievementsButton"
 		"SubImage"
 		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SubImage"
-			"xpos"					"8"
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"8"
 		}
 	}
 	"ReplayButton"
 	{
-		"xpos"						"-30"
-		"ypos"						"0"
+		"xpos"					"-30"
+		"ypos"					"0"
 		
-		"border"				   "QuickplayBorder"		
-		"border_default"		   "QuickplayBorder"   	      
-		"border_armed"			   "QuickplayBorder"				
-		"RoundedCorners"		   "0"	
-		"paintborder"			   "1"	
+		"border"				"QuickplayBorder"		
+		"border_default"		"QuickplayBorder"   	      
+		"border_armed"			"QuickplayBorder"				
+		"RoundedCorners"		"0"	
+		"paintborder"			"1"	
 		
-		"pin_to_sibling" 			"WorkshopButton"
+		"pin_to_sibling"		"WorkshopButton"
 		"SubImage"
 		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"SubImage"
-			"xpos"					"6"
+			"ControlName"		"ImagePanel"
+			"fieldName"			"SubImage"
+			"xpos"				"6"
 		}	
 	}	
 
@@ -631,6 +606,6 @@
 		"font"			"ItemFontNameLarge"
 		"textAlignment"	"center"
 		"Fgcolor"		"White"
-		"pin_to_sibling" 			"ReportBugButton"
+		"pin_to_sibling""ReportBugButton"
 	}	
 }
