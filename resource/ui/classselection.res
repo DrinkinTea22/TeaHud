@@ -61,7 +61,7 @@
 	}
 	
 	
-	//textos
+	//texts
 	"Offense"
 	{
 		"xpos"			"0"
