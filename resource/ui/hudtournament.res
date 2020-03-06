@@ -28,6 +28,7 @@
 		
 		"draw_corner_width"	"0"
 		"draw_corner_height""0"	
+		"border"			"QuickplayBorder"
 	}
 	"HudTournamentREDBG"
 	{
@@ -36,6 +37,7 @@
 		
 		"draw_corner_width"	"0"
 		"draw_corner_height""0"	
+		"border"			"QuickplayBorder"
 	}
 	"HudTournamentBGHelp"
 	{
@@ -47,6 +49,7 @@
 		
 		"draw_corner_width"	"0"
 		"draw_corner_height""0"	
+		"border"			"QuickplayBorder"
 	}	
 	
 	"TournamentBLUELabel"
