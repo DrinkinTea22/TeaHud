@@ -67,7 +67,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"White" //"TanDarker"
+		"iconColor"		"White"
 	}
 	
 	"CostLabel"
@@ -89,7 +89,7 @@
 		"textAlignment"	"center"	
 	}
 	
-	"ModeLabel" // new in 29th april 2010 patch
+	"ModeLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"

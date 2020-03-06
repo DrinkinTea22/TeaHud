@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"122"
 		"tall"			"72"
-		"visible"		"0" //"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"src_corner_height"		"23"

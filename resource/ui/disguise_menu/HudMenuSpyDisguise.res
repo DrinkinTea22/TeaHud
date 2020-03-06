@@ -21,7 +21,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiantBold"
-		"xpos"			"20"			// align me to the left edge of the first selection
+		"xpos"			"20"
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"360"
@@ -42,7 +42,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
-		"xpos"			"20"			// align me to the left edge of the first selection
+		"xpos"			"20"
 		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"360"
@@ -123,7 +123,7 @@
 		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"378"
-		"tall"			"16" //"68"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
