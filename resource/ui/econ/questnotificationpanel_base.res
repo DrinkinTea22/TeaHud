@@ -6,13 +6,13 @@
 	{
 		"MainContainer"
 		{
-			"border"	"noborder"		//only edit
-			"paintborder"	"2"
+			"border"		"noborder"		//only edit
+			"paintborder"	"0"
 
 			"ItemName"
 			{
 				"fgcolor_override"		"235 226 202 255"
-				"font"			"AchievementTracker_Name"
+				"font"					"AchievementTracker_Name"
 			}
 			"CharacterImage"
 			{
