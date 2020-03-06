@@ -83,9 +83,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"40"	// Left offset of tabs
-		"tabxdelta"		"5"			// Horizontal offset between buttons
-		"tabxfittotext"	"1"		// Auto width
+		"tabxindent"	"40"
+		"tabxdelta"		"5"
+		"tabxfittotext"	"1"
 		"tabheight"		"20"
 		"tall"			"460"
 		"transition_time""0"
