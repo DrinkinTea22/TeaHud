@@ -7,18 +7,18 @@ a HUD for TF2
 3. To change some colors, go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors.
 
 # Supported Gamemodes:
--Control Points	 	YES!
--King Of The Hill 	YES!
--Payload			YES!
--Payload Race	 	YES!
--Capture The Flag 	YES!
--Robot Destruction	I refuse to do this!
--Player Destruction	I refuse to do this!
--PassTime			I refuse to do this!
--Events				50%
--Arena				Not yet...
--Mann Vs Machine	50%
--Mann Vs Machine CP	YES!
+**1)** Control Points	 	YES!
+**2)**King Of The Hill 		YES!
+**3)**Payload				YES!
+**4)**Payload Race	 		YES!
+**5)**Capture The Flag 		YES!
+**6)**Robot Destruction		I refuse to do this!
+**7)**Player Destruction	I refuse to do this!
+**8)**PassTime				I refuse to do this!
+**9)**Events				50%
+**10)**Arena				Not yet...
+**11)**Mann Vs Machine		50%
+**12)**Mann Vs Machine CP	YES!
 
 # Credits to the following people:
 -Rays (Rayshud) Tutorials + some lines of code :D
