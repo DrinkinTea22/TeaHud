@@ -52,14 +52,6 @@
 		"LocalBackgroundColor"	"White"
 		"BaseBackgroundColor"	"Blank"
 	}
-	HudControlPointIcons
-	{
-		"ypos"					"410"
-		"wide"					"f0"
-		"tall"					"200"
-		"separator_width"		"3"	// distance between the icons (including their backgrounds)
-		"separator_height"		"9"	// distance between the icons (including their backgrounds)
-	}	
 	HudWeaponAmmo
 	{
 		"xpos"	"0"	
@@ -96,7 +88,7 @@
 	CHealthAccountPanel
 	{
 		"xpos"	"c-170"		
-		"ypos"	"c30"	
+		"ypos"	"c50"	
 		"zpos"	"2"
 		"wide"	"160"
 		"tall"	"80"
