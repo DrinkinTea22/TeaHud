@@ -14,16 +14,16 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"				"MenuBGColor"
+		"bgcolor_override"				  "MenuBGColor"
 	}
 	
 	
 	"ShowBackpackbutton"
 	{
-		"xpos"				"c-100"
-		"ypos"				"235"		
-		"defaultBgColor_override"		   "gray"      
-		"ArmedBgColor_override"			   "HudBlueTeam"	
+		"xpos"							   "c-100"
+		"ypos"							   "235"		
+		"defaultBgColor_override"		   "TransparentLightBlack"      
+		"ArmedBgColor_override"			   "MainBlueHover"	
 		"tall"							   "40"
 		"wide"							   "40" 
 	}
@@ -31,41 +31,41 @@
 	{
 		"xpos"							   "-40"
 		"ypos"							   "0"
-		"defaultBgColor_override"		   "gray"      
-		"ArmedBgColor_override"			   "HudBlueTeam"	
+		"defaultBgColor_override"		   "TransparentLightBlack"      
+		"ArmedBgColor_override"			   "MainBlueHover"	
 		"tall"							   "40"
 		"wide"							   "40" 
-		"pin_to_sibling" 	"ShowBackpackbutton"		
+		"pin_to_sibling"				   "ShowBackpackbutton"		
 	}
 	"ShowArmorybutton"
 	{
 		"xpos"							   "-40"
 		"ypos"							   "0"
-		"defaultBgColor_override"		   "gray"      
-		"ArmedBgColor_override"			   "HudBlueTeam"	
+		"defaultBgColor_override"		   "TransparentLightBlack"      
+		"ArmedBgColor_override"			   "MainBlueHover"	
 		"tall"							   "40"
 		"wide"							   "40" 
-		"pin_to_sibling" 	"ShowCraftingbutton"	
+		"pin_to_sibling"				   "ShowCraftingbutton"	
 	}
 	"ShowTradebutton"
 	{
 		"xpos"							   "-40"
 		"ypos"							   "0"
-		"defaultBgColor_override"		   "gray"      
-		"ArmedBgColor_override"			   "HudBlueTeam"	
+		"defaultBgColor_override"		   "TransparentLightBlack"      
+		"ArmedBgColor_override"			   "MainBlueHover"	
 		"tall"							   "40"
 		"wide"							   "40" 
-		"pin_to_sibling" 	"ShowArmorybutton"	
+		"pin_to_sibling"				   "ShowArmorybutton"	
 	}
 	"ShowPaintkitsButton"
 	{
 		"xpos"							   "-40"
 		"ypos"							   "0"
-		"defaultBgColor_override"		   "gray"      
-		"ArmedBgColor_override"			   "HudBlueTeam"	
+		"defaultBgColor_override"		   "TransparentLightBlack"      
+		"ArmedBgColor_override"			   "MainBlueHover"	
 		"tall"							   "40"
 		"wide"							   "40" 
-		"pin_to_sibling" 	"ShowTradebutton"	
+		"pin_to_sibling"				   "ShowTradebutton"	
 	}
 
 	
@@ -86,7 +86,7 @@
 	}
 	"ItemsLabel"
 	{
-		"font"			"Blank"
+		"font"				"Blank"
 	}
 
 	"SelectLabel"
