@@ -23,8 +23,8 @@
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"Positive"
+		"NegativeColor"			"Negative"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumSmallBold"
 
@@ -36,8 +36,8 @@
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
+			"PositiveColor"			"Positive"
+			"NegativeColor"			"Negative"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmallBold"
 		}
@@ -86,8 +86,8 @@
 		"delta_item_x"			"22"
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
-		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 255"
+		"PositiveColor"			"Positive"
+		"NegativeColor"			"Negative"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMedium"
 
@@ -99,8 +99,8 @@
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
+			"PositiveColor"			"Positive"
+			"NegativeColor"			"Negative"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}
