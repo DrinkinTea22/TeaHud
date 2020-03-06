@@ -53,6 +53,7 @@ Scheme
 	}
 	Borders
 	{	
+		//0 square, 2 default, 3 rounded
 		ButtonBorder
 		{
 			"backgroundtype" "0"
