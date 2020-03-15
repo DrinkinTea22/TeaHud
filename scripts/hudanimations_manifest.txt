@@ -1,11 +1,12 @@
 hudanimations_manifest
 {	
 	//DrinkinTea Preference
-	"file"		"scripts/uber.txt"
-	"file"		"scripts/respawn.txt"
-	"file"		"scripts/disguise.txt"
-	"file"		"scripts/Ammo.txt"
-	"file"		"scripts/Health.txt"		
+	"file"		"scripts/anims/Fixer.txt"
+	"file"		"scripts/anims/uber.txt"
+	"file"		"scripts/anims/respawn.txt"
+	"file"		"scripts/anims/disguise.txt"
+	"file"		"scripts/anims/Ammo.txt"
+	"file"		"scripts/anims/Health.txt"		
 	
 	// default animations they are only for reference and override features.
 	"file"		"scripts/hudanimations_tf.txt"
