@@ -1,72 +1,66 @@
+#base "../tools/reloadscheme_button.res"
 #base "Def_Files/statsummary.res"
 
-"Resource/UI/statsummary.res"
+"Resource/UI/winpanel.res"
 {
-	"IDKWORK"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"IDKWORK"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-100"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"MenuBGColor"
-	}	
-	"OnYourWayLabel"
-	{
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"30"
-		"zpos"			"40"
-		"wide"			"f0"
-		"tall"			"35"
-	}	
-	"MapType"
-	{
-		"font"			"HudFontMediumBold"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"55"
-		"zpos"			"91"
-		"wide"			"f0"
-		"tall"			"30"
-		"AllCaps"		"0"
-		"fgcolor_override"	"white"	
-	}	
-	"MapLabel"
-	{
-		"font"			"HudFontBiggerBold"
-		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"55"
-		"zpos"			"91"
-		"wide"			"f0"
-		"tall"			"100"
-		"AllCaps"		"0"
-		"fgcolor_override"	"White"	
-	}
-	
-	
-
-	"MainBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"MainBackground"
-		"Xpos" 				"9999"
-	}
-	"MapInfo"
+	"TFStatsSummary"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"MapInfo"
-		"Xpos" 				"9999"
+		"fieldName"			"TFStatsSummary"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
+		"visible"			"0"
+		"enabled"			"1"
+		"bgcolor_override"	"MenuBGColor"
 	}
+	"MainBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBackground"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
+	}
+	"OnYourWayLabel" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"OnYourWayLabel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
+	}					
+	"MapLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapLabel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
+	}
+	"MapType" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapType"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}	
+	
 	"StatData"
 	{
-		"ypos"		"-30"	
 		"tall"	"f0"
+		"ypos"	"-160"
 		
 		"AveragesLabel"
 		{
@@ -85,15 +79,24 @@
 		"RecordsBG"
 		{		
 			"border"	      "noborder"
-		}
+		}		
 		"InteractiveHeaders"	
 		{
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"tall"			"0"
-			"wide"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"BarChartComboA"	//most Points
+			{
+				"xpos"			"c-285"	//154+35 (half bar bg)
+				"ypos"			"212"
+			}
+			"BarChartComboB"	//Total PlayTime
+			{
+				"xpos"			"c-57"
+				"ypos"			"212"
+			}
+			"ClassCombo"		//as any class
+			{
+				"xpos"	"c104"
+				"ypos"	"212"
+			}
 		}		
 		"NonInteractiveHeaders"
 		{
@@ -1094,31 +1097,61 @@
 	"TipImage"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"			"TipImage"
-		"Xpos" 				"9999"
+		"fieldName"	"TipImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	"TipText"
 	{
-		"ControlName"		"Label"
-		"fieldName"			"TipText"
-		"Xpos" 				"9999"
+		"ControlName"	"Label"
+		"fieldName"	"TipText"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	"NextTipButton" 
 	{
-		"ControlName"		"Button"
-		"fieldName"			"NextTipButton"
-		"Xpos" 				"9999"
+		"ControlName"	"Button"
+		"fieldName"	"NextTipButton"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	"ResetStatsButton" 
 	{
-		"ControlName"		"Button"
-		"fieldName"			"ResetStatsButton"
-		"Xpos" 				"9999"
+		"xpos"			"c-117"
+		"ypos"			"50"
+		"wide"			"150"
+		"labelText"		"#TF_ClassMenu_Reset"
 	}
 	"CloseButton" 
 	{
-		"ControlName"		"Button"
-		"fieldName"			"CloseButton"
-		"Xpos" 				"9999"
-	}	
+	}
+	"Footer" [$X360]
+	{
+		"ControlName"		"CTFFooter"
+		"fieldName"			"Footer"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
+
+		"button"
+		{	
+		}
+		"button"
+		{	
+		}
+	}		
+	"TitleBanner" [$X360]
+	{
+	}
 }
