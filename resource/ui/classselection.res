@@ -1,4 +1,4 @@
-#base 	"Def_Files/ClassSelection.res"
+#base "Def_Files/ClassSelection.res"
 "Resource/UI/ClassSelection.res"
 {
 	"class"
@@ -18,7 +18,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"TransparentLightBlack"
 	}	
 	"ClassMenuSelect"
 	{
@@ -45,7 +45,7 @@
 	}	
 	"TFPlayerModel"
 	{
-		"xpos"			"0"
+		"xpos"			"40"
 		"ypos"			"0"		
 		"fov"			"30"
 		"allow_rot"		"1"
@@ -75,9 +75,9 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"paintbackground"	"1"
-		"BgColor_override"		"TanDark"	
+		"BgColor_override"		"blank"	
 		
-		"border"		"QuickplayBorder"
+		"border"		"noborder"
 		"pin_to_sibling" 	"scout"		
 	}
 	"Defense"
@@ -93,9 +93,9 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"paintbackground"	"1"
-		"BgColor_override"		"TanDark"	
+		"BgColor_override"		"blank"	
 		
-		"border"		"QuickplayBorder"
+		"border"		"noborder"
 		"pin_to_sibling" 	"Offense"		
 	}	
 	"Support"
@@ -111,9 +111,9 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"White"
 		"paintbackground"	"1"
-		"BgColor_override"		"TanDark"	
+		"BgColor_override"		"blank"	
 		
-		"border"		"QuickplayBorder"
+		"border"		"noborder"
 		"pin_to_sibling" 	"Defense"		
 	}
 	
@@ -121,13 +121,13 @@
 	//classes	//MAIN PINNER DONT TOUCH THIS
 	"scout"
 	{
-		"xpos"				"c-300"
+		"xpos"				"c-250"
 		"ypos"				"c-200"
 		"zpos"				"6"
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 1"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -160,7 +160,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 3"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -193,7 +193,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 7"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -226,7 +226,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 4"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -259,7 +259,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 6"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -292,7 +292,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 9"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -325,7 +325,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 5"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -358,7 +358,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 2"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -391,7 +391,7 @@
 		"wide"				"50"
 		"tall"				"100"
 		"Command"			"select 8"
-		"font"				"HudFontSmallestBold"
+		"font"				"HudFontSmallishBold"
 		
 		"fgcolor"					"White"
 		"defaultFgColor_override" 	"White"
@@ -509,7 +509,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "scout"			
 	}
@@ -521,7 +521,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "soldier"	
 	}	
@@ -533,7 +533,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "pyro"	
 	}
@@ -545,7 +545,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "demoman"	
 	}
@@ -557,7 +557,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "heavyweapons"	
 	}
@@ -569,7 +569,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "engineer"	
 	}
@@ -581,7 +581,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "medic"	
 	}	
@@ -593,7 +593,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "sniper"	
 	}
@@ -605,7 +605,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallishBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "spy"	
 	}								

@@ -7,28 +7,28 @@
 	"class_loadout_panel"
 	{	
 		"bgcolor_override"		"MenuBGColor"
+		"item_ydelta"			"76"
 		
 		"modelpanels_kv"
 		{
-			"ControlName"	"CItemModelPanel"
-			"xpos"			"c-70"
-			"ypos"			"270"
-			"wide"			"140"
-			"tall"			"70"
-			"visible"		"0"
+			"ControlName"			"CItemModelPanel"
+			"xpos"					"c-70"
+			"ypos"					"270"
+			"wide"					"140"
+			"tall"					"75"
+			"visible"				"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
-			"paintborder"	"1"
+			"paintborder"			"1"
 		
-			"model_tall"		"45"
+			"model_tall"			"45"
 			
 			"attriblabel"
 			{
 				"font"			"ItemFontAttribLarge"
 				"visible"		"0"
 			}
-			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -97,8 +97,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ToggleToRED"
-		"xpos"				"c140"
-		"ypos"				"60"
+		"xpos"				"c-168"
+		"ypos"				"c-131"	
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"12"
@@ -124,8 +124,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ToggleToBLU"
-		"xpos"				"c140"
-		"ypos"				"72"
+		"xpos"				"c-168"
+		"ypos"				"c-119"	
 		"zpos"				"12"
 		"wide"				"25"
 		"tall"				"12"
