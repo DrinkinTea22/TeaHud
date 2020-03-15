@@ -12,7 +12,7 @@
 	}	
 	"ItemEffectMeterCount"
 	{
-		"ypos"					"r50"
+		"ypos"					"r48"
 	}
 	"ItemEffectMeterIcon"
 	{
