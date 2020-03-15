@@ -1,4 +1,4 @@
-#base "../tools/reloadscheme_button.res"
+//#base "../tools/reloadscheme_button.res"
 #base "Def_Files/statsummary.res"
 
 "Resource/UI/winpanel.res"
