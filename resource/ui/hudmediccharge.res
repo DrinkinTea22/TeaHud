@@ -45,7 +45,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"uberFIX"
 		"FgColor" 		"White"
 		"pin_to_sibling" 	"Ancla"	
 	}
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"center"
-		"font"			"HudFontGiantBold"
+		"font"			"uberFIX"
 		"FgColor" 		"White"	
 		"pin_to_sibling" 	"Ancla"
 	}	
