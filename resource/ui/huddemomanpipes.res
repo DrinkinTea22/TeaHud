@@ -68,7 +68,7 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontMediumSmallBold"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -83,7 +83,7 @@
 			"enabled"		"1"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"			
-			"font"			"HudFontSmallishBold"
+			"font"			"HudFontMediumSmallBold"
 			"fgcolor"		"black"
 		}		
 	}
