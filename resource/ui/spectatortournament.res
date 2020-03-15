@@ -55,11 +55,11 @@
 			"respawntime"
 			{
 				"font"							"HudFontSmallestBold"
-				"xpos"							"10"
+				"xpos"							"90"
 				"ypos"							"-2"
 				"wide"							"30"
 				"tall"							"20"
-				"textAlignment"					"left"
+				"textAlignment"					"east"
 				
 				if_mvm
 				{
@@ -101,7 +101,17 @@
 	{
 		"tall"							"0"
 	}
-	
+	"itempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"itempanel"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"10"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+	}	
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
