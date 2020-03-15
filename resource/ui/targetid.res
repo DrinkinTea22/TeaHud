@@ -44,6 +44,7 @@
 
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
+		"alpha"					"90"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -64,6 +65,7 @@
 
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
+		"alpha"					"90"
 	}
 	
 	"TargetNameLabel"

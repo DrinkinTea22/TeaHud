@@ -1,13 +1,5 @@
 "Resource/UI/SpectatorTournamentGUIHealth.res"
-{
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos" 	"9999" 
-		"tall"	"0"
-		"wide"	"0"
-	}		
+{		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -32,6 +24,14 @@
 		"tall"	"0"
 		"wide"	"0"
 	}
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos" 	"9999" 
+		"tall"	"0"
+		"wide"	"0"
+	}		
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"		"Label"
@@ -46,22 +46,5 @@
 		"textAlignment"		"north-west"
 		"labeltext"			"%Health%"
 		"font"				"HudFontSmallBold"
-	}
-	"PlayerStatusHealthValue2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue2"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"north-west"	
-		"font"			"HudFontSmallestBold"
-		"fgcolor"		"black"
-		"pin_to_sibling" 	"HudFontSmallBold"
 	}	
 }
