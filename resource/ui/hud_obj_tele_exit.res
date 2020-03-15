@@ -155,6 +155,7 @@
 			"src_corner_width"	"45"
 			"draw_corner_width"	"0"
 			"draw_corner_height" 	"0"	
+			"alpha"				"180"
 		}
 
 		"AlertTray"
