@@ -4,108 +4,133 @@
 //		clientscheme												- Default Override 
 
 #base "base/borders.res"
-#base "base/FONTS.res"
+#base "base/Crosshairs.res"
 #base "base/clientscheme.res"
 
 Scheme
 {
 	BaseSettings
 	{
-		ProgressBar.BgColor						"0 0 0 30"				//item Meters SecondaryColor [BG]		
+		ProgressBar.BgColor														"0 0 0 80"		
 	}
-	
 	Colors
 	{
-		//										Scheme										//
+		//****************************************Scheme****************************************//
+		"soft white"															"255 255 245 255"
+		"powder blue"															"205 227 220 255"
+		"cool cocoa"															"193 142 104 255"
+		"medium blue" 															"130 165 198 255"
+		"pastel pink" 															"249 173 177 255"
+		"mauve"																	"216 131 152 255"
+		"rose pink brown"														"168 106 65 255"
+		"powdery periwinkle"													"147 156 185 255"
+		"rose pink"																"243 155 171 255"
+		"raspberry"																"162 38 48 255"
+		"charcoal grey blue"													"110 130 126 255"
+		"pastel blue green"														"212 220 133 255"
+		"watermelon"															"208 32 78 255"
+		"plum"																	"75 37 62 255"
+		"very gray navy"														"90 88 89 255"
+		"medium blue green"														"43 213 134 255"
+		"blueish red"															"200 14 55 255"
+		"dark navy"																"38 27 70 255"
+		"cadet blue"															"59 74 93 255"
+		//****************************************Scheme****************************************//
 		
-		//not blue (?
-		"Tomato" 								"255 80 80 255"			//#ff5050
-		"HealthLow"								"255 80 80 255"			//Self-Hurt, Spec-Hurt, Target-Hurt		
-		"AmmoLow"								"255 80 80 255"			//Low Animation
-		"AmmoRLow"								"255 80 80 255"			//Low Animation
-		"AmmoNCLow"								"255 80 80 255"			//Low Animation
-		"MainRed"								"255 80 80 255"			//Main Red Color 		  		
-		"MainRedHover"							"255 80 80 155"			//Main Red Color Hover		  			
-		"Negative"								"255 80 80 255"			//Negative metal
+		//*******************************************************Customization Scheme*******************************************************//
+	
+		"HealthHigh"															"43 213 134 255"		//Positive Health1
+		"HealthHigh2"															"43 253 134 255"		//Positive Health2 
+		"Health"																"255 255 245 255"		//Normal Health
+		"HealthLow"																"200 14 55 255"			//Negative Health1
+		"HealthLow2"															"250 14 55 255"			//Negative Health2		
+
+		"Ammo"																	"244 248 251 255"		//Normal Ammo
+		"AmmoR"																	"244 248 251 255"		//Reserve Ammo
+		"AmmoNC"																"244 248 251 255"		//No Reload Ammo [Pyro, Heavy, Sniper]
 		
-		"Blue1" 								"62 118 186 255"		//#3E76BA 
-		"Last Damage Done"						"62 118 186 255"		//Last Damage Done
+		"AmmoLow"																"200 14 55 255"			//Low Animation1
+		"AmmoLow2"																"250 14 55 255"			//Low Animation2
+		"AmmoNCLow"																"200 14 55 255"			//Low Animation1
+		"AmmoNCLow2"															"250 14 55 255"			//Low Animation2
+
+		"Last Damage Done"														"62 118 186 255"		//Last Damage Done
+
+		"MenuBGColor"															"34 65 103 255"			//Color Of [backpack, ClassLoadout, etc]
+		"Sheet"																	"34 65 103 255"			//Color Of ["Sheet"]
+
+		"white"																	"255 255 245 255"			
+		"Uber"																	"255 255 245 255"		//When Uber = 0%	
+		"UberFull"																"43 213 134 255"		//When Uber = 100%	
+		"UberFull2"																"43 253 134 255"		//When Uber = 100% 2	
 		
-		"Blue2" 								"34 65 103 255"			//#224167  
-		"MenuBGColor"							"34 65 103 255"			//Color Of [backpack, ClassLoadout, Craft Panel, etc]
-		"Sheet"									"34 65 103 255"			//Color Of ["Sheet"]
+		"MainRed"																"192 56 63 255"			//Main Red Color 		  		
+		"MainRedHover"															"192 56 63 155"			//Main Red Color Hover	
+		"MainBlue"																"92 128 166 255"		//Main Blue Color 		
+		"MainBlueHover"															"92 128 166 155"		//Main Blue Color Hover	 
 		
-		"white" 								"244 248 251 255"		//#f4f8fb 	
-		"Health"								"244 248 251 255"		//Self-Health, Spec-Health, Target-Health		
-		"Ammo"									"244 248 251 255"		//Normal Ammo
-		"AmmoR"									"244 248 251 255"		//Reserve Ammo
-		"AmmoNC"								"244 248 251 255"		//No Reload Ammo [Pyro, Heavy, Sniper]
-		"Uber"									"244 248 251 255"		//When Uber = 0%		
+		"Positive"																"130 165 198 255"		//Positive metal, Health		  			
+		"Negative"																"200 14 55 255"			//Negative metal
 		
-		"Blue3" 								"185 206 232 255"		//#b9cee8   
-		"HealthHigh"							"185 206 232 255"		//Self-Buff, Spec-Buff, Target-Buff
-		"MainBlue"								"185 206 232 255"		//Main Blue Color 		
-		"MainBlueHover"							"185 206 232 155"		//Main Blue Color Hover	 		
-		"Positive"								"185 206 232 255"		//Positive metal, Health
-		"UberFull"								"185 206 232 255"		//When Uber = 100%		
-		
-		//										Scheme										// 
+		"ClassBG"																"59 74 93 255"
+		"stat1"																	"26 98 255 255"
+		"stat2"																	"51 116 255 255"
+		"stat3"																	"77 133 255 255"
+		"stat4"																	"102 150 255 255"
+		"stat5"																	"128 168 255 255"
+		"stat6"																	"153 185 255 255"
+		"stat7"																	"179 203 255 255"
+		"stat8"																	"204 220 255 255"
+		"stat9"																	"230 238 255 255"
+		//*******************************************************Customization Scheme*******************************************************//
 	}
 	Borders
 	{	
 		//0 square, 2 default, 3 rounded
 		ButtonBorder
 		{
-			"backgroundtype" "0"
+			"backgroundtype"													"0"
 		}
 		ButtonKeyFocusBorder
 		{
-			"backgroundtype" "0"
+			"backgroundtype"													"0"
 		}
 		ButtonDepressedBorder
 		{
-			"backgroundtype" "0"
-		}	
-		QuickplayBorder													//Most Used border
+			"backgroundtype"													"0"
+		}
+		
+		//Most Used border		
+		QuickplayBorder
 		{
 			Left
 			{
 				"1"
 				{
-					"color"												"white"
+					"color"														"white"
 				}
 			}
 			Right
 			{
 				"1"
 				{
-					"color"												"white"
+					"color"														"white"
 				}
 			}
 			Top
 			{
 				"1"
 				{
-					"color"												"white"
+					"color"														"white"
 				}
 			}
 			Bottom
 			{
 				"1"
 				{
-					"color"												"white"
+					"color"														"white"
 				}
 			}
-		}
-		shct
-		{
-			"image"					"../hud/ico_key_blank"
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"src_corner_height"		"0"
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
 		}		
 	}	
 	Fonts
@@ -115,29 +140,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "Blank"
-				"tall"  "1"
+				"name"  	 "Blank"
+				"tall" 		 "1"
 				"antialias"  "1"
 			}
 		}
+		"uberFIX"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow""1"
+			}
+		}		
 	}	
 	CustomFontFiles
-	{
-		"18" 
+	{	
+		"110"
 		{
-			"font" "resource/Fonts/Roboto-Regular.ttf"
-			"name" "Roboto Regular"
-		}
-		"19" 
-		{
-			"font" "resource/Fonts/Roboto-Medium.ttf"
-			"name" "Roboto Medium"
-		}
-		"20" 
-		{
-			"font" "resource/Fonts/Roboto-Bold.ttf"
-			"name" "Roboto Bold"
-		}
+			"font"	"resource/KnucklesCrosses.ttf"
+			"name"	"KnucklesCrosses"
+		}	
 		"111" 
 		{
 			"font" "resource/Fonts/Blank.ttf"
