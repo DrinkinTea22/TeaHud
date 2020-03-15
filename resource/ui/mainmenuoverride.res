@@ -1,28 +1,9 @@
 #base "Def_Files/mainmenuoverride.res"
-
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
 	{
 	}	
-	"TestClientschemeButton"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TestClientschemeButton"
-		"xpos"			"c-80"
-		"ypos"			"r300"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"25"
-		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"e"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"Command"		""	
-		"border"		"shct"
-	}
 	"Background"
 	{
 		"xpos"			"9999"
@@ -80,56 +61,6 @@
 		"xpos"			"9999"
 	}		
 	
-	//rank
-	"RankModelPanel"			//Casual-Comp Medal icon
-	{
-		"xpos"				"270"
-		"ypos"				"325"
-		"tall"				"600"
-		"wide"				"600"	
-		"pin_to_sibling" 	"Pin"		
-	}	
-	"RankPanel"			//names, level, etc
-	{
-		"xpos"			"120"
-		"ypos"			"130"
-		"pin_to_sibling" "Servers"
-	}	
-	"CycleRankTypeButton"
-	{
-		"xpos"			"-300"
-		"ypos"			"-36"
-		"pin_to_sibling" "RankPanel"
-	}
-	"RankTooltipPanel"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RankTooltipPanel"
-		"xpos"			"-20"
-		"ypos"			"-1"
-		"wide"			"12"
-		"tall"			"12"
-		"alpha"			"255"		
-		"pin_to_sibling" "CycleRankTypeButton"
-	}	
-	"NoGCMessage" 			//text "no internet" or "no client connected"
-	{
-		"xpos"			"-125"
-		"ypos"			"0"
-		"zpos"			"-99"
-		"wide"			"260"			
-		"font"			"HudFontSmallestBold"
-		"BgColor_override"	"Black"
-		
-		"pin_to_sibling" "RankPanel"
-	}	
-	"NoGCImage"
-	{
-		"xpos"			"-120"
-		"ypos"			"-70"
-		"pin_to_sibling" "NoGCMessage"		
-	}	
-	
 	"Pin"
 	{
 		"controlName"		"CExButton"
@@ -166,6 +97,55 @@
 		"enabled"			"1"
 		"labeltext"			""
 	}	
+	//rank
+	"RankModelPanel"			//Casual-Comp Medal icon
+	{
+		"xpos"				"280"
+		"ypos"				"400"
+		"tall"				"600"
+		"wide"				"600"	
+		"pin_to_sibling" 	"Pin"		
+	}	
+	"RankPanel"			//names, level, etc
+	{
+		"xpos"			"0"
+		"ypos"			"r55"
+		"wide"			"f0"
+	}	
+	"CycleRankTypeButton"
+	{
+		"xpos"			"0"
+		"ypos"			"15"
+		"pin_to_sibling" "Servers"
+	}
+	"RankTooltipPanel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RankTooltipPanel"
+		"xpos"			"-20"
+		"ypos"			"-1"
+		"wide"			"12"
+		"tall"			"12"
+		"alpha"			"255"		
+		"pin_to_sibling" "CycleRankTypeButton"
+	}	
+	"NoGCMessage" 			//text "no internet" or "no client connected"
+	{
+		"xpos"			"-125"
+		"ypos"			"0"
+		"zpos"			"-99"
+		"wide"			"260"			
+		"font"			"HudFontSmallestBold"
+		"BgColor_override"	"Black"
+		
+		"pin_to_sibling" "RankPanel"
+	}	
+	"NoGCImage"
+	{
+		"xpos"			"-120"
+		"ypos"			"-70"
+		"pin_to_sibling" "NoGCMessage"		
+	}		
 	
 	"Servers"
 	{		
@@ -177,7 +157,7 @@
 		"auto_wide_tocontents" 										"1"	
 		"auto_tall_tocontents" 										"1"			
 		"xpos"														"0"
-		"ypos"														"0"	
+		"ypos"														"60"	
 		"textAlignment"												"center"			
 		
 		"defaultFgColor_override" 									"White"
@@ -478,8 +458,8 @@
 	
 	"ReportBugButton"
 	{
-		"xpos"					"-257"
-		"ypos"					"-175"
+		"xpos"					"-45"
+		"ypos"					"-210"
 		
 		"border"			    "QuickplayBorder"		
 		"border_default"	    "QuickplayBorder"   	      
