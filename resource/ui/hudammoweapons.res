@@ -60,7 +60,7 @@
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"AmmoR"
 		"xpos"			"-190"
-		"ypos"			"-10"
+		"ypos"			"-5"
 		"zpos"			"7"
 		"wide"			"420"
 		"tall"			"50"
