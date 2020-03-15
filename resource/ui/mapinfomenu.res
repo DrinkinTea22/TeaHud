@@ -141,25 +141,6 @@
 		"fgcolor"		"Whtie"
 		"border"			"QuickplayBorder"			
 		"border_default""QuickplayBorder"
-	}
-	"e"
-	{		
-		"ControlName"												"CExlabel"
-		"fieldName"													"e"
-		"labelText"													"e"
-		"font"														"default"
-		"zpos"														"10"
-		"wide" 														"14"	
-		"tall" 														"14"		
-		"xpos"														"-1"
-		"ypos"														"-16"
-		"visible"													"1"	
-		"enabled"													"1"		
-		"textAlignment"												"center"
-		"fgcolor"													"TanDark"		
-		"paintbackground"											"0"
-		"border"													"shct"
-		"pin_to_sibling" 											"MapInfoContinue"		
 	}	
 	"QuickBind"
 	{
