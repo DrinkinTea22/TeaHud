@@ -55,7 +55,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"r80"
-		"ypos"					"r30"
+		"ypos"					"r28"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"22"	
