@@ -1,18 +1,7 @@
 #base 	"HudLayout_base.res"
 "Resource/HudLayout.res"
 {
-	"Guide"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"Guide"
-		"xpos"			"c-30"	
-		"ypos"			"c35"	
-		"wide"			"60"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"Blank"
-	}
+	////****************************************TargetID
 	CMainTargetID
 	{
 		"ypos"	"c60"
@@ -25,6 +14,9 @@
 	{
 		"ypos"	"c110"
 	}	
+	////****************************************TargetID
+
+	////****************************************Damage Indicator	
 	HudDamageIndicator
 	{
 		"fieldName"		"HudDamageIndicator"
@@ -37,7 +29,10 @@
 		"MinimumHeight"	"30"
 		"MaximumHeight"	"60"
 		"MinimumTime"	"1"
-	}	
+	}
+	////****************************************Damage Indicator	
+	
+	////****************************************Killfeed		
 	HudDeathNotice
 	{		
 		"xpos"	 				"r640"
@@ -52,6 +47,9 @@
 		"LocalBackgroundColor"	"White"
 		"BaseBackgroundColor"	"Blank"
 	}
+	////****************************************Killfeed	
+
+	////****************************************Ammo		
 	HudWeaponAmmo
 	{
 		"xpos"	"0"	
@@ -59,6 +57,9 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	////****************************************Ammo
+
+	////****************************************Demoman Bars	
 	HudDemomanCharge
 	{
 		"xpos"	"c-35"	
@@ -77,7 +78,9 @@
 	{
 		"xpos"			"9999"
 	}	
+	////****************************************Demoman Bars	
 
+	////****************************************Metal, Health
 	CHudAccountPanel
 	{
 		"xpos"	"c-35"	
@@ -93,6 +96,9 @@
 		"wide"	"160"
 		"tall"	"80"
 	}	
+	////****************************************Metal, Health
+
+	//Win Panel	
 	WinPanel
 	{
 		"xpos"	"c-159"
@@ -102,6 +108,9 @@
 		"Bgcolor_override""black"	
 		"border""QuickplayBorder"
 	}	
+	////****************************************Win Panel	
+
+	////****************************************Menus		
 	"HudMenuSpyDisguise"
 	{
 		"xpos"	"c-190"
@@ -133,7 +142,9 @@
 		"xpos"	"c-235"
 		"ypos"	"c40"
 	}
-	
+	////****************************************Menus	
+
+	////****************************************Medic Charge	
 	HudMedicCharge
 	{
 		"xpos"	"0"	
@@ -141,4 +152,5 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}	
+	////****************************************Medic Charge	
 }
