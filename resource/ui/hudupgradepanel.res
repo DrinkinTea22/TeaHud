@@ -37,8 +37,8 @@
 		
 		"InnerPanelRim"
 		{
-			"PaintBackgroundType" "0"
-			"bgcolor_override"	"tandark"
+			"PaintBackgroundType" 	"0"
+			"bgcolor_override"		"tandark"
 			"border"				"QuickplayBorder"
 		}
 		"InnerBGPanel"
@@ -62,23 +62,6 @@
 			"PaintBackgroundType"	"0"
 			"border"				"QuickplayBorder"
 		}
-		
-		"MouseOverTabPanel"
-		{
-			"bgcolor_override"		"tandark"
-			"PaintBackgroundType"	"0"
-			"paintborder"		"1"
-			"border"				"QuickplayBorder"
-		}
-		
-		"MouseOverUpgradePanel"
-		{
-			"bgcolor_override"		"tandark"
-			"PaintBackgroundType"	"0"
-			"paintborder"		"1"
-			"border"				"QuickplayBorder"
-		}
-		
 		"InactiveTabPanel1"
 		{
 			"PaintBackgroundType"	"0"
@@ -152,6 +135,7 @@
 		
 		"UpgradeItemsLabel"
 		{
+			"font"			"Blank"
 		}
 		"UpgradeItemStatsLabel"
 		{
