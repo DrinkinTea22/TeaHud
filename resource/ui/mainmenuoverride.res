@@ -4,6 +4,20 @@
 	MainMenuOverride
 	{
 	}	
+	"CsBackGround"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CsBackGround"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"Image"			"../vgui/inner_shadow_border"	//outer_shadow_border
+		"scaleImage"	"1"		
+	}	
 	"Background"
 	{
 		"xpos"			"9999"

@@ -105,7 +105,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c-50"
+		"xpos"			"c-70"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -133,7 +133,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
 		"command"		"back"

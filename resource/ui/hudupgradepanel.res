@@ -44,18 +44,7 @@
 		"InnerBGPanel"
 		{
 			"PaintBackgroundType"	"0"
-		}
-	
-		"PlayerUpgradeButton"
-		{
-		}
-		"ClassImage"
-		{
-		}
-		"SentryIcon"
-		{
-		}
-		
+		}		
 		"ActiveTabPanel"
 		{
 			"bgcolor_override"		"White"
