@@ -108,6 +108,11 @@
 		"Bgcolor_override""black"	
 		"border""QuickplayBorder"
 	}	
+	//mvm win-lost
+	PVEWinPanel
+	{
+		"ypos"					"235"
+	}	
 	////****************************************Win Panel	
 
 	////****************************************Menus		
