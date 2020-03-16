@@ -22,6 +22,14 @@
 			"wide"							"125"
 			"tall"							"15"
 			
+			if_mvm
+			{
+				"xpos"						"0"
+				"ypos"						"0"
+				"wide"						"125"
+				"tall"						"15"
+			}
+			
 			"playername"
 			{
 				"font"							"ItemFontNameSmall"
@@ -32,7 +40,11 @@
 				
 				if_mvm
 				{
-					"tall"							"8"
+					"font"							"ItemFontNameSmall"
+					"xpos"							"20"
+					"ypos"							"-2"
+					"wide"							"100"
+					"tall"							"20"
 				}
 			}
 			
@@ -42,7 +54,31 @@
 				"ypos"							"0"
 				"wide"							"12"
 				"tall"							"12"
+				
+				if_mvm
+				{
+					"xpos"				"28"
+					"ypos"				"2"
+					"wide"				"12"
+					"tall"				"12"
+					"image"				"../vgui/hud_connecting"
+				}				
 			}
+			"classimagebg"
+			{
+				"xpos"							"28"
+				"ypos"							"0"
+				"wide"							"12"
+				"tall"							"12"
+				
+				if_mvm
+				{
+					"xpos"				"28"
+					"ypos"				"2"
+					"wide"				"12"
+					"tall"				"12"
+				}
+			}			
 			
 			"HealthIcon"
 			{
@@ -63,12 +99,12 @@
 				
 				if_mvm
 				{
-					"font"							"DefaultSmall"
-					"xpos"							"30"
-					"ypos"							"18"
-					"wide"							"23"
-					"tall"							"10"
-					"textAlignment"					"west"
+					"font"								"DefaultSmall"
+					"xpos"								"90"
+					"ypos"								"-2"
+					"wide"								"30"
+					"tall"								"20"
+					"textAlignment"						"east"
 				}
 			}
 			
@@ -91,9 +127,10 @@
 		
 		if_mvm
 		{
-			"team1_player_base_offset_x"	"-75"
-			"team1_player_base_y"			"0"
-			"team1_player_delta_y"			"0"
+			"team1_player_base_offset_x"	"0"
+			"team1_player_base_y"			"149"
+			"team1_player_delta_x"			"0"
+			"team1_player_delta_y"			"15"
 		}		
 	}
 	
@@ -125,5 +162,14 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"	"center"
 		"font"			"HudFontSmallishBold"
+		
+		if_mvm
+		{
+			"ypos"			"80"
+		}
 	}
+	"BuyBackLabel"		//faster respawn label
+	{
+		"ypos"			"70"
+	}	
 }
