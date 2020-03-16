@@ -4,6 +4,7 @@
 //		clientscheme												- Default Override 
 
 #base "base/borders.res"
+#base "base/Fonts.res"
 #base "base/Crosshairs.res"
 #base "base/clientscheme.res"
 
@@ -162,12 +163,17 @@ Scheme
 	{	
 		"110"
 		{
-			"font"	"resource/KnucklesCrosses.ttf"
+			"font"	"resource/fonts/KnucklesCrosses.ttf"
 			"name"	"KnucklesCrosses"
 		}	
 		"111" 
 		{
-			"font" "resource/Fonts/Blank.ttf"
+			"font" "resource/fonts/Renogare.ttf"
+			"name" "Renogare"
+		}
+		"112" 
+		{
+			"font" "resource/fonts/Blank.ttf"
 			"name" "Blank"
 		}
 	}	
