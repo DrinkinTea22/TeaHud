@@ -9,27 +9,12 @@
 		
 		background
 		{
-			"src_corner_height"		"25"
-			"src_corner_width"		"25"
-
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		ProgressBarBg
-		{
-			"src_corner_height"		"25"
-			"src_corner_width"		"25"
-
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		ProgressBar
-		{
-			"src_corner_height"		"25"
-			"src_corner_width"		"25"
-
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"tall"			"0"
+			"wide"			"0"
+			"visible"		"0"
+			"enabled"		"0"	
 		}
 	}
 	"CurrencyStatusPanel"
