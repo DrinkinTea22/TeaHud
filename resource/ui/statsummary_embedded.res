@@ -86,11 +86,13 @@
 			{
 				"xpos"			"c-285"	//154+35 (half bar bg)
 				"ypos"			"212"
+				"wide"			"190" 
 			}
 			"BarChartComboB"	//Total PlayTime
 			{
-				"xpos"			"c-57"
+				"xpos"			"c-57-35"
 				"ypos"			"212"
+				"wide"			"188" 
 			}
 			"ClassCombo"		//as any class
 			{
@@ -1126,10 +1128,11 @@
 	}
 	"ResetStatsButton" 
 	{
-		"xpos"			"c-117"
-		"ypos"			"50"
-		"wide"			"150"
-		"labelText"		"#TF_ClassMenu_Reset"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"tall"			"0"
+		"wide"			"0"
+		"visible"		"0"
 	}
 	"CloseButton" 
 	{

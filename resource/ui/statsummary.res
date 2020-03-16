@@ -2,10 +2,10 @@
 
 "Resource/UI/statsummary.res"
 {
-	"IDKWORK"
+	"CsBackground"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"IDKWORK"
+		"fieldName"		"CsBackground"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
@@ -53,14 +53,10 @@
 
 	"MainBackground"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"MainBackground"
 		"Xpos" 				"9999"
 	}
 	"MapInfo"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"MapInfo"
 		"Xpos" 				"9999"
 	}
 	"StatData"
@@ -88,24 +84,11 @@
 		}
 		"InteractiveHeaders"	
 		{
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"tall"			"0"
-			"wide"			"0"
-			"visible"		"0"
-			"enabled"		"0"
-		}		
+			"Xpos" 				"9999"
+		}	
 		"NonInteractiveHeaders"
 		{
-			"BarChartLabelA"
-			{
-			}
-			"BarChartLabelB"
-			{
-			}			
-			"OverallRecordLabel"
-			{
-			}				
+			"Xpos" 				"9999"				
 		}
 		//****************************************Score Left****************************************//					
 		"ClassBarLabel1A"
