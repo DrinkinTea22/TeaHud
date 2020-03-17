@@ -6,7 +6,7 @@ a HUD for TF2
 -Last Damage Done + SpectatorTournament hud.
 3. To change some colors, go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors.
 
-|**Gamemodes**|**Support **|
+|**Gamemodes**|**Support**|
 |:-:|:-:|
 | *Control Points*  | YES!  |
 | *King of The Hill*  | YES!  |
