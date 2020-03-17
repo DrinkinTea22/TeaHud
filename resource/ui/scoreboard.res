@@ -8,18 +8,10 @@
         "ypos"              "0"
         "wide"              "f0"
         "tall"              "480"
-        "tabPosition"       "0"
-        "avatar_width"      "54"     
-        "name_width"        "0"
-        "name_width_short"  "65"
-        "spacer"            "5"
-        "status_width"      "15"    
-        "nemesis_width"     "15"    
-        "class_width"       "20"    
-        "score_width"       "20"
-        "ping_width"        "20"    
-        "killstreak_width"  "15"
-        "killstreak_image_width" "15"
+        "avatar_width"      "35"
+        "spacer"            "3"   
+        "score_width"       "30"
+        "ping_width"        "30" 
     }	
     "ClassImage"
     {
@@ -146,7 +138,7 @@
         "zpos"          "4"
         "wide"          "100"
         "tall"          "25"
-        "fgcolor"       "TanLight"
+        "fgcolor"       "White"
     }
     "BlueTeamScoreDropshadow"
     {
@@ -162,7 +154,7 @@
         "zpos"          "1"
         "wide"          "270"
         "tall"          "20"
-        "fgcolor"       "TanLight"
+        "fgcolor"       "White"
         "font"          "HudFontSmallBold"
         "textAlignment" "left"
     }
@@ -205,7 +197,7 @@
         "zpos"          "4"
         "wide"          "100"
         "tall"          "25"
-        "fgcolor"       "TanLight"
+        "fgcolor"       "White"
     }
     "RedTeamScoreDropshadow"
     {
@@ -221,7 +213,7 @@
         "zpos"          "1"
         "wide"          "270"
         "tall"          "20"
-        "fgcolor"       "TanLight"
+        "fgcolor"       "White"
         "font"          "HudFontSmallBold"
         "textAlignment" "east"
     }
@@ -708,7 +700,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor"       "TanLight"
+        "fgcolor"       "White"
         if_mvm
         {
             "visible"       "0"
@@ -730,7 +722,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor"       "TanLight"
+        "fgcolor"       "White"
         
         if_mvm
         {
@@ -752,7 +744,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor"       "TanLight"
+        "fgcolor"       "White"
         
         if_mvm
         {
