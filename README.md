@@ -1,10 +1,11 @@
 # TeaHud
 a HUD for TF2
 
-1. Select your current screen resolution in "TeaHud/Customization/" otherwise SpectatorTournament will not work properly.
-2. Customizations:
--Last Damage Done + SpectatorTournament hud.
-3. To change some colors, go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors.
+Select your current screen resolution in **"TeaHud/Customization/"** otherwise **SpectatorTournament** will not work properly.
+
+# Customizations:
+1. Background + Crosshairs + Remove InspectPanels + Last Damage Done + SpectatorTournament hud
+2. Colors: Go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors used in the hud.
 
 |**Gamemodes**|**Support**|
 |:-:|:-:|
@@ -22,17 +23,17 @@ a HUD for TF2
 | *Mann Vs Machine CP*  | Yes!  |
 
 # Credits to the following people:
--Knuckles (Crosshairs Fonts) Crosshairs Fonts
+-Knuckles **Crosshairs Fonts**
 
--Eniere (Improved Default Hud) SpectatorTournament layout + some lines of code :D
+-Eniere **Improved Default Hud** SpectatorTournament layout + some lines of code :D
 
--Griever (Toonhud) SourceScheme
+-Griever **Toonhud** SourceScheme
 
--Arekk (ArekkHud) ChatScheme
+-Arekk **ArekkHud** ChatScheme
 
 # HUGE THANKS TO:
 
--Wiethoofd (Wiethud)	
+-Wiethoofd **Wiethud**	
 
 -FlagStatus + HudObjectiveFlagpanel + itemquickswitch + hud_obj_ files + some lines of code :D
 
