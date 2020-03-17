@@ -122,7 +122,7 @@
 		"textAlignment"		"west"
 		"labelText"		"%bluescore%"
 		"font"			"HudFontMedium"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		"if_hybrid"
 		{
@@ -154,7 +154,7 @@
 		"textAlignment"		"east"
 		"labelText"		"%redscore%"
 		"font"			"HudFontMedium"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 
 		"if_hybrid"
 		{
@@ -228,7 +228,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"font"			"Default"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 		"border"		"QuickplayBorder"
 		"bgcolor_override"	"33 33 33 233"
 		
@@ -426,7 +426,7 @@
 		"textAlignment"		"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontSmallBoldShadow"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"White"
 	}
 
 	"SpecCarriedImage"

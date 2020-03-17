@@ -49,7 +49,7 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}							
 		"BlueTeamScore"
 		{
@@ -65,7 +65,7 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}
 		"BlueTeamScoreDropshadow"
 		{
@@ -82,7 +82,6 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
 		}
 		"BlueLeaderAvatar"
 		{
@@ -116,7 +115,7 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}							
 		"RedTeamScore"
 		{
@@ -132,7 +131,7 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}
 		"RedTeamScoreDropshadow"
 		{

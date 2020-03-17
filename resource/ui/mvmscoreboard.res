@@ -206,7 +206,7 @@
 			"ypos"			"8"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 	}
 }

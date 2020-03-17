@@ -31,9 +31,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
 	}
 	"PlayListDropShadow"
 	{
@@ -151,7 +151,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "White"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
