@@ -509,7 +509,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "scout"			
 	}
@@ -521,7 +521,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "soldier"	
 	}	
@@ -533,7 +533,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "pyro"	
 	}
@@ -545,7 +545,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "demoman"	
 	}
@@ -557,7 +557,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "heavyweapons"	
 	}
@@ -569,7 +569,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "engineer"	
 	}
@@ -581,7 +581,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "medic"	
 	}	
@@ -593,7 +593,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "sniper"	
 	}
@@ -605,7 +605,7 @@
 		"wide"			"50"
 		"tall"			"12"
 		"textAlignment"	"center"
-		"font"			"HudFontSmallishBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"pin_to_sibling" "spy"	
 	}								
