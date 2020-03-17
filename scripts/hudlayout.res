@@ -38,7 +38,7 @@
 		"xpos"	 				"r640"
 		"ypos"					"30"
 		"wide"	 				"637"
-		"TextFont"				"HudFontSmallestBold"
+		"TextFont"				"HudFontsmallbold"
 		"MaxDeathNotices"		"6"
 		"IconScale"				"0.24"
 		"LineHeight"			"12"
@@ -111,6 +111,7 @@
 	//mvm win-lost
 	PVEWinPanel
 	{
+		"xpos"					"c-145"
 		"ypos"					"235"
 	}	
 	////****************************************Win Panel	
