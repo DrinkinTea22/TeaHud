@@ -131,20 +131,21 @@
 	}	
 	"NoGCMessage" 			//text "no internet" or "no client connected"
 	{
-		"xpos"			"-125"
-		"ypos"			"0"
-		"zpos"			"-99"
-		"wide"			"260"			
-		"font"			"HudFontSmallestBold"
+		"xpos"				"0"
+		"ypos"				"50"
+		"zpos"				"-99"
+		"wide"				"200"
+		"tall"				"50"			
+		"font"				"HudFontSmallestBold"
 		"BgColor_override"	"Black"
 		
-		"pin_to_sibling" "RankPanel"
+		"pin_to_sibling" 	"Servers"
 	}	
 	"NoGCImage"
 	{
-		"xpos"			"-120"
-		"ypos"			"-70"
-		"pin_to_sibling" "NoGCMessage"		
+		"xpos"				"0"
+		"ypos"				"-10"
+		"pin_to_sibling"	"NoGCMessage"		
 	}		
 	"CsBackGround"
 	{
