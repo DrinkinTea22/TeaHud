@@ -13,6 +13,22 @@
 			
 			"PaintBackgroundType"	"0"	//2
 		}
+		"vision_restriction_icon"
+		{
+			"ypos"			"0"
+		}
+		"is_strange_icon"
+		{
+			"ypos"			"0"
+		}
+		"is_unusual_icon"
+		{
+			"ypos"			"0"
+		}
+		"is_loaner_icon"
+		{
+			"ypos"			"0"
+		}
 	}
 
 
