@@ -123,7 +123,7 @@
 	"CancelApplyToolButton" // Cancel Button
 	{
 		"ypos"			"350"
-		"wide"			"130"
+		"wide"			"572"
 		"tall"			"20"
 		"border_default""QuickplayBorder"
 	}	
