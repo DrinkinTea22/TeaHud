@@ -130,7 +130,7 @@
     
     "BlueTeamScore"
     {
-        "font"          "HudFontSmallBold"
+        "font"          "HudFontSmallishBold"
         "textAlignment"     "east"
         "xpos"          "c-106"
         "ypos"          "144"
@@ -189,7 +189,7 @@
     }
     "RedTeamScore"
     {
-        "font"          "HudFontSmallBold"
+        "font"          "HudFontSmallishBold"
         "textAlignment"     "west"
         "xpos"          "c6"
         "ypos"          "144"
