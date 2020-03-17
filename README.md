@@ -7,7 +7,7 @@ a HUD for TF2
 3. To change some colors, go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors.
 
 |**Supported Gamemodes** 	   |
-|:-:|
+|:-:|:-:|
 | *Control Points*  | YES!  |
 | *King of The Hill*  | YES!  |
 | *Payload*  | YES!  |
