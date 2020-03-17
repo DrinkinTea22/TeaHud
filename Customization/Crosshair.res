@@ -17,6 +17,6 @@
 		"labelText"		"9"							//crosshair type
 		"textAlignment"	"center"					//Do NOT EDIT!
 		"fgcolor"		"White"						//crosshair Color
-		"font"			"KnucklesCrosses30"			//size
+		"font"			"KnucklesCrosses30utline"	//size
 	}
 }
