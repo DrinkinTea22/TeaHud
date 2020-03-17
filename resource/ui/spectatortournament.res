@@ -1,7 +1,7 @@
 #base "../../Customization/Enabled/spectatortournament_16x9.res"
 #base "../../Customization/Enabled/spectatortournament_16x10.res"
 #base "../../Customization/Enabled/spectatortournament_4x3.res"
-	
+#base "../../Customization/Enabled/Remove InspectPanels.res"	
 #base "Def_Files/spectatortournament.res"
 
 "Resource/UI/SpectatorTournament.res"
@@ -137,18 +137,7 @@
 	"topbar"
 	{
 		"tall"							"0"
-	}
-	"itempanel"
-	{
-		"ControlName"	"CItemModelPanel"
-		"fieldName"		"itempanel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"10"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-	}	
+	}		
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
