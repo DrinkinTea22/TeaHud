@@ -150,12 +150,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Renogare"
 				"tall"		"44"
-				"weight"	"500"
-				"additive"	"0"
 				"antialias" "1"
 				"dropshadow""1"
+			}
+		}
+		"DamageNumbers"
+		{
+			"1"
+			{
+				"name"		"Renogare"
+				"tall"		"26"
+				"antialias" "1"
+				"outline"	"1"
 			}
 		}	
 		"Default"			//scoreboard font [names, scores, ping] THEIR VALUES
