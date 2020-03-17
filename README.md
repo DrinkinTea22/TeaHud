@@ -6,32 +6,20 @@ a HUD for TF2
 -Last Damage Done + SpectatorTournament hud.
 3. To change some colors, go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors.
 
-|**Supported Gamemodes** 	   |
-|:-:|
+|**Gamemodes**|**Support **|
+|:-:|:-:|
 | *Control Points*  | YES!  |
-|:-:|
 | *King of The Hill*  | YES!  |
-|:-:|
 | *Payload*  | YES!  |
-|:-:|
 | *Payload Race*  | Yes!  |
-|:-:|
 | *Capture The Flag*  | YES!  |
-|:-:|
 | *Robot Destruction*  | 50%  |
-|:-:|
 | *Player Destruction*  | 50%  |
-|:-:|
 | *PassTime*  | Yes!  |
-|:-:|
 | *Events*  | 50%  |
-|:-:|
 | *Arena*  | YES!  |
-|:-:|
 | *Mann Vs Machine*  | Yes!  |
-|:-:|
 | *Mann Vs Machine CP*  | Yes!  |
-|:-:|
 
 # Credits to the following people:
 -Knuckles (Crosshairs Fonts) Crosshairs Fonts
