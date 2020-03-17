@@ -29,26 +29,7 @@
 
 		"pin_to_sibling" 											"Pin"		
 	}
-	//shortcuts template
-	"NAMEFILE"
-	{		
-		"ControlName"												"CExlabel"
-		"fieldName"													"NAMEFILE"
-		"labelText"													"NAMEFILE"
-		"font"														"default"
-		"zpos"														"10"
-		"wide" 														"14"	
-		"tall" 														"14"			
-		"xpos"														"0"
-		"ypos"														"0"	
-		"visible"													"1"	
-		"enabled"													"1"		
-		"textAlignment"												"center"
-		"fgcolor"													"TanDark"		
-		"paintbackground"											"0"
-		"border"													"shct"
-		"pin_to_sibling" 											"NAMEFILE"		
-	}	
+	//shortcuts template	
 2.	//Use of #base 
 	#base 	"Def_Files/NAMEFILE.res"
 
