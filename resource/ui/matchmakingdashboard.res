@@ -53,57 +53,41 @@
 		
 		"ResumeButton"
 		{
-			"RoundedCorners"	"0"
-
 			"paintbackground"										"1"
 			"defaultBgColor_override"								"MainBlue"
 			"armedBgColor_override"									"MainBlueHover"
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
-			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"		 
+			"depressedFgColor_override" 							"Blank"		 
 		}		
 		"FindAGameButton"
 		{
-			"RoundedCorners"	"0"
-
 			"paintbackground"										"1"
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
 			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"
 		}
 		"DisconnectButton"
 		{
-			"RoundedCorners"	"0"
-
 			"paintbackground"										"1"
 			"defaultBgColor_override"								"MainRed"
 			"armedBgColor_override"									"MainRedHover"
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
-			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"		 
+			"depressedFgColor_override" 							"Blank"	 
 		}		
 		"QuitButton"
 		{
-			"RoundedCorners"	"0"
-
 			"paintbackground"										"1"
 			"defaultBgColor_override"								"MainRed"
 			"armedBgColor_override"									"MainRedHover"
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
-			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"	 
+			"depressedFgColor_override" 							"Blank"	 
 		}
 	}
 }
