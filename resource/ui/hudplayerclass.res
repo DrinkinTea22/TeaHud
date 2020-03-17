@@ -87,7 +87,7 @@
 		"render_texture"	"0"
 		"fov"			"52"
 		"allow_rot"		"1"
-				
+	
 		"model"
 		{
 			"force_pos"	"1"
@@ -122,7 +122,7 @@
 			}
 			"Scout"
 			{
-				"fov"		"11"
+				"fov"		"12"
 				"angles_x"	"-5"
 				"angles_y"	"200"
 				"angles_z"	"0"
@@ -152,7 +152,7 @@
 			}
 			"Demoman"
 			{
-				"fov"		"13"
+				"fov"		"14"
 				"angles_x"	"-3"
 				"angles_y"	"200"
 				"angles_z"	"0"
@@ -172,7 +172,7 @@
 			}
 			"Heavy"
 			{
-				"fov"		"13"
+				"fov"		"14"
 				"angles_x"	"0"
 				"angles_y"	"200"
 				"angles_z"	"0"
