@@ -61,9 +61,7 @@
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
-			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"		 
+			"depressedFgColor_override" 							"Blank"	 
 		}		
 		"FindAGameButton"
 		{
@@ -74,8 +72,6 @@
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
 			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"
 		}
 		"DisconnectButton"
 		{
@@ -87,9 +83,7 @@
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
-			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"		 
+			"depressedFgColor_override" 							"Blank"		 
 		}		
 		"QuitButton"
 		{
@@ -101,9 +95,7 @@
 			"depressedBgColor_override"								"Blank"
 			"defaultFgColor_override"								"White"
 			"armedFgColor_override" 								"White"
-			"depressedFgColor_override" 							"Blank"
-			"border_default"										"QuickplayBorder"
-			"border_armed"											"QuickplayBorder"	 
+			"depressedFgColor_override" 							"Blank"	 
 		}
 	}
 }
