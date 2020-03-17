@@ -71,7 +71,7 @@ Scheme
 		"MainBlueHover"															"92 128 166 155"		//Main Blue Color Hover	 
 		
 		"Positive"																"130 165 198 255"		//Positive metal, Health		  			
-		"Negative"																"200 14 55 255"			//Negative metal
+		"Negative"																"200 14 55 255"			//Negative metal, Health
 		
 		"ClassBG"																"59 74 93 255"
 		"stat1"																	"26 98 255 255"
@@ -136,7 +136,7 @@ Scheme
 	}	
 	Fonts
 	{
-		//Only Selft-Made Font Definition
+		//If i want to remove something.
 		"Blank"
 		{
 			"1"
@@ -157,7 +157,40 @@ Scheme
 				"antialias" "1"
 				"dropshadow""1"
 			}
-		}		
+		}	
+		"Default"			//scoreboard font [names, scores, ping] THEIR VALUES
+		{
+			"1"
+			{
+				"tall"		"11"
+				"weight"	"900"
+			}
+			"2"
+			{
+				"tall"		"12"
+				"weight"	"900"
+			}
+			"3"
+			{
+				"tall"		"13"
+				"weight"	"900"
+			}
+		}
+		"DefaultVerySmall"	//scoreboard font [names, scores, ping]
+		{
+			"1"
+			{
+				"weight"	"900"
+			}
+			"2"
+			{
+				"weight"	"900"
+			}
+			"3"
+			{
+				"weight"	"900"
+			}
+		}	
 	}	
 	CustomFontFiles
 	{	
