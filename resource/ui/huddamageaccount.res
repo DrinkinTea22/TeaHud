@@ -1,4 +1,4 @@
-	#base 	"../../customization/enabled/LastDamageDone.res"
+#base 	"../../customization/enabled/LastDamageDone.res"
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -10,7 +10,7 @@
 		"PositiveColor"			"Positive"
 		"NegativeColor"			"Negative"
 		"delta_lifetime"		"1"
-		"delta_item_font"		"HudFontSmallBoldShadow"
-		"delta_item_font_big"	"HudFontSmallBoldShadow"
+		"delta_item_font"		"DamageNumbers"
+		"delta_item_font_big"	"DamageNumbers"
 	}	
 }
