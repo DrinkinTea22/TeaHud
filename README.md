@@ -4,7 +4,7 @@ a HUD for TF2
 Select your current screen resolution in **"TeaHud/Customization/"** otherwise **SpectatorTournament** will not work properly.
 
 # Customizations:
-1. Background + Crosshairs + Remove InspectPanels + Last Damage Done + SpectatorTournament hud
+1. Background  + Remove InspectPanels + Last Damage Done + SpectatorTournament hud
 2. Colors: Go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors used in the hud.
 
 |**Gamemodes**|**Support**|
