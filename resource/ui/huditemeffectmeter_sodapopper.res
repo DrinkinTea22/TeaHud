@@ -1,10 +1,10 @@
 #base 	"HudItemEffectMeter.res"
-//sodapopper.
+////************************************************sodapopper.
 "Resource/UI/huditemeffectmeter_sodapopper.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c149"
+		"ypos"										"c149"
 	}
 	
 	"ItemEffectMeterBG"
@@ -12,7 +12,7 @@
 	}
 	"ItemEffectMeterLabel"
 	{
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"									"#TF_ENERGYDRINK"
 	}
 	"ItemEffectMeter"
 	{	

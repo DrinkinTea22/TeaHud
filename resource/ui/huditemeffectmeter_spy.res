@@ -1,4 +1,5 @@
 #base 	"HudItemEffectMeter_Demoman.res"
+////************************************************Spy Counter.	
 "Resource/UI/HudItemEffectMeter_spy.res"
 {
 	HudItemEffectMeter
@@ -15,6 +16,6 @@
 	}
 	"ItemEffectMeterIcon"
 	{
-		"image"			"../hud/leaderboard_dead"
+		"image"										"../hud/leaderboard_dead"
 	}		
 }

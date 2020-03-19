@@ -1,17 +1,17 @@
 #base 	"HudItemEffectMeter.res"
-//SpyCicle
+////************************************************SpyCicle
 "Resource/UI/HudItemEffectMeter_spyknife.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c155"	
+		"ypos"										"c155"	
 	}
 	"ItemEffectMeterBG"
 	{	
 	}
 	"ItemEffectMeterLabel"
 	{	
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"									"#TF_ENERGYDRINK"
 	}
 	"ItemEffectMeter"
 	{	

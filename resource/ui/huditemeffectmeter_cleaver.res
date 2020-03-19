@@ -1,17 +1,17 @@
 #base 	"HudItemEffectMeter.res"
-//Cleaver.
+////************************************************Cleaver.
 "Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c155"	
+		"ypos"										"c155"	
 	}
 	"ItemEffectMeterBG"
 	{	
 	}
 	"ItemEffectMeterLabel"
 	{
-		"labelText"				"#TF_Cleaver"
+		"labelText"									"#TF_Cleaver"
 	}
 	"ItemEffectMeter"
 	{	

@@ -1,17 +1,17 @@
 #base 	"HudItemEffectMeter.res"
-//Scout Drinks
+////************************************************Scout Drinks.
 "Resource/UI/HudItemEffectMeter_scout.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c155"		
+		"ypos"										"c155"		
 	}
 	"ItemEffectMeterBG"
 	{	
 	}
 	"ItemEffectMeterLabel"
 	{
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"									"#TF_ENERGYDRINK"
 	}
 	"ItemEffectMeter"
 	{		

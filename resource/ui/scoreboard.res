@@ -8,10 +8,10 @@
         "ypos"              "0"
         "wide"              "f0"
         "tall"              "480"
-        "avatar_width"      "35"
         "spacer"            "3"   
         "score_width"       "30"
         "ping_width"        "30" 
+        "avatar_width"      "35"
     }	
     "ClassImage"
     {
@@ -761,7 +761,10 @@
 		
 		if_mvm
 		{
-			"ypos"			"0"
+			"xpos"			"45"
+			"ypos"			"370"
+			"wide"			"550"
+			"textAlignment"	"center"
 			"visible"		"1"
 		}
 	}	

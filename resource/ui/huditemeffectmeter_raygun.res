@@ -1,17 +1,17 @@
 #base 	"HudItemEffectMeter.res"
-//byson
+////************************************************byson.
 "Resource/UI/HudItemEffectMeter_raygun.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c160"	
+		"ypos"										"c160"	
 	}
 	"ItemEffectMeterBG"
 	{		
 	}
 	"ItemEffectMeterLabel"
 	{
-		"labelText"				"#TF_Ball"
+		"labelText"									"#TF_Ball"
 	}
 	"ItemEffectMeter"
 	{	

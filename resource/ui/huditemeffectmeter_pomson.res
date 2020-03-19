@@ -1,17 +1,17 @@
 #base 	"HudItemEffectMeter.res"
-//Pomson.
+////************************************************Pomson.
 "Resource/UI/HudItemEffectMeter_pomson.res"
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c150"	
+		"ypos"										"c150"	
 	}
 	"ItemEffectMeterBG"
 	{		
 	}
 	"ItemEffectMeterLabel"
 	{	
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"									"#TF_ENERGYDRINK"
 	}
 	"ItemEffectMeter"
 	{	
