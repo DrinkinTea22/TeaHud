@@ -1,162 +1,163 @@
 #base 	"HudLayout_base.res"
+#base "../Customization/Enabled/Transparent Viewmodels.res"
 "Resource/HudLayout.res"
 {
-	////****************************************TargetID
+	////*************************************************TargetID
 	CMainTargetID
 	{
-		"ypos"	"c60"
+		"ypos"											"c60"
 	}	
 	CSecondaryTargetID
 	{
-		"ypos"	"c90"
+		"ypos"											"c90"
 	}		
 	CSpectatorTargetID
 	{
-		"ypos"	"c110"
+		"ypos"											"c110"
 	}	
-	////****************************************TargetID
+	////************************************************TargetID
 
-	////****************************************Damage Indicator	
+	////************************************************Damage Indicator	
 	HudDamageIndicator
 	{
-		"fieldName"		"HudDamageIndicator"
-		"visible"		"1"
-		"enabled"		"1"
-		"MinimumWidth"	"23"
-		"MaximumWidth"	"23"
-		"StartRadius"	"80"
-		"EndRadius"		"80"
-		"MinimumHeight"	"30"
-		"MaximumHeight"	"60"
-		"MinimumTime"	"1"
+		"fieldName"										"HudDamageIndicator"
+		"visible"										"1"
+		"enabled"										"1"
+		"MinimumWidth"									"23"
+		"MaximumWidth"									"23"
+		"StartRadius"									"80"
+		"EndRadius"										"80"
+		"MinimumHeight"									"30"
+		"MaximumHeight"									"60"
+		"MinimumTime"									"1"
 	}
-	////****************************************Damage Indicator	
+	////************************************************Damage Indicator	
 	
-	////****************************************Killfeed		
+	////************************************************Killfeed		
 	HudDeathNotice
 	{		
-		"xpos"	 				"r640"
-		"ypos"					"30"
-		"wide"	 				"637"
-		"TextFont"				"HudFontsmallbold"
-		"MaxDeathNotices"		"6"
-		"IconScale"				"0.24"
-		"LineHeight"			"12"
-		"LineSpacing"			"0.5"
-		"CornerRadius"			"0"
-		"LocalBackgroundColor"	"White"
-		"BaseBackgroundColor"	"Blank"
+		"xpos"											"r640"
+		"ypos"											"30"
+		"wide"											"637"
+		"TextFont"										"HudFontsmallbold"
+		"MaxDeathNotices"								"6"
+		"IconScale"										"0.24"
+		"LineHeight"									"12"
+		"LineSpacing"									"0.5"
+		"CornerRadius"									"0"
+		"LocalBackgroundColor"							"White"
+		"BaseBackgroundColor"							"Blank"
 	}
-	////****************************************Killfeed	
+	////************************************************Killfeed	
 
-	////****************************************Ammo		
+	////************************************************Ammo		
 	HudWeaponAmmo
 	{
-		"xpos"	"0"	
-		"ypos"	"0"	
-		"wide"	"f0"
-		"tall"	"480"
+		"xpos"											"0"	
+		"ypos"											"0"	
+		"wide"											"f0"
+		"tall"											"480"
 	}
-	////****************************************Ammo
+	////************************************************Ammo
 
-	////****************************************Demoman Bars	
+	////************************************************Demoman Bars	
 	HudDemomanCharge
 	{
-		"xpos"	"c-35"	
-		"ypos"	"c135"	
-		"wide"	"70"
-		"tall"	"5"
+		"xpos"											"c-35"	
+		"ypos"											"c135"	
+		"wide"											"70"
+		"tall"											"5"
 	}
 	HudDemomanPipes
 	{
-		"xpos"	"c-35"	
-		"ypos"	"c20"	
-		"wide"	"70"
-		"tall"	"150"		
+		"xpos"											"c-35"	
+		"ypos"											"c20"	
+		"wide"											"70"
+		"tall"											"150"		
 	}	
 	HudBowCharge
 	{
-		"xpos"			"9999"
+		"xpos"											"9999"
 	}	
-	////****************************************Demoman Bars	
+	////************************************************Demoman Bars	
 
-	////****************************************Metal, Health
+	////************************************************Metal, Health
 	CHudAccountPanel
 	{
-		"xpos"	"c-35"	
-		"ypos"	"c20"	
-		"wide"	"90"
-		"tall"	"15"			
+		"xpos"											"c-35"	
+		"ypos"											"c20"	
+		"wide"											"90"
+		"tall"											"15"			
 	}
 	CHealthAccountPanel
 	{
-		"xpos"	"c-170"		
-		"ypos"	"c50"	
-		"zpos"	"2"
-		"wide"	"160"
-		"tall"	"80"
+		"xpos"											"c-170"		
+		"ypos"											"c50"	
+		"zpos"											"2"
+		"wide"											"160"
+		"tall"											"80"
 	}	
-	////****************************************Metal, Health
+	////************************************************Metal, Health
 
 	//Win Panel	
 	WinPanel
 	{
-		"xpos"	"c-159"
-		"ypos"	"c60"
-		"wide"	"318"
-		"tall"	"150"
-		"Bgcolor_override""black"	
-		"border""QuickplayBorder"
+		"xpos"											"c-159"
+		"ypos"											"c60"
+		"wide"											"318"
+		"tall"											"150"
+		"Bgcolor_override"								"black"	
+		"border"										"QuickplayBorder"
 	}	
 	//mvm win-lost
 	PVEWinPanel
 	{
-		"xpos"					"c-145"
-		"ypos"					"235"
+		"xpos"											"c-145"
+		"ypos"											"235"
 	}	
-	////****************************************Win Panel	
+	////************************************************Win Panel	
 
-	////****************************************Menus		
+	////************************************************Menus		
 	"HudMenuSpyDisguise"
 	{
-		"xpos"	"c-190"
-		"ypos"	"c-20"
+		"xpos"											"c-190"
+		"ypos"											"c-20"
 	}
 	"HudMenuEngyBuild"
 	{
-		"xpos"	"c-125"
-		"ypos"	"c40"
-		"wide"	"450"
-		"tall"	"195"
+		"xpos"											"c-125"
+		"ypos"											"c40"
+		"wide"											"450"
+		"tall"											"195"
 	}
 	"HudMenuEngyDestroy"
 	{
-		"xpos"	"c-125"
-		"ypos"	"c40"
-		"wide"	"450"
-		"tall"	"195"
+		"xpos"											"c-125"
+		"ypos"											"c40"
+		"wide"											"450"
+		"tall"											"195"
 	}
 	"HudEurekaEffectTeleportMenu"
 	{
-		"xpos"	"c-125"
-		"ypos"	"c50"
-		"wide"	"250"
-		"tall"	"195"
+		"xpos"											"c-125"
+		"ypos"											"c50"
+		"wide"											"250"
+		"tall"											"195"
 	}
 	"HudMenuTauntSelection"
 	{
-		"xpos"	"c-235"
-		"ypos"	"c40"
+		"xpos"											"c-235"
+		"ypos"											"c40"
 	}
-	////****************************************Menus	
+	////************************************************Menus	
 
-	////****************************************Medic Charge	
+	////************************************************Medic Charge	
 	HudMedicCharge
 	{
-		"xpos"	"0"	
-		"ypos"	"0"	
-		"wide"	"f0"
-		"tall"	"480"
+		"xpos"											"0"	
+		"ypos"											"0"	
+		"wide"											"f0"
+		"tall"											"480"
 	}	
-	////****************************************Medic Charge	
+	////************************************************Medic Charge	
 }

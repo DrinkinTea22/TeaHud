@@ -1,14 +1,10 @@
-// Fixes possible bugged animations.
+////************************************************Animation Fixer.
 event HudSnapShotReminderIn
-{
-	//Animate ScreenshotPanel		Position	"c-83 -50"	Linear 0.0 0.001
-	//Animate ScreenshotPanel		Position	"c-83 13"	Spline 0.001 0.2
-	
-	RunEvent DamagedPlayerStop 0.0
-	RunEvent HudHealthBonusPulseStop 0.0
-	RunEvent HudHealthDyingPulseStop 0.0
-	RunEvent HudLowAmmoPulseStop 0.0
-	RunEvent HudMedicChargedStop 0.0
-
-    RunEvent HudStopAnimations 0.0
+{	
+	RunEvent DamagedPlayerStop						0.0
+	RunEvent HudHealthBonusPulseStop				0.0
+	RunEvent HudHealthDyingPulseStop				0.0
+	RunEvent HudLowAmmoPulseStop					0.0
+	RunEvent HudMedicChargedStop					0.0
+    RunEvent HudStopAnimations						0.0
 }

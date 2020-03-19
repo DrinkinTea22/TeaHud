@@ -1,13 +1,15 @@
+////************************************************MatchMacking Respawn Animation.
 event TeamStatus_PlayerDead
 {
-	SetVisible DeathPanel  0 0
-	SetVisible SkullPanel  0 0
-	Animate respawntime ypos -2 Linear 0 0.2
+	SetVisible DeathPanel							0 0
+	SetVisible SkullPanel							0 0
+	Animate											respawntime ypos -2 Linear 0 0.2
 }
 
+////************************************************MatchMacking Respawn Animation STOP.
 event TeamStatus_PlayerAlive
 {
-	SetVisible DeathPanel  0 0
-	SetVisible SkullPanel  0 0
-	Animate respawntime ypos 0 Linear 0 0.2
+	SetVisible DeathPanel							0 0
+	SetVisible SkullPanel							0 0
+	Animate											respawntime ypos 0 Linear 0 0.2
 }
