@@ -8,7 +8,15 @@
 		"ypos"										"116"
 		"wide"										"18"
 		"tall"										"18"
-	}						
+	}
+	"LevelBar"
+	{
+		"if_single_with_hills"
+		{
+			"ypos"			"120"
+			"tall"			"10"
+		}		
+	}		
 	"SimpleControlPointTemplate"					
 	{							
 		"xpos"										"65"		
@@ -21,7 +29,7 @@
 		"ypos"										"48"
 		"wide"										"52"		
 		"tall"										"75"	
-						
+
 		"RecedeTime"						
 		{								
 			"xpos"									"22"			
@@ -68,7 +76,7 @@
 			"ypos"									"8"
 			"wide"									"65"			
 			"tall"									"42"	
-									
+
 			"ProgressText"						
 			{							
 				"xpos"								"0"
