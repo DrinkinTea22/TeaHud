@@ -12,13 +12,13 @@
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"xpos"										"0"
-		"ypos"										"410"
+		"ypos"										"380"
 		"wide"										"f0"
 	}					
 	"DifficultyContainer"							
 	{							
 		"xpos"										"0"
-		"ypos"										"390"
+		"ypos"										"365"
 		"wide"										"f0"
 		"tall"										"20"
 		"visible"									"1"
