@@ -1,4 +1,5 @@
 #base "Def_Files/mainmenuoverride.res"
+#base "../../Customization/Enabled/Dev Hud.res"
 ////************************************************MainMenu.
 "Resource/UI/MainMenuOverride.res"
 {
