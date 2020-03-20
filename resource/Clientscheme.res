@@ -79,6 +79,10 @@ Scheme
 		"stat7"										"179 203 255 255"
 		"stat8"										"204 220 255 255"
 		"stat9"										"230 238 255 255"
+		
+		"ScoreboardKills"							"43 213 134 255"
+		"ScoreboardDeaths"							"200 14 55 255"
+		"ScoreboardStatsFG"							"153 185 255 255"
 		//*******************************************Customization Scheme
 	}
 	Borders
