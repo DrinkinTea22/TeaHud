@@ -119,5 +119,5 @@
 		"textAlignment"								"center"	
 		"labelText"									"%Ammo%"
 		"pin_to_sibling"							"AmmoNoClip"
-	}									
+	}
 }
