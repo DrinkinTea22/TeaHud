@@ -115,10 +115,11 @@
 	{
 		"font"										"HudFontMediumBold"
 		"textAlignment"								"west"
-		"xpos"										"c-310"
-		"ypos"										"c-150" 
-		"wide"										"310"
+		"xpos"										"-4"
+		"ypos"										"10" 
+		"wide"										"300"
 		"tall"										"15"
+		"pin_to_sibling"							"BluePlayerList"
 	}
 	"BlueTeamScoreDropshadow"
 	{
@@ -127,7 +128,7 @@
 		"textAlignment"								"west"
 		"xpos"										"-2"
 		"ypos"										"-2" 
-		"wide"										"310"
+		"wide"										"300"
 		"tall"										"15"
 		"bgcolor_override"							"MainBlue"
 		"pin_to_sibling" 							"BlueTeamScore"	
@@ -139,7 +140,7 @@
 		"xpos"										"c-310"
 		"ypos"										"c-148"
 		"zpos"										"5"
-		"wide"										"310"
+		"wide"										"300"
 		"tall"										"15"
 	}						
 	"BlueTeamLabel"						
@@ -156,10 +157,11 @@
 	{						
 		"font"										"HudFontMediumBold"
 		"textAlignment"								"east"
-		"xpos"										"c10"
-		"ypos"										"c-150"
-		"wide"										"310"
+		"xpos"										"-4"
+		"ypos"										"10" 
+		"wide"										"300"
 		"tall"										"15"
+		"pin_to_sibling"							"RedPlayerList"
 	}						
 	"RedTeamScoreDropshadow"						
 	{						
@@ -168,7 +170,7 @@
 		"textAlignment"								"east"
 		"xpos"										"-2"
 		"ypos"										"-2" 
-		"wide"										"310"
+		"wide"										"300"
 		"tall"										"15"
 		"bgcolor_override"							"MainRed"
 		"pin_to_sibling" 							"RedTeamScore"	
@@ -320,14 +322,18 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"LocalPlayerStatsPanel"
 		"xpos"										"c-310"
-		"xpos_minmode"								"c-190"	//laziest fix possible.	
 		"wide"										"620"
 
 		if_mvm							
 		{							
 			"visible"								"1"
-		}							
-
+		}
+		
+		"Kills"
+		{
+			"wide"									"0"
+			"tall"									"0"
+		}
 		"KillsLabel"							
 		{							
 			"font"									"Blank"
@@ -335,15 +341,11 @@
 		"DeathsLabel"							
 		{							
 			"font"									"Blank"
-		}											
-		"AssistsLabel"							
-		{							
-			"font"									"Blank"
-		}												
+		}	
 		"Assists"							
-		{							
-			"font"									"Blank"
-		}						
+		{
+			"font"									"Blank"							
+		}			
 		"DominationLabel"
 		{
 			"font"									"Blank"
@@ -363,17 +365,110 @@
 		"GameType"							
 		{								
 			"font"									"Blank"
-		}	
-		////****************************************Super Important INFO													
-		"Kills"
+		}							
+		"Deaths"						
 		{
-			"font"									"HudFontMediumBigBold"
-			"textAlignment"							"west"
-			"xpos"									"10"
-			"ypos"									"-10"
+			"wide"									"0"
+			"tall"									"0"
+		}											
+		"Healing"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}						
+		"Damage"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}													
+		"Invuln"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}											
+		"Headshots"						
+		{						
 			"wide"									"0"
 			"tall"									"0"
 		}							
+		"Backstabs"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}											
+		"Captures"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}																
+		"Defenses"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}																	
+		"Teleports"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}						
+		"Support"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}														
+		"Revenge"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}					
+		"Bonus"						
+		{						
+			"wide"									"0"
+			"tall"									"0"
+		}	
+		"divF"//dev stuff
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"divF"
+			"xpos"			"155"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"1"
+			"tall"			"50"
+			"visible"		"0"
+			"enabled"		"1"	
+			"fillcolor"		"white"
+			"PaintBackgroundType"	"0"
+		}	
+		"divS"//dev stuff
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"divS"
+			"xpos"			"310"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"1"
+			"tall"			"50"
+			"visible"		"0"
+			"enabled"		"1"	
+			"fillcolor"		"white"
+			"PaintBackgroundType"	"0"
+		}
+		"divT"//dev stuff
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"divT"
+			"xpos"			"465"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"1"
+			"tall"			"50"
+			"visible"		"0"
+			"enabled"		"1"	
+			"fillcolor"		"white"
+			"PaintBackgroundType"	"0"
+		}		
+		////****************************************Super Important INFO																				
 		"KillsFix"						
 		{						
 			"ControlName"							"CExLabel"
@@ -389,15 +484,6 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardKills"
-		}								
-		"Deaths"						
-		{						
-			"font"									"HudFontMediumBigBold"
-			"textAlignment"							"west"
-			"xpos"									"10"
-			"ypos"									"10"
-			"wide"									"0"
-			"tall"									"0"
 		}						
 		"DeathsFix"						
 		{						
@@ -414,389 +500,327 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardDeaths"
-		}													
-		"HealingLabel"						
-		{						
-			"font"									"HudFontSmallestBold"
+		}	
+		"AssistsLabel"							
+		{		
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"east"
 			"xpos"									"40"
 			"ypos"									"-10"
 			"wide"									"50"
-			"tall"									"50"
-		}											
-		"Healing"						
-		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"west"
-			"xpos"									"100"
-			"ypos"									"-10"
-			"wide"									"0"
-			"tall"									"0"
-		}						
-		"HealingFix"						
+			"tall"									"50"					
+		}				
+		"AssistsFix"						
 		{						
 			"ControlName"							"CExLabel"
-			"fieldName"								"HealingFix"
-			"font"									"HudFontSmallestBold"
-			"labelText"								"%Healing%"
-			"textAlignment"							"west"
-			"xpos"									"100"
-			"ypos"									"-10"
+			"fieldName"								"AssistsFix"
+			"font"									"HudFontSmallBold"
+			"labelText"								"%assists%"
+			"textAlignment"							"east"
+			"xpos"									"-30"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"AssistsLabel"
+		}													
+		"HealingLabel"						
+		{						
+			"font"									"HudFontSmallBold"
+			"textAlignment"							"east"
+			"xpos"									"40"
+			"ypos"									"0"
+			"wide"									"50"
+			"tall"									"50"
+		}					
+		"HealingFix"						
+		{						
+			"ControlName"							"CExLabel"
+			"fieldName"								"HealingFix"
+			"font"									"HudFontSmallBold"
+			"labelText"								"%Healing%"
+			"textAlignment"							"east"
+			"xpos"									"-30"
+			"ypos"									"0"
+			"zpos"									"3"
+			"wide"									"80"
+			"tall"									"50"
+			"visible"								"1"
+			"enabled"								"1"
+			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"HealingLabel"
 		}									
 		"DamageLabel"						
 		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"east"
 			"xpos"									"40"
 			"ypos"									"10"
 			"wide"									"50"
 			"tall"									"50"
-		}						
-		"Damage"						
-		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"west"
-			"xpos"									"100"
-			"ypos"									"10"
-			"wide"									"0"
-			"tall"									"0"
 		}						
 		"DamageFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"DamageFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%Damage%"
-			"textAlignment"							"west"
-			"xpos"									"100"
-			"ypos"									"10"
+			"textAlignment"							"east"
+			"xpos"									"-30"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
-		}
+			"pin_to_sibling"						"DamageLabel"
+		}		
 		////****************************************Super Important INFO
 		
 		////****************************************Important INFO
 		"InvulnLabel"
 		{
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"140"
-			"ypos"									"-10"
-			"wide"									"50"
-			"tall"									"50"
-		}													
-		"Invuln"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"200"
+			"xpos"									"160"
 			"ypos"									"-10"
-			"wide"									"0"
-			"tall"									"0"
-		}						
+			"wide"									"80"
+			"tall"									"50"
+		}							
 		"invulnsFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"invulnsFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%invulns%"
-			"textAlignment"							"west"
-			"xpos"									"200"
-			"ypos"									"-10"
+			"textAlignment"							"east"
+			"xpos"									"-65"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"InvulnLabel"
 		}											
 		"HeadshotsLabel"						
 		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"140"
-			"ypos"									"0"
-			"wide"									"50"
-			"tall"									"50"
-		}											
-		"Headshots"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"200"
+			"xpos"									"160"
 			"ypos"									"0"
-			"wide"									"0"
-			"tall"									"0"
+			"wide"									"80"
+			"tall"									"50"
 		}						
 		"HeadshotsFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"HeadshotsFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%Headshots%"
-			"textAlignment"							"west"
-			"xpos"									"200"
+			"textAlignment"							"east"
+			"xpos"									"-65"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"HeadshotsLabel"
 		}												
 		"BackstabsLabel"						
 		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"140"
-			"ypos"									"10"
-			"wide"									"50"
-			"tall"									"50"
-		}						
-		"Backstabs"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"200"
+			"xpos"									"160"
 			"ypos"									"10"
-			"wide"									"0"
-			"tall"									"0"
-		}						
+			"wide"									"80"
+			"tall"									"50"
+		}					
 		"backstabsFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"backstabsFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%backstabs%"
-			"textAlignment"							"west"
-			"xpos"									"200"
-			"ypos"									"10"
+			"textAlignment"							"east"
+			"xpos"									"-65"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"BackstabsLabel"
 		}
 		////****************************************Important INFO
 		
 		////****************************************Useless IMO		
 		"CapturesLabel"
 		{
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"240"
-			"ypos"									"-10"
-			"wide"									"50"
-			"tall"									"50"
-		}												
-		"Captures"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"300"
+			"xpos"									"315"
 			"ypos"									"-10"
-			"wide"									"0"
-			"tall"									"0"
-		}							
+			"wide"									"80"
+			"tall"									"50"
+		}								
 		"CapturesFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"CapturesFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%Captures%"
-			"textAlignment"							"west"
-			"xpos"									"300"
-			"ypos"									"-10"
+			"textAlignment"							"east"
+			"xpos"									"-65"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"CapturesLabel"
 		}									
 		"DefensesLabel"						
 		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"240"
-			"ypos"									"0"
-			"wide"									"50"
-			"tall"									"50"
-		}																
-		"Defenses"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"300"
+			"xpos"									"315"
 			"ypos"									"0"
-			"wide"									"0"
-			"tall"									"0"
-		}						
+			"wide"									"80"
+			"tall"									"50"
+		}							
 		"DefensesFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"DefensesFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%defenses%"
-			"textAlignment"							"west"
-			"xpos"									"300"
+			"textAlignment"							"east"
+			"xpos"									"-65"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"DefensesLabel"
 		}												
 		"TeleportsLabel"						
 		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"240"
-			"ypos"									"10"
-			"wide"									"50"
-			"tall"									"50"
-		}																		
-		"Teleports"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"300"
+			"xpos"									"315"
 			"ypos"									"10"
-			"wide"									"0"
-			"tall"									"0"
+			"wide"									"80"
+			"tall"									"50"
 		}						
 		"TeleportsFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"TeleportsFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%teleports%"
-			"textAlignment"							"west"
-			"xpos"									"300"
-			"ypos"									"10"
+			"textAlignment"							"east"
+			"xpos"									"-65"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"TeleportsLabel"
 		}		
 		////****************************************Useless IMO
 		
 		////****************************************Useless IMO
 		"SupportLabel"
 		{
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"340"
-			"ypos"									"-10"
-			"wide"									"50"
-			"tall"									"50"
-		}						
-		"Support"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"400"
+			"xpos"									"470"
 			"ypos"									"-10"
-			"wide"									"0"
-			"tall"									"0"
+			"wide"									"80"
+			"tall"									"50"
 		}						
 		"SupportFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"SupportFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%support%"
-			"textAlignment"							"west"
-			"xpos"									"400"
-			"ypos"									"-10"
+			"textAlignment"							"east"
+			"xpos"									"-65"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"SupportLabel"
 		}													
 		"RevengeLabel"						
 		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"340"
-			"ypos"									"0"
-			"wide"									"50"
-			"tall"									"50"
-		}														
-		"Revenge"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"400"
+			"xpos"									"470"
 			"ypos"									"0"
-			"wide"									"0"
-			"tall"									"0"
-		}						
+			"wide"									"80"
+			"tall"									"50"
+		}					
 		"RevengeFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"RevengeFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%Revenge%"
-			"textAlignment"							"west"
-			"xpos"									"400"
+			"textAlignment"							"east"
+			"xpos"									"-65"
 			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"RevengeLabel"
 		}						
 		"BonusLabel"						
 		{						
-			"font"									"HudFontSmallestBold"
-			"textAlignment"							"east"
-			"xpos"									"340"
-			"ypos"									"10"
-			"wide"									"50"
-			"tall"									"50"
-		}						
-		"Bonus"						
-		{						
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"textAlignment"							"west"
-			"xpos"									"400"
+			"xpos"									"470"
 			"ypos"									"10"
-			"wide"									"0"
-			"tall"									"0"
-		}						
+			"wide"									"80"
+			"tall"									"50"
+		}							
 		"BonusFix"						
 		{						
 			"ControlName"							"CExLabel"
 			"fieldName"								"BonusFix"
-			"font"									"HudFontSmallestBold"
+			"font"									"HudFontSmallBold"
 			"labelText"								"%bonus%"
-			"textAlignment"							"west"
-			"xpos"									"400"
-			"ypos"									"10"
+			"textAlignment"							"east"
+			"xpos"									"-65"
+			"ypos"									"0"
 			"zpos"									"3"
-			"wide"									"50"
+			"wide"									"80"
 			"tall"									"50"
 			"visible"								"1"
 			"enabled"								"1"
 			"Fgcolor"								"ScoreboardStatsFG"
+			"pin_to_sibling"						"BonusLabel"
 		}	
 		////****************************************Useless IMO						
 	}
@@ -806,7 +830,6 @@
 	"LocalPlayerDuelStatsPanel"
 	{
 		"xpos"										"c-310"
-		"xpos_minmode"								"c-190"	//laziest fix possible.	
 		"wide"										"620"
 
 		"DuelingLabel"						
