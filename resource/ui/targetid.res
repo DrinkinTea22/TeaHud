@@ -24,6 +24,46 @@
 		"draw_corner_width"							"0"
 		"draw_corner_height" 						"0"
 	}
+	"TargetIDBG_Spec_Blue"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"TargetIDBG_Spec_Blue"
+		"xpos"										"0"
+		"ypos"										"30"
+		"zpos"										"-1"
+		"wide"										"252"
+		"tall"	 									"30"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"../hud/color_panel_blu"
+		"image_lodef"								"../hud/color_panel_blu"
+		
+		"src_corner_height"							"25"
+		"src_corner_width"							"25"
+
+		"draw_corner_width"							"0"
+		"draw_corner_height" 						"0"
+	}
+	"TargetIDBG_Spec_Red"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"TargetIDBG_Spec_Red"
+		"xpos"										"0"
+		"ypos"										"30"
+		"zpos"										"-1"
+		"wide"										"252"
+		"tall"	 									"30"
+		"visible"									"0"
+		"enabled"									"1"
+		"image"										"../hud/color_panel_red"
+		"image_lodef"								"../hud/color_panel_red"
+
+		"src_corner_height"							"25"
+		"src_corner_width"							"25"
+
+		"draw_corner_width"							"0"
+		"draw_corner_height" 						"0"
+	}	
 	"TargetIDCsBackground"
 	{
 		"ControlName"								"ImagePanel"
@@ -38,28 +78,6 @@
 		"scaleImage"								"1"	
 		"fillcolor"									"TransparentLightBlack"
 	}	
-	"TargetIDBG_Spec_Blue"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"TargetIDBG_Spec_Blue"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	"TargetIDBG_Spec_Red"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"TargetIDBG_Spec_Red"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
 	
 	"TargetNameLabel"
 	{	

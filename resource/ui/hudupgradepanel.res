@@ -137,24 +137,22 @@
 		}
 		"CancelButton"
 		{
-			"border_defa							"QuickplayBorder"
-			"border_arme							"QuickplayBorder"
-			"PaintBorder							"1"
+			"border_default"						"QuickplayBorder"
+			"border_armed"							"QuickplayBorder"
+			"PaintBorder"							"1"
 		}							
 		"CloseButton"							
 		{							
-			"border_defa							"QuickplayBorder"
-			"border_arme							"QuickplayBorder"
-			"PaintBorder							"1"
+			"border_default"						"QuickplayBorder"
+			"border_armed"							"QuickplayBorder"
+			"PaintBorder"							"1"
 		}							
 		"RespecButton"							
-		{							
-			"ControlName							"CExButton"
-			"fieldName"								"RespecButton"
+		{						
 			"xpos"									"15"
-			"border_defa							"QuickplayBorder"
-			"border_arme							"QuickplayBorder"
-			"PaintBorder							"1"
+			"border_default"						"QuickplayBorder"
+			"border_armed"							"QuickplayBorder"
+			"PaintBorder"							"1"
 		}							
 	}								
 	"TipPanel"							
