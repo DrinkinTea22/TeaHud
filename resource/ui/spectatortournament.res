@@ -1,7 +1,6 @@
 #base "../../Customization/Enabled/spectatortournament 16x9.res"
 #base "../../Customization/Enabled/spectatortournament 16x10.res"
 #base "../../Customization/Enabled/spectatortournament 4x3.res"
-#base "../../Customization/Enabled/Remove InspectPanels.res"	
 #base "Def_Files/spectatortournament.res"
 ////************************************************Spectator Tournament Panel.
 "Resource/UI/SpectatorTournament.res"
@@ -133,11 +132,7 @@
 			"team1_player_delta_y"					"15"
 		}		
 	}
-	
-	"topbar"
-	{
-		"tall"										"0"
-	}		
+		
 	"ReinforcementsLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -157,6 +152,57 @@
 			"ypos"									"80"
 		}
 	}
+	"itempanel"							
+	{							
+		"ControlName"								"CItemModelPanel"
+		"fieldName"									"itempanel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"10"
+		"wide"										"190"
+		"tall"										"100"
+		"visible"									"0"
+		"bgcolor_override"							"Blank"
+		"PaintBackgroundType"						"0"
+		
+		"model_ypos"								"10"
+		"model_center_x"							"1"
+		"model_wide"								"60"
+		"model_tall"								"30"
+
+		"text_xpos"									"10"
+		"text_ypos"									"10"
+		"text_wide"									"170"
+		"text_center"								"1"
+	
+		"max_text_height"							"100"
+		"padding_height"							"0"
+		"resize_to_text"							"1"
+		"text_forcesize"							"2"
+		
+		"itemmodelpanel"
+		{
+			"fieldName"								"itemmodelpanel"
+			"use_item_rendertarget" 				"0"
+			"useparentbg"							"1"
+		}
+		"ItemLabel"
+		{	
+			"ControlName"							"Label"
+			"fieldName"								"ItemLabel"
+			"font"									"Blank"
+		}
+		"attriblabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"attriblabel"
+			"font"									"Blank"
+		}
+	}
+	"topbar"
+	{
+		"tall"										"0"
+	}	
 	"BuyBackLabel"//faster respawn label
 	{
 		"ypos"										"70"
