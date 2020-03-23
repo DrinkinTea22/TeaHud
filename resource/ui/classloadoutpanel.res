@@ -1,5 +1,4 @@
 #base "Def_Files/ClassLoadoutPanel.res"
-#base "../../Customization/Enabled/BackGround.res"
 
 ////*************************************************Specific Class L.
 "Resource/UI/FullLoadoutPanel.res"

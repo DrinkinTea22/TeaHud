@@ -1,5 +1,4 @@
 #base "Def_Files/CharInfoLoadoutSubPanel.res"
-#base "../../Customization/Enabled/BackGround.res"
 // inventary, classes, catalog, warpaints, etc.	[Buttons , positions, etc.]
 
 ////*************************************************Items MainMenu.

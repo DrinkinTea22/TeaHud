@@ -1,4 +1,3 @@
-#base "../../Customization/Enabled/BackGround.res"
 ////************************************************Item Selection [When you're in a specific class menu "loadout", then click an Item]
 "Resource/UI/ItemSelectionPanel.res"
 {

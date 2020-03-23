@@ -1,5 +1,4 @@
 #base 	"Def_Files/CharInfoArmorySubPanel.res"	
-#base "../../Customization/Enabled/BackGround.res"
 
 ////*************************************************Catalog Panel.
 "Resource/UI/CharInfoArmorySubPanel.res"

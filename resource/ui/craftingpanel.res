@@ -1,5 +1,4 @@
 #base "Def_Files/CraftingPanel.res"
-#base "../../Customization/Enabled/BackGround.res"
 
 ////*************************************************Craft Panel.
 "Resource/UI/CraftingPanel.res"

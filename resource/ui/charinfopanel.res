@@ -1,5 +1,4 @@
 #base "../Tools/reloadscheme_button.res"
-#base "../../Customization/Enabled/BackGround.res"
 
 ////*************************************************Items MainMenu [Lower Buttons].
 "Resource/UI/CharInfoPanel.res"
