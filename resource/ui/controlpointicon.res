@@ -45,15 +45,15 @@
 		"ControlName"								"Label"
 		"fieldName"									"CapNumPlayers"
 		"font"										"HudFontMediumSmallBold"
-		"xpos"										"0"
+		"xpos"										"10"
 		"ypos"										"4"
 		"zpos"										"4"
-		"wide"										"f0"
+		"wide"										"30"
 		"tall"										"21"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#ControlPointIconCappers"
-		"textAlignment"								"center"
+		"textAlignment"								"west"
 	}							
 	"OverlayImage"							
 	{							
