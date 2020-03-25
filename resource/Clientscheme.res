@@ -159,12 +159,49 @@ Scheme
 		{
 			"1"
 			{
-				"name"								"Renogare"
-				"tall"								"26"
-				"antialias" 						"1"
-				"outline"							"1"
+				"name"			"Renogare"
+				"tall"			"16"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"480 599"
+				"dropshadow" 	"1"
 			}
-		}	
+			"2"
+			{
+				"name"			"Renogare"
+				"tall"			"22"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"600 767"
+				"antialias"		"1"
+				"dropshadow" 	"1"
+			}
+			"3"
+			{
+				"name"			"Renogare"
+				"tall"			"28"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"768 1023"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+			"4"
+			{
+				"name"			"Renogare"
+				"tall"			"28"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1024 1199"
+				"antialias"		"1"
+				"dropshadow" 	"1"
+			}
+			"5"
+			{
+				"name"			"Renogare"
+				"tall"			"28"
+				"range"			"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"			"1200 6000"
+				"antialias"		"1"
+				"dropshadow" 	"1"
+			}
+		}		
 		"Default"			//scoreboard font [names, scores, ping] THEIR VALUES
 		{
 			"1"
