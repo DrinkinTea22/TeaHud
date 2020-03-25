@@ -100,7 +100,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisguiseTitle"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallBold"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"center"
 		"xpos"			"0"

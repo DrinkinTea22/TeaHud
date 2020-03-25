@@ -55,7 +55,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallBold"
 		"fgcolor"		"White"
 		"xpos"			"15"
 		"ypos"			"82"
