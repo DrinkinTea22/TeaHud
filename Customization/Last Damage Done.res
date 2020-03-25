@@ -1,6 +1,5 @@
-////************************************************Custom Damage Numbers.
-
 #base "../../resource/ui/_PIN.res"
+////************************************************Custom Damage Numbers.
 "Resource/UI/HudDamageAccount.res"
 {
 	"DamageAccountValue"
