@@ -141,8 +141,8 @@
 		{						
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
-			"xpos"									"113"
-			"ypos"									"0"
+			"xpos"									"113+2"
+			"ypos"									"-1"
 			"wide"									"34"
 			"tall"									"31"
 			"visible"								"1"

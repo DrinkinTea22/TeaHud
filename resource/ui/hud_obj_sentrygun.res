@@ -95,16 +95,17 @@
 		{						
 			"ControlName"							"CBuildingStatusAlertTray"
 			"fieldName"								"AlertTray"
-			"ypos"									"0-2"
+			"ypos"									"0-3"
 			"ypos"									"0"
 			"wide"									"44"
-			"tall"									"46"
+			"tall"									"47"
 		}						
 		"WrenchIcon"						
 		{						
 			"ControlName"							"CIconPanel"
 			"fieldName"								"WrenchIcon"
-			"ypos"									"12"
+			"xpos"									"126"			
+			"ypos"									"11"
 			"wide"									"20"
 			"tall"									"24"
 		}						

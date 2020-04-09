@@ -1,4 +1,4 @@
-////************************************************Casual Search Settings.
+////************************************************Casual Panel Settings.
 "Resource/UI/MatchmakingCasualCriteria.res"
 {
 	"PlaylistBGPanel"
@@ -21,21 +21,31 @@
 			"xpos" 									"9999" 
 			"matchgroup"							"MatchGroup_Casual_12v12"
 		}
-	
+		"ShowExplanationsButton"
+		{
+			"ControlName"							"CExButton"
+			"fieldName"								"ShowExplanationsButton"
+			"xpos" 									"9999"
+		}
+		"PlayListDropShadow"
+		{
+			"ControlName"							"EditablePanel"
+			"fieldName"								"PlayListDropShadow"
+			"border"								"noborder"
+		}	
 		"RankPanel"
 		{
 			"ControlName"							"CPvPRankPanel"
 			"fieldName"								"RankPanel"
 			"xpos"									"-70"
 			"ypos"									"-35"
-			"zpos"									"100"
-			"wide"									"330"
-			"tall"									"92"
+			"zpos"									"0"
+			"wide"									"0"
+			"tall"									"0"
 			"visible"								"1"
 			"proportionaltoparent"					"1"
 			"mouseinputenabled"						"0"
 			"matchgroup"							"MatchGroup_Casual_12v12"
-
 			"show_model"							"0"
 			"show_name"								"0"
 		}
@@ -44,8 +54,8 @@
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"RestoreCasualSearchCriteria"
-			"xpos"									"rs1-49"
-			"ypos"									"49"
+			"xpos"									"rs1-23"
+			"ypos"									"50"
 			"zpos"									"100"
 			"wide"									"15"
 			"tall"									"o1"
@@ -85,13 +95,12 @@
 				"scaleImage"						"1"
 			}
 		}
-
 		"SaveCasualSearchCriteria"
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"SaveCasualSearchCriteria"
-			"xpos"									"rs1-29"
-			"ypos"									"49"
+			"xpos"									"rs1-7"
+			"ypos"									"50"
 			"zpos"									"100"
 			"wide"									"15"
 			"tall"									"o1"
@@ -132,41 +141,34 @@
 			}
 		}
 
-		"ShowExplanationsButton"
-		{
-			"ControlName"							"CExButton"
-			"fieldName"								"ShowExplanationsButton"
-			"xpos" 									"9999"
-		}
-
 		"Title"
 		{
 			"ControlName"							"Label"
 			"fieldName"								"Title"
-			"xpos"									"10"
-			"ypos"									"47"
+			"xpos"									"0"
+			"ypos"									"20"
 			"zpos"									"0"
 			"wide"									"f0"
 			"tall"									"20"
 			"proportionaltoparent"					"1"
 			"labeltext"								"#TF_Casual_MapSelection"
-			"textAlignment"							"Left"
-			"font"									"HudFontMediumSmallBold"
+			"textAlignment"							"center"
+			"font"									"HudFontMediumBold"
 			"mouseinputenabled"						"0"
+			"fgcolor_override"						"White"
 		}
-
 		"SelectedCount"
 		{
 			"ControlName"							"Label"
 			"fieldName"								"SelectedCount"
-			"xpos"									"10"
-			"ypos"									"33"
+			"xpos"									"0"
+			"ypos"									"40"
 			"zpos"									"0"
 			"wide"									"f0"
 			"tall"									"20"
 			"proportionaltoparent"					"1"
 			"labeltext"								"%selected_maps_count%"
-			"textAlignment"							"west"
+			"textAlignment"							"center"
 			"font"									"ItemFontNameLarge"
 			"fgcolor_override"						"White"
 			"mouseinputenabled"						"1"
@@ -189,13 +191,6 @@
 			"textinsetx"							"5"
 			"visible"								"0"
 			"mouseinputenabled"						"0"
-		}
-
-		"PlayListDropShadow"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"PlayListDropShadow"
-			"border"								"noborder"
 		}
 
 		"GameModesList"
@@ -228,7 +223,6 @@
 				{
 					"fgcolor_override"				"White"
 				}
-		
 				"UpButton"
 				{
 					"ControlName"					"Button"

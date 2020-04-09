@@ -14,13 +14,12 @@
 		"proportionaltoparent"						"1"
 		"bgcolor_override"							"blank"
 		"border"									"NoBorder"
-	}		
-
+	}	
 	"Title"
 	{
 		"ControlName"								"Label"
 		"fieldName"									"Title"
-		"xpos"										"8"
+		"xpos"										"0"
 		"ypos"										"20"
 		"zpos"										"99"
 		"wide"										"f0"
@@ -32,10 +31,9 @@
 		"fgcolor_override"							"White"
 		"mouseinputenabled"							"0"
 	}
-
 	"playlist"
 	{
-	//	"ControlName"								"CTFPlaylistPanel"
+		"ControlName"								"CTFPlaylistPanel"
 		"fieldName"									"playlist"
 		"xpos"										"8"
 		"ypos"										"50"
@@ -45,7 +43,6 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 	}
-
 	"PlayListDropShadow"
 	{
 		"ControlName"								"EditablePanel"
