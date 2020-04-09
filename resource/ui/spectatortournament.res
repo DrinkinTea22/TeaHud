@@ -2,6 +2,7 @@
 #base "../../Customization/Enabled/spectatortournament 16x10.res"
 #base "../../Customization/Enabled/spectatortournament 4x3.res"
 #base "Def_Files/spectatortournament.res"
+#base "_StreamerMode.res"
 ////************************************************Spectator Tournament Panel.
 "Resource/UI/SpectatorTournament.res"
 {

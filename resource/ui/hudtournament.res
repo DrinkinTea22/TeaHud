@@ -1,26 +1,19 @@
 #base 	"Def_Files/HudTournament.res"
+#base "_StreamerMode.res"
 ////************************************************Tournament Stuff
 "Resource/UI/HudTournament.res"
 {
 	HudTournament
 	{
-		"ypos"										"20"	
-	}							
+		"ypos"										"20"
+	}	
+
+	////********************************************BGs.	
 	"HudTournamentBG"							
 	{							
-		"ypos"										"9999"
 		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"		
-	}							
-	"TournamentLabel"							
-	{								
-		"font"										"HudFontSmall"
-		"ypos"										"3+5"		
-		"textAlignment"								"center"
-	}
-
+		"wide"										"0"	
+	}	
 	"HudTournamentBLUEBG"
 	{
 		"src_corner_height"							"25"
@@ -47,6 +40,22 @@
 		"draw_corner_width"							"0"
 		"draw_corner_height"						"0"	
 		"border"									"QuickplayBorder"
+	}
+	"CountdownBG"
+	{
+		"src_corner_height"							"25"
+		"src_corner_width"							"25"
+		"draw_corner_width"							"0"
+		"draw_corner_height"						"0"	
+	}	
+	////********************************************BGs.
+	
+	////********************************************Labels.
+	"TournamentLabel"							
+	{								
+		"font"										"HudFontSmall"
+		"ypos"										"3+5"		
+		"textAlignment"								"center"
 	}	
 	"TournamentBLUELabel"
 	{
@@ -67,7 +76,9 @@
 	"TournamentConditionLabel"					
 	{					
 		"font"										"HudFontSmallest"
-		"ypos"										"32"
+		"xpos"										"0"
+		"ypos"										"40"
+		"tall"										"10"
 		"textAlignment"								"center"
 
 		if_competitive					
@@ -81,7 +92,6 @@
 			"ypos"									"26"
 		}
 	}
-
 	"TournamentInstructionsLabel"
 	{
 		"font"										"HudFontSmallestBold"
@@ -119,7 +129,6 @@
 			"zpos"									"3"
 		}
 	}
-	
 	"TournamentInstructionsLabelShadow"
 	{
 		"visible"									"0"
@@ -137,13 +146,8 @@
 			"visible"								"0"
 		}
 	}
-	"CountdownBG"
-	{
-		"src_corner_height"							"25"
-		"src_corner_width"							"25"
-		"draw_corner_width"							"0"
-		"draw_corner_height"						"0"	
-	}
+	////********************************************Labels.
+	
 	"CountdownLabel"
 	{			
 	}

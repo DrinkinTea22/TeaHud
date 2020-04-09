@@ -439,6 +439,7 @@
 			"controlName"							"CExButton"
 			"FieldName"								"Name"
 			"xpos"									"40"
+			"xpos_minmode"							"9999"
 			"ypos"									"138"
 			"tall"									"0"
 			"visible"								"1"	

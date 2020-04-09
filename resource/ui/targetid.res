@@ -1,3 +1,4 @@
+#base "_StreamerMode.res"
 ////************************************************TargetID Panel.
 "Resource/UI/TargetID.res"
 {

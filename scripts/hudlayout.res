@@ -2,6 +2,17 @@
 #base "../Customization/Enabled/Transparent Viewmodels.res"
 "Resource/HudLayout.res"
 {
+	////*************************************************Streamer Mode.
+	HudVoiceStatus
+	{
+		"text_xpos_minmode"								"9999"
+	}
+	HudSpectatorExtras
+	{
+		"player_name_font_minmode"						"Blank"
+	}
+	////*************************************************Streamer Mode.
+	
 	////*************************************************TargetID
 	CMainTargetID
 	{
@@ -40,6 +51,7 @@
 		"ypos"											"30"
 		"wide"											"637"
 		"TextFont"										"HudFontsmallbold"
+		"TextFont_minmode"								"Blank"
 		"MaxDeathNotices"								"6"
 		"IconScale"										"0.24"
 		"LineHeight"									"12"
@@ -106,7 +118,7 @@
 		"ypos"											"c60"
 		"wide"											"318"
 		"tall"											"150"
-		"Bgcolor_override"								"black"	
+		"Bgcolor_override"								"TransparentLightBlack"	
 		"border"										"QuickplayBorder"
 	}	
 	//mvm win-lost

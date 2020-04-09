@@ -1,6 +1,6 @@
 #base "Def_files/ScoreBoard.res"	
+#base "_StreamerMode.res"
 ////************************************************Scoreboard	
-//use this commands "net_graphheight 44;net_graphproportionalfont 0"
 "Resource/UI/Scoreboard.res"
 {
 	"scores"

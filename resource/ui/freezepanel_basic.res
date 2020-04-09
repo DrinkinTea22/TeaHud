@@ -1,3 +1,4 @@
+#base "_StreamerMode.res"
 ////*************************************************"Your Killer" Panel.
 "Resource/UI/FreezePanel_Basic.res"
 {

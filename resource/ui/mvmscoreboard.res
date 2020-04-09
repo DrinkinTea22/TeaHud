@@ -1,4 +1,5 @@
 #base 	"Def_Files/MvMScoreboard.res"
+#base "_StreamerMode.res"
 ////************************************************MVM Scoreboard.
 "Resource/UI/MvMScoreboard.res"
 {		

@@ -1,3 +1,4 @@
+#base "_StreamerMode.res"
 ////*************************************************Disguised Panel.
 "Resource/UI/ItemModelPanel.res"
 {

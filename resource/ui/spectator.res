@@ -1,3 +1,4 @@
+#base "_StreamerMode.res"
 ////************************************************Spectator "Casual" Panel.
 "Resource/UI/Spectator.res"
 {

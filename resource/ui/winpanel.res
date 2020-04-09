@@ -1,3 +1,4 @@
+#base "_StreamerMode.res"
 ////************************************************Win Panel
 "Resource/UI/winpanel.res"
 {
@@ -265,7 +266,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"TopPlayerLabel"
 		"font"										"HudFontSmallestBold"
-		"xpos"										"0"
+		"xpos"										"5"
 		"ypos"										"70"
 		"zpos"										"3"
 		"wide"										"318"
@@ -293,7 +294,7 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PointsThisRoundLabel"
 		"font"										"HudFontSmallestBold"
-		"xpos"										"159"
+		"xpos"										"154"
 		"ypos"										"70"
 		"zpos"										"3"
 		"wide"										"159"

@@ -1,5 +1,6 @@
 #base "Def_Files/mainmenuoverride.res"
-#base "../../Customization/Enabled/Dev Hud.res"
+#base "../../Customization/Enabled/Custom Panel.res"
+#base "_StreamerMode.res"
 ////************************************************MainMenu.
 "Resource/UI/MainMenuOverride.res"
 {
@@ -62,6 +63,10 @@
 	{							
 		"xpos"										"9999"
 	}		
+	"SafeMode"
+	{
+		"xpos"										"9999"
+	}
 	
 	"Pin"
 	{
@@ -113,7 +118,7 @@
 		"xpos"										"0"
 		"ypos"										"r55"
 		"wide"										"f0"
-	}	
+	}		
 	"CycleRankTypeButton"
 	{
 		"xpos"										"0"
@@ -147,20 +152,6 @@
 		"xpos"										"0"
 		"ypos"										"-10"
 		"pin_to_sibling"							"NoGCMessage"		
-	}		
-	"CsBackGround"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"CsBackGround"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"-100"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"Image"										"../vgui/inner_shadow_border"	//outer_shadow_border
-		"scaleImage"								"1"		
 	}	
 	"Servers"
 	{		
@@ -286,14 +277,14 @@
 	{		
 		"ControlName"								"CExButton"
 		"fieldName"									"Store"
-		"labelText"									"#TF_TrialNeedSpace_Store"
+		"labelText"									"#MMenu_StoreHighlightPanel_Title"
 		"font"										"HudFontMediumSmallBold"
 		"zpos"										"10"
 		"auto_wide_tocontents" 						"1"	
 		"auto_tall_tocontents" 						"1"			
 		"xpos"										"0"
 		"ypos"										"-20"	
-		"textAlignment"								"center"			
+		"textAlignment"								"center"
 		
 		"defaultFgColor_override" 					"White"
 		"armedFgColor_override" 					"MainBlue"	
@@ -585,7 +576,7 @@
 			"xpos"									"6"
 		}	
 	}	
-
+	
 	"Promotion"
 	{
 		"ControlName"								"CExLabel"
