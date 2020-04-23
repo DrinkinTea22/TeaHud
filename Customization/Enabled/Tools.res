@@ -29,6 +29,43 @@
 
 		"pin_to_sibling" 											"Pin"		
 	}
+	"template"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"template"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"15"
+		"wide"										"150"
+		"tall"										"14"
+		"visible"									"0"
+		
+		"pin_to_sibling" 							"value"
+		
+		"SubButton"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"SubButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"150"
+			"tall"									"14"
+			"visible"								"1"
+			"enabled"								"1"
+			"use_proportional_insets" 				"1"
+			"font"									"font"
+			"textAlignment"							"west"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+			
+			"paintbackground"						"0"
+			"paintborder"							"0"
+			
+			"defaultFgColor_override" 				"White"
+			"armedFgColor_override" 				"Menu Labels"
+			"depressedFgColor_override" 			"Menu Labels"
+		}
+	}	
 	//shortcuts template	
 2.	//Use of #base 
 	#base 	"Def_Files/NAMEFILE.res"
