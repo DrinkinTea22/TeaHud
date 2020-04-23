@@ -65,10 +65,10 @@ Scheme
 		"MainRedHover"								"192 56 63 155"			//Main Red Color Hover	
 		"MainBlue"									"92 128 166 255"		//Main Blue Color 		
 		"MainBlueHover"								"92 128 166 155"		//Main Blue Color Hover	 
-			
+
 		"Positive"									"130 165 198 255"		//Positive metal, Health		  			
 		"Negative"									"200 14 55 255"			//Negative metal, Health
-			
+
 		"ClassBG"									"59 74 93 255"
 		"stat1"										"26 98 255 255"
 		"stat2"										"51 116 255 255"
@@ -107,28 +107,28 @@ Scheme
 			{
 				"1"
 				{
-					"color"							"white"
+					"color"							"120 120 120 155"
 				}	
 			}	
 			Right	
 			{	
 				"1"	
 				{	
-					"color"							"white"
+					"color"							"120 120 120 155"
 				}	
 			}	
 			Top	
 			{	
 				"1"	
 				{	
-					"color"							"white"
+					"color"							"120 120 120 155"
 				}	
 			}	
 			Bottom	
 			{	
 				"1"	
 				{	
-					"color"							"white"
+					"color"							"120 120 120 155"
 				}
 			}
 		}		
