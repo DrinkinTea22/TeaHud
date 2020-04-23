@@ -132,34 +132,36 @@
 	////************************************************Menus		
 	"HudMenuSpyDisguise"
 	{
-		"xpos"											"c-190"
-		"ypos"											"c-20"
+		"xpos"											"c100"
+		"ypos"											"c-40"
 	}
 	"HudMenuEngyBuild"
 	{
-		"xpos"											"c-125"
-		"ypos"											"c40"
-		"wide"											"450"
-		"tall"											"195"
+		"xpos"											"c110"
+		"ypos"											"c-60"
+		"wide"											"100"
+		"tall"											"200"
 	}
 	"HudMenuEngyDestroy"
 	{
-		"xpos"											"c-125"
-		"ypos"											"c40"
-		"wide"											"450"
-		"tall"											"195"
+		"xpos"											"c110"
+		"ypos"											"c-60"
+		"wide"											"100"
+		"tall"											"200"
 	}
 	"HudEurekaEffectTeleportMenu"
 	{
-		"xpos"											"c-125"
-		"ypos"											"c50"
-		"wide"											"250"
-		"tall"											"195"
+		"xpos"											"c110"
+		"ypos"											"c-60"
+		"wide"											"100"
+		"tall"											"200"
 	}
 	"HudMenuTauntSelection"
 	{
-		"xpos"											"c-235"
-		"ypos"											"c40"
+		"xpos"											"c110"
+		"ypos"											"c-60"
+		"wide"											"100"
+		"tall"											"200"
 	}
 	////************************************************Menus	
 
