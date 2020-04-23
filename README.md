@@ -3,8 +3,10 @@ a HUD for TF2
 
 Select your current screen resolution in **"TeaHud/Customization/"** otherwise **SpectatorTournament** will not work properly.
 
+[Screentshots](https://imgur.com/a/80qQmgB)
+
 # Customizations:
-1.  Last Damage Done + SpectatorTournament hud + Transparent Viewmodels
+1.  Last Damage Done + SpectatorTournament hud + Transparent Viewmodels + Custom Panel
 2. Colors: Go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors used in the hud.
 
 |**Gamemodes**|**Support**|
@@ -25,8 +27,6 @@ Select your current screen resolution in **"TeaHud/Customization/"** otherwise *
 # Credits to the following people:
 
 -Eniere **Improved Default Hud** SpectatorTournament layout
-
--Griever **Toonhud** SourceScheme
 
 # HUGE THANKS TO:
 
