@@ -1,26 +1,57 @@
-#base "Def_Files/ClassLoadoutPanel.res"
-
-////*************************************************Specific Class L.
+////************************************************Main Class Loadout Screen.
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"class_loadout_panel"
-	{	
+	{
+		"ControlName"								"Frame"
+		"fieldName"									"class_loadout_panel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"visible"									"1"
+		"enabled"									"1"
+		"settitlebarvisible"						"0"
+		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"MenuBGColor"
-		"item_ydelta"								"76"
+		"infocus_bgcolor_override"					"46 43 42 255"
+		"outoffocus_bgcolor_override"				"46 43 42 255"
+		
+		"item_xpos_offcenter_a"						"-310"
+		"item_xpos_offcenter_b"						"165"
+		"item_ypos"									"20"	//ypos from any weapon panel
+		"item_ydelta"								"86"	//div 
+		"item_mod_wide"								"40"
+		
+		"item_backpack_offcenter_x"					"-288"
+		"item_backpack_xdelta"						"4"
+		"item_backpack_ydelta"						"3"
+
+		"button_xpos_offcenter"						"175"		
+		"button_ypos"								"85"
+		"button_ydelta"								"80"
+		"button_override_delete_xpos"				"0"
 		
 		"modelpanels_kv"
 		{
 			"ControlName"							"CItemModelPanel"
 			"xpos"									"c-70"
 			"ypos"									"270"
-			"wide"									"140"
-			"tall"									"75"
+			"wide"									"150"
+			"tall"									"85"
 			"visible"								"0"
-			"bgcolor_override"						"0 0 0 0"
+			"bgcolor_override"						"blank"
 			"noitem_textcolor"						"117 107 94 255"
-			"PaintBackgroundType"					"0"
+			"PaintBackgroundType"					"2"
 			"paintborder"							"1"
-			"model_tall"							"45"
+			
+			"model_center_x"						"1"
+			"model_center_y"						"1"
+			"model_ypos"							"0"	
+			"model_wide"							"65"		
+			"model_tall"							"38"
+			"text_ypos"								"60"
+			"text_center"							"1"
+			"name_only"								"1"
 			
 			"attriblabel"
 			{
@@ -29,102 +60,139 @@
 			}
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" 			"0"
+				"use_item_rendertarget"				"0"
 				"allow_rot"							"0"
 			}
 		}
 
 		"itemoptionpanels_kv"
 		{
-			"wide"									"16"		
-			"font"									"HudFontSmallishBold"		
-			"border_default"						"QuickplayBorder"
-			"border_armed"							"QuickplayBorder"
-			"paintborder"							"1"	
+			"ControlName"							"CExButton"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"1"
+			"wide"									"14"
+			"tall"									"14"
+			"visible"								"0"
+			"enabled"								"1"
+			"labelText"								"+"
+			"font"									"HudFontSmallestBold"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"default"								"1"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
 		}
 	}
-	
-	"ItemOptionsPanel"
+	"ClassLabel"
 	{
-		"paintbackgroundtype"						"0"
-		"bgcolor_override"							"BackpackPopupBGColor"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-	}							
-	"TauntLoadoutButton"					
-	{					
-		"xpos"										"c-168"
-		"ypos"										"c-180"	
-		"border_default"							"QuickplayBorder"       
-		"border_armed"								"QuickplayBorder"	 		
-	}
-	"CharacterLoadoutButton"
-	{
-		"ControlName"								"CExImageButton"
-		"fieldName"									"CharacterLoadoutButton"
-		"labelText"									""
-		"xpos"										"c-168"
-		"ypos"										"c-156"	
-		"border_default"							"QuickplayBorder"       
-		"border_armed"								"QuickplayBorder"	 		
-	}								
-	"ClassLabel"							
-	{							
+		"ControlName"								"CExLabel"
+		"fieldName"									"ClassLabel"
+		"font"										"HudFontMediumBold"
+		"labelText"									"#ClassBeingEquipped"
+		"textAlignment"								"west"
 		"xpos"										"c-310"
-	}							
-	"TauntLabel"							
-	{							
-		"xpos"										"c65"
-		"textAlignment"								"east"	
-	}							
-	"classmodelpanel"							
-	{							
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"150"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+	}
+	"TauntLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"TauntLabel"
+		"font"										"HudFontMediumBold"
+		"labelText"									"#TF_Taunt"
+		"textAlignment"								"east"
+		"xpos"										"c165"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"150"
+		"tall"										"20"
+		"visible"									"1"
+		"enabled"									"1"
+	}			
+	"classmodelpanel"
+	{
+		"ControlName"								"CTFPlayerModelPanel"
+		"fieldName"									"classmodelpanel"
+		
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"-1"		
 		"wide"										"f0"
-		"tall"										"400"
+		"tall"										"340"
 		"visible"									"1"
-		"enabled"									"1"	
-		"fov"										"80"
-		"allow_manip" 								"1"	//this makes everything bellow WORK
+		"enabled"									"1"
+		
+		"render_texture"							"0"
+		"fov"										"70"
+		"allow_rot"									"1"
+		"allow_manip"								"1"	//this makes everything bellow WORK
+
+		"model"
+		{
+			"force_pos"								"1"
+
+			"angles_x"								"0"
+			"angles_y"								"170"
+			"angles_z"								"0"
+			"origin_x"								"190"
+			"origin_y"								"0"
+			"origin_z"								"-48"
+			"frame_origin_x"						"0"
+			"frame_origin_y"						"0"
+			"frame_origin_z"						"0"
+			"spotlight"								"1"
+		
+			"modelname"								""
+		}
 	}
-	"ToggleToRED"
+	"c_red"
 	{		
-		"ControlName"								"CExImageButton"
-		"fieldName"									"ToggleToRED"
-		"labelText"									"None"
-		"font"										"Blank"
+		"ControlName"								"CExButton"
+		"fieldName"									"c_red"
+		"labelText"									""
+		"font"										"HudFontSmallBold"
 		"zpos"										"10"
-		"wide"										"25"
-		"tall"										"12"
-		"xpos"										"c-168"
-		"ypos"										"c-131"	
-		"textAlignment"								"center"			
-		"Bgcolor_Override"							"MainRed"
-		"defaultbgColor_override" 					"MainRed"
-		"armedBgColor_override" 					"MainRedHover"	
-		"paintbackground"							"1"
-		"Command"									"sv_cheats 1; r_skin 0"		
+		"wide" 										"25"	
+		"tall" 										"15"		
+		"xpos"										"0"
+		"ypos"										"-25"	
+		"textAlignment"								"center"
+		"DefaultBgColor_override"					"MainRed"
+		
+		"Command"									"sv_cheats 1; r_skin 0"
+
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"	
+		
+		"pin_to_sibling"							"CharacterLoadoutButton"	
 	}
-	"ToggleToBLU"
+	"c_blue"
 	{		
-		"ControlName"								"CExImageButton"
-		"fieldName"									"ToggleToBLU"
-		"labelText"									"None"
-		"font"										"Blank"
+		"ControlName"								"CExButton"
+		"fieldName"									"c_blue"
+		"labelText"									""
+		"font"										"HudFontSmallBold"
 		"zpos"										"10"
-		"wide"										"25"
-		"tall"										"12"
-		"xpos"										"c-168"
-		"ypos"										"c-119"
-		"textAlignment"								"center"			
-		"Bgcolor_Override"							"MainBlue"
-		"defaultBgColor_override" 					"MainBlue"
-		"armedBgColor_override" 					"MainBlueHover"	
-		"paintbackground"							"1"
-		"Command"									"sv_cheats 1; r_skin 1"		
-	}	
+		"wide"										"25"	
+		"tall"										"15"		
+		"xpos"										"0"
+		"ypos"										"-25"	
+		"textAlignment"								"center"
+		"DefaultBgColor_override"					"MainBlue"
+		
+		"Command"									"sv_cheats 1; r_skin 1"
+
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"	
+		
+		"pin_to_sibling"							"TauntLoadoutButton"	
+	}
 	"ZoomButton"
 	{
 		"ControlName"								"CExLabel"
@@ -137,8 +205,6 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
@@ -155,8 +221,6 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
@@ -173,8 +237,6 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
@@ -191,8 +253,6 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
@@ -209,8 +269,6 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
@@ -227,8 +285,6 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
@@ -245,8 +301,6 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
@@ -263,46 +317,197 @@
 		"zpos"										"15"
 		"wide"										"75"
 		"tall"										"10"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override"							"Blank"
-	}	
+	}		
 	"mouseoveritempanel"
 	{
-	}
-	
-	"CaratLabel"
-	{
-		"ypos"										"9999"
-		"tall"										"0"
-		"wide"										"0"
+		"ControlName"								"CItemModelPanel"
+		"fieldName"									"mouseoveritempanel"
+		"xpos"										"c-70"
+		"ypos"										"270"
+		"zpos"										"100"
+		"wide"										"300"
+		"tall"										"300"
 		"visible"									"0"
-		"enabled"									"0"
+		"bgcolor_override"							"blank"
+		"noitem_textcolor"							"117 107 94 255"
+		"PaintBackgroundType"						"2"
+		"paintborder"								"1"
+		
+		"text_ypos"									"15"
+		"text_center"								"1"
+		"model_hide"								"1"
+		"resize_to_text"							"1"
+		"padding_height"							"15"
+		
+		"attriblabel"
+		{
+			"font"									"ItemFontAttribLarge"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"140"
+			"tall"									"60"
+			"pinCorner"								"0"
+			"visible"								"1"
+			"enabled"								"1"
+			"labelText"								"%attriblist%"
+			"textAlignment"							"center"
+			"fgcolor"								"117 107 94 255"
+			"centerwrap"							"1"
+		}
+	}
+	"PassiveAttribsLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"PassiveAttribsLabel"
+		"font"										"ItemFontAttribLarge"
+		"xpos"										"c-135"
+		"ypos"										"120"
+		"zpos"										"0"	
+		"wide"										"270"
+		"tall"										"240"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									""
+		"textAlignment"								"south"
+		"fgcolor"									"255 215 0 255"
+		"centerwrap"								"1"
+	}
+
+	////*********************************************Main Buttons.
+	"loadout_preset_panel"
+	{
+		"ControlName"								"CLoadoutPresetPanel"
+		"FieldName"									"loadout_preset_panel"
+		"zpos"										"20"
+		"wide"										"120"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"paintbackground"							"0"
+	}
+	"CharacterLoadoutButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"CharacterLoadoutButton"
+		"labelText"									""
+		"xpos"										"c65"
+		"ypos"										"20"
+		"zpos"										"2"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"Command"									"characterloadout"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+
+		"SubImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"20"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
+			"proportionaltoparent"					"1"
+			"image"									"glyph_items"
+		}
+	}
+	"TauntLoadoutButton"
+	{
+		"ControlName"								"CExImageButton"
+		"fieldName"									"TauntLoadoutButton"
+		"labelText"									""
+		"xpos"										"-30"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"25"
+		"tall"										"25"
+		"visible"									"1"
+		"enabled"									"1"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"default"									"0"
+		"Command"									"tauntloadout"
+		"sound_depressed"							"UI/buttonclick.wav"
+		"sound_released"							"UI/buttonclickrelease.wav"
+		"pin_to_sibling"							"CharacterLoadoutButton"
+
+		"SubImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"cs-0.5"
+			"ypos"									"cs-0.5"
+			"zpos"									"1"
+			"wide"									"20"
+			"tall"									"20"
+			"visible"								"1"
+			"enabled"								"1"
+			"scaleImage"							"1"
+			"proportionaltoparent"					"1"
+			"image"									"../hud/ico_reel"
+		}
+	}
+	////*********************************************Main Buttons.
+	"TauntsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"TauntsExplanation"
+		"wide"										"0"
+		"tall"										"0"
+	}	
+	"PresetsExplanation"
+	{
+		"ControlName"								"CExplanationPopup"
+		"fieldName"									"PresetsExplanation"
+		"wide"										"0"
+		"tall"										"0"	
+	}							
+	"ItemOptionsPanel"							
+	{							
+		"ControlName"								"CLoadoutParticleSlider"
+		"fieldname"									"ItemOptionsPanel"
+		"wide"										"0"
+		"tall"										"0"
 	}							
 	"TauntCaratLabel"							
-	{									
-		"ypos"										"9999"
-		"tall"										"0"
+	{							
+		"ControlName"									"CExLabel"
+		"fieldName"									"TauntCaratLabel"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"tall"										"0"
+	}								
+	"TopLine"							
+	{							
+		"ControlName"								"ImagePanel"
+		"fieldName"									"TopLine"
+		"wide"										"0"
+		"tall"										"0"
 	}							
 	"TauntHintLabel"							
 	{							
-		"ypos"										"9999"
-		"tall"										"0"
+		"ControlName"								"CExLabel"
+		"fieldName"									"TauntHintLabel"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}							
-	"TopLine"							
+		"tall"										"0"
+	}									
+	"CaratLabel"							
 	{							
-		"ypos"										"9999"
-		"tall"										"0"
+		"ControlName"								"CExLabel"
+		"fieldName"									"CaratLabel"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"tall"										"0"
 	}	
 }

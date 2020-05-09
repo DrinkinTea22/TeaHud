@@ -10,11 +10,8 @@
 		"zpos"										"500"
 		"wide"										"f0"
 		"tall"										"480"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"settitlebarvisible"						"0"
 		"bgcolor_override"							"MenuBGColor"
 	
@@ -26,18 +23,20 @@
 
 		"modelpanels_selection_kv"
 		{
-			"wide"									"94"
+			"wide"									"95"
 			"tall"									"70"
 			"model_xpos"							"2"
 			"model_wide"							"75"
 			"model_tall"							"50"
 			"model_center_x"						"1"
+			"model_center_y"						"1"
 			"text_ypos"								"0"
 			"text_forcesize"						"2"
 			"text_center"							"0"
 			"text_yoffset"							"2"
-			"inset_eq_y"							"55"
-				
+			"inset_eq_x"							"58"
+			"inset_eq_y"							"58"
+
 			"deferred_description"					"1"
 			"deferred_icon"							"1"
 		}
@@ -82,13 +81,10 @@
 			"wide"									"20"
 			"tall"									"15"
 			"zpos"									"1"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"enabled"								"1"
 			"fgcolor"								"153 204 255 255"
 		}
-	}
-	
+	}	
 	"ClassLabel"
 	{
 		"ControlName"								"CExLabel"
@@ -116,8 +112,6 @@
 		"zpos"										"1"
 		"wide"										"f0"
 		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor"									"StoreDarkTan"
@@ -131,11 +125,8 @@
 		"zpos"										"2"
 		"wide"										"90"
 		"tall"										"19"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
 		"textHidden"								"0"
 		"editable"									"1"
 		"unicode"									"1"
@@ -157,8 +148,6 @@
 		"zpos"										"10"
 		"wide"										"600"
 		"tall"										"30"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"0"
 		"enabled"									"1"
 		"fgcolor_override" 							"200 80 60 255"
@@ -175,14 +164,13 @@
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#TF_Wearable_Backpack"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 		"textinsetx"								"50"
 		"Command"									"show_backpack"
-		"border_default"						    "QuickplayBorder"   	     
-		"border_armed"							    "QuickplayBorder"		 
+		"border_default"						    "noborder"   	     
+		"border_armed"							    "noborder"			 
 	}	
 	
 	"OnlyAllowUniqueQuality"
@@ -210,11 +198,8 @@
 		"zpos"										"20"
 		"wide"										"200"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
 		"labelText"									"#Selection_ShowSelection"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
@@ -231,8 +216,8 @@
 		"xpos"										"c-140"
 		"ypos"										"300"
 		"zpos"										"1"
-		"wide"										"25"
-		"tall"										"25"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"&A"
@@ -249,13 +234,11 @@
 		"font"										"HudFontSmallBold"
 		"labelText"									"%backpackpage%"
 		"textAlignment"								"center"
-		"xpos"										"c-115"
+		"xpos"										"c-135"
 		"ypos"										"300"
 		"zpos"										"1"
 		"wide"										"25"
 		"tall"										"25"
-		"autoResize"								"1"
-		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override" 							"White"
@@ -267,8 +250,8 @@
 		"xpos"										"c-90"
 		"ypos"										"300"
 		"zpos"										"1"
-		"wide"										"25"
-		"tall"										"25"
+		"wide"										"0"
+		"tall"										"0"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"&D"
@@ -276,7 +259,8 @@
 		"textAlignment"								"center"
 		"Command"									"nextpage"
 		"border_default"		   					"QuickplayBorder"   	     
-		"border_armed"			   					"QuickplayBorder"		 
+		"border_armed"			   					"QuickplayBorder"	
+		"fgcolor_override" 							"white"		 
 	}		
 	
 	
@@ -300,7 +284,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ItemSlotLabel"
-		"font"										"Blank"
+		"xpos" 										"9999" 
+		"tall"										"0"
+		"wide"										"0"
 	}
 	"CancelButton"
 	{
@@ -314,7 +300,9 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"CaratLabel"
-		"font"										"Blank"
+		"xpos" 										"9999" 
+		"tall"										"0"
+		"wide"										"0"
 	}		
 	"mouseoveritempanel"
 	{
@@ -345,8 +333,6 @@
 			"zpos"									"2"
 			"wide"									"140"
 			"tall"									"60"
-			"autoResize"							"0"
-			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
 			"labelText"								"%attriblist%"
