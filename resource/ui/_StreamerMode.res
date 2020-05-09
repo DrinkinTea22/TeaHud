@@ -92,11 +92,11 @@
 		{			
 			"playername"
 			{
-				"font_minmode"						"Blank"
+				"wide_minmode"						"0"
 				
 				if_mvm
 				{
-					"font_minmode"					"Blank"
+					"wide_minmode"					"0"
 				}
 			}
 		}
@@ -107,21 +107,21 @@
 		{
 			"playername"
 			{
-				"font_minmode"						"Blank"	
+				"wide_minmode"						"0"	
 				
 				if_mvm
 				{
-					"font_minmode"					"Blank"
+					"wide_minmode"					"0"
 				}
 
 				if_competitive
 				{
-					"font_minmode"					"Blank"
+					"wide_minmode"					"0"
 				}
 
 				if_readymode
 				{
-					"font_minmode"					"Blank"
+					"wide_minmode"					"0"
 				}				
 			}
 		}	
