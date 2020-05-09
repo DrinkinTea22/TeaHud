@@ -1,39 +1,41 @@
 //*******************************************Scheme.
 #base "base/borders.res"
 #base "base/Fonts.res"
-#base "base/Crosshairs.res"
 #base "base/clientscheme.res"
 
 Scheme
 {
 	BaseSettings
 	{
-		ProgressBar.BgColor							"0 0 0 80"		
+		Label.TextDullColor				"120 120 120 155"
+		Label.DisabledFgColor2			"120 120 120 155"
+		Button.DepressedTextColor		"120 120 120 155"
+		ReplayBrowser.BgColor								"MenuBGColor"
+		ReplayBrowser.Button.ArmedBgColor					"ButtonHover"
+		ReplayBrowser.Button.DepressedBgColor				"ButtonHover"
+		
+		Button.BgColor										"Button"
+		Button.ArmedBgColor									"ButtonHover"
+		Button.DepressedBgColor								"ButtonHover"
+		Button.SelectedBgColor								"ButtonSelected"
+
+		Econ.Button.BgColor									"Button"
+		Econ.Button.ArmedBgColor							"ButtonHover"
+		Econ.Button.DepressedBgColor						"ButtonHover"
+		
+		Econ.Button.PresetDefaultColorBg					"ButtonSelected"
+		Econ.Button.PresetArmedColorBg						"ButtonSelected2"
+		Econ.Button.PresetDepressedColorBg					"ButtonSelected"
 	}
 	Colors
 	{
-		//*******************************************Scheme.
-		"soft white"								"255 255 245 255"
-		"powder blue"								"205 227 220 255"
-		"cool cocoa"								"193 142 104 255"
-		"medium blue" 								"130 165 198 255"
-		"pastel pink" 								"249 173 177 255"
-		"mauve"										"216 131 152 255"
-		"rose pink brown"							"168 106 65 255"
-		"powdery periwinkle"						"147 156 185 255"
-		"rose pink"									"243 155 171 255"
-		"raspberry"									"162 38 48 255"
-		"charcoal grey blue"						"110 130 126 255"
-		"pastel blue green"							"212 220 133 255"
-		"watermelon"								"208 32 78 255"
-		"plum"										"75 37 62 255"
-		"very gray navy"							"90 88 89 255"
-		"medium blue green"							"43 213 134 255"
-		"blueish red"								"200 14 55 255"
-		"dark navy"									"38 27 70 255"
-		"cadet blue"								"59 74 93 255"
-		//*******************************************Scheme.
-		
+		"TFOrange"									"92 128 166 255"		//backpack buttons
+		"Button"									"46 43 42 255"
+		"ButtonHover"								"86 88 90 255"
+		"ButtonDull"								"104 104 104 255"
+		"ButtonSelected"							"92 128 166 255"
+		"ButtonSelected2"							"92 128 166 155"
+		"ButtonDisabled"							"104 104 104 255"
 		//*******************************************Customization Scheme
 	
 		"HealthHigh"								"43 213 134 255"		//Positive Health1
@@ -51,16 +53,15 @@ Scheme
 		"AmmoNCLow"									"200 14 55 255"			//Low Animation1
 		"AmmoNCLow2"								"250 14 55 255"			//Low Animation2
 	
-		"Last Damage Done"							"62 118 186 255"		//Last Damage Done
+		"Last Damage Done"							"255 255 0 255"			//Last Damage Done
 	
 		"MenuBGColor"								"34 65 103 255"			//Color Of [backpack, ClassLoadout, etc]
 		"Sheet"										"34 65 103 255"			//Color Of ["Sheet"]
-	
-		"white"										"255 255 245 255"			
+		
 		"Uber"										"255 255 245 255"		//When Uber = 0%	
 		"UberFull"									"43 213 134 255"		//When Uber = 100%	
 		"UberFull2"									"43 253 134 255"		//When Uber = 100% 2	
-			
+
 		"MainRed"									"192 56 63 255"			//Main Red Color 		  		
 		"MainRedHover"								"192 56 63 155"			//Main Red Color Hover	
 		"MainBlue"									"92 128 166 255"		//Main Blue Color 		
@@ -83,18 +84,14 @@ Scheme
 		"ScoreboardKills"							"43 213 134 255"
 		"ScoreboardDeaths"							"200 14 55 255"
 		"ScoreboardStatsFG"							"153 185 255 255"
+		
+		"FAG"										"94 170 49 255"
+		"RSM"										"92 128 166 255"
+		"DisQit"									"192 56 63 255"
 		//*******************************************Customization Scheme
 	}
 	Borders
 	{	
-		ButtonBorder
-		{
-			"backgroundtype"						"0"
-		}
-		ButtonKeyFocusBorder
-		{
-			"backgroundtype"						"0"
-		}
 		ButtonDepressedBorder
 		{
 			"backgroundtype"						"0"
@@ -135,16 +132,6 @@ Scheme
 	}	
 	Fonts
 	{
-		//If i want to remove something.
-		"Blank"
-		{
-			"1"
-			{
-				"name"  	 						"Blank"
-				"tall" 		 						"1"
-				"antialias"  						"1"
-			}
-		}
 		"uberFIX"
 		{
 			"1"
