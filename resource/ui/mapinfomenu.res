@@ -99,8 +99,7 @@
 		"command"									"continue"
 		"default"									"1"
 		"font"										"HudFontSmallishBold"
-		"fgcolor"									"Whtie"
-		"border_default"							"QuickplayBorder"			
+		"fgcolor"									"Whtie"			
 	}
 	"MapInfoWatchIntro" 
 	{
@@ -120,7 +119,6 @@
 		"command"									"intro"
 		"font"										"HudFontSmallishBold"
 		"fgcolor"									"Whtie"
-		"border_default"							"QuickplayBorder"
 	}
 	"MapInfoBack" 
 	{
@@ -139,9 +137,7 @@
 		"textAlignment"								"center"
 		"command"									"back"
 		"font"										"HudFontSmallishBold"
-		"fgcolor"									"Whtie"
-		"border"									"QuickplayBorder"			
-		"border_default"							"QuickplayBorder"
+		"fgcolor"									"Whtie"		
 	}	
 	"QuickBind"
 	{

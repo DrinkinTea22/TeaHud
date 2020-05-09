@@ -25,13 +25,6 @@
 		"border_default"							"MainMenuMiniButtonDefault"
 		"border_armed"								"QuickplayBorder"		
 		"paintbackground"							"1"
-
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override"						"White"
-		"depressedFgColor_override" 				"White"
-		"defaultBgColor_override"					"black"
-		"armedBgColor_override"						"MainBlue"
-		"depressedBgColor_override" 				"MainBlue"
 	}
 	"DescLabel"
 	{

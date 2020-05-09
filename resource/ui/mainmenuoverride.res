@@ -1211,14 +1211,9 @@
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"west"
 			
-			"defaultFgColor_override"					"46 43 42 255"
-			"armedFgColor_override" 					"46 43 42 255"
-			"depressedFgColor_override" 				"46 43 42 255"
 			"image_drawcolor"							"235 226 202 255"
 			"image_armedcolor"							"235 226 202 255"
 			
-			"armedBgColor_override"						"MainBlue"
-			"defaultBgColor_override"					"Black"
 			"border_default"							"QuickplayBorder"
 			"paintbackground"							"1"
 			"paintborder"								"1"
@@ -1270,14 +1265,9 @@
 			"font"										"HudFontSmallBold"
 			"textAlignment" 							"west"
 			
-			"defaultFgColor_override"					"46 43 42 255"
-			"armedFgColor_override" 					"46 43 42 255"
-			"depressedFgColor_override" 				"46 43 42 255"
 			"image_drawcolor"							"235 226 202 255"
 			"image_armedcolor"							"235 226 202 255"
 			
-			"armedBgColor_override"						"MainBlue"
-			"defaultBgColor_override"					"Black"
 			"border_default"							"QuickplayBorder"
 			"paintbackground"							"1"
 			"paintborder"								"1"
@@ -1329,14 +1319,9 @@
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"west"
 							
-			"defaultFgColor_override"					"46 43 42 255"
-			"armedFgColor_override" 					"46 43 42 255"
-			"depressedFgColor_override" 				"46 43 42 255"
 			"image_drawcolor"							"235 226 202 255"
 			"image_armedcolor"							"235 226 202 255"
 			
-			"armedBgColor_override"						"MainBlue"
-			"defaultBgColor_override"					"Black"
 			"border_default"							"QuickplayBorder"
 			"paintbackground"							"1"
 			"paintborder"								"1"
@@ -1390,14 +1375,9 @@
 			"font"										"HudFontSmallBold"
 			"textAlignment"								"west"
 
-			"defaultFgColor_override"					"46 43 42 255"
-			"armedFgColor_override" 					"46 43 42 255"
-			"depressedFgColor_override" 				"46 43 42 255"
 			"image_drawcolor"							"235 226 202 255"
 			"image_armedcolor"							"235 226 202 255"
 			
-			"armedBgColor_override"						"MainBlue"
-			"defaultBgColor_override"					"Black"
 			"border_default"							"QuickplayBorder"
 			"paintbackground"							"1"
 			"paintborder"								"1"
@@ -1437,8 +1417,6 @@
 		"ypos"											"28"	
 		"textAlignment"									"center"			
 		
-		"DefaultBgColor_override"						"Black"
-		"ArmedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"paintbackground"								"1"
 		"paintborder"									"1"
@@ -1730,8 +1708,6 @@
 		"textAlignment"									"center"
 		"Command"										"view_newuser_forums"
 	
-		"defaultBgColor_override"						"Black"
-		"armedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"border_armed"									"QuickplayBorder"
 		"paintbackground"								"1"
@@ -1771,8 +1747,6 @@
 		"textAlignment"									"center"
 		"Command"										"OpenAchievementsDialog"
 	
-		"defaultBgColor_override"						"Black"
-		"armedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"border_armed"									"QuickplayBorder"
 		"paintbackground"								"1"
@@ -1812,8 +1786,6 @@
 		"textAlignment"									"center"
 		"Command"										"OpenLoadSingleplayerCommentaryDialog"
 					
-		"defaultBgColor_override"						"Black"
-		"armedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"border_armed"									"QuickplayBorder"
 		"paintbackground"								"1"
@@ -1853,8 +1825,6 @@
 		"textAlignment"									"center"
 		"Command"										"engine cl_coach_toggle"
 	
-		"defaultBgColor_override"						"Black"
-		"armedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"border_armed"									"QuickplayBorder"
 		"paintbackground"								"1"
@@ -1894,8 +1864,6 @@
 		"textAlignment"									"center"
 		"Command"										"engine OpenSteamWorkshopDialog"
 	
-		"defaultBgColor_override"						"Black"
-		"armedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"border_armed"									"QuickplayBorder"
 		"paintbackground"								"1"
@@ -1935,8 +1903,6 @@
 		"textAlignment"									"center"
 		"Command"										"engine replay_reloadbrowser"
 	
-		"defaultBgColor_override"						"Black"
-		"armedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"border_armed"									"QuickplayBorder"
 		"paintbackground"								"1"
@@ -1976,8 +1942,6 @@
 		"Command"										"engine bug"
 	
 	
-		"defaultBgColor_override"						"Black"
-		"armedBgColor_override"							"MainBlue"
 		"border_default"								"QuickplayBorder"
 		"border_armed"									"QuickplayBorder"
 		"paintbackground"								"1"

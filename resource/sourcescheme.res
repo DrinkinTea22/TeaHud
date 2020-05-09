@@ -35,7 +35,6 @@ Scheme
 	    "TFOrangeBright"            					"156 82 33 255"		
 	    "TFTanLightDark"            					"96 90 78 90"		
 	    "TFTanLight"                					"201 188 162 150"	
-		
 		//no used		
 	}
 	////************************************************Most Colors

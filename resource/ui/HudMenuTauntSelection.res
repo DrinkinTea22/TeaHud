@@ -119,7 +119,7 @@
 		"tall"										"25"
 		"visible"									"1"
 		"bgcolor_override"							"Blank"
-		"noitem_textcolor"							"Blank"
+        "noitem_textcolor"							"Blank"
 		"PaintBackgroundType"						"0"
 		"paintborder"								"0"
 

@@ -191,13 +191,15 @@
 		{	
 			"ControlName"							"Label"
 			"fieldName"								"ItemLabel"
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}
 		"attriblabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"attriblabel"
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}
 	}
 	"topbar"

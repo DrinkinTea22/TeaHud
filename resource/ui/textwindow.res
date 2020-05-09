@@ -81,8 +81,7 @@
 		"labelText"									"#TF_Continue"
 		"font"										"HudFontSmallishBold"
 		"textAlignment"								"center"
-		"Command"									"okay"
-		"border_default"							"QuickplayBorder"		
+		"Command"									"okay"	
 	}		
 	"QuickBind"
 	{

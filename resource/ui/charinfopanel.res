@@ -1,5 +1,3 @@
-#base "../Tools/reloadscheme_button.res"
-
 ////*************************************************Items MainMenu [Lower Buttons].
 "Resource/UI/CharInfoPanel.res"
 {
@@ -30,10 +28,6 @@
 		"clientinsetx_override"						"0"
 		"sheetinset_bottom"							"40"
 	}
-	"ReloadSchemeButton"
-	{
-		"xpos"   "5"   "ypos"   "30"   "visible"   "0"		
-	}	
 	"BackgroundHeader"
 	{
 		"ControlName"								"ImagePanel"
@@ -46,8 +40,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 		"fillcolor_override"						"MenuBGColor"
-		"tileImage"									"1"
-		"Border"									"QuickplayBorder"		
+		"tileImage"									"1"	
 	}
 	"BackgroundFooter"
 	{
@@ -68,13 +61,9 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"FooterLine"
-		"ypos"										"9999"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
-
 	"Sheet"
 	{
 		"ControlName"								"EditablePanel"
@@ -115,62 +104,29 @@
 			"font"									"HudFontSmallBold"
 			"selectedcolor"							"White"
 			"unselectedcolor"						"130 120 104 255"
-			"defaultBgColor_override"				"TanDark"
-			"armedBgColor_override"					"MenuBGColor"
-			"selectedBgColor_override"				"Gray"
 			"paintbackground"						"2"
 			"paintborder"							"1"
 			"activeborder_override"					"QuickplayBorder"
 			"normalborder_override" 				"noborder"
 		}		
 	}
-	
-	"QuickPin"
-	{
-		"controlName"								"CExButton"
-		"FieldName"									"QuickPin"
-		"xpos"										"20"
-		"ypos"										"r35"
-		"tall"										"0"
-		"visible"									"1"	
-		"enabled"									"1"
-		"labeltext"									""
-	}						
+
 	"BackButton"						
 	{						
 		"ControlName"								"CExButton"
 		"fieldName"									"BackButton"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"20"
+		"ypos"										"rs1-12.5"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
+		"proportionaltoparent"						"1"
 		"labelText"									"#TF_Back"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
-		"Command"									"back"
-		"border_default"							"QuickplayBorder"
-		"pin_to_sibling" 							"QuickPin"		
-	}
-	"close"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"close"
-		"xpos"										"-105"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"25"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"#TF_close"
-		"font"										"HudFontSmallBold"
-		"textAlignment"								"center"
-		"Command"									"close"
-		"border_default"							"QuickplayBorder"
-		"pin_to_sibling"							"BackButton"		
+		"Command"									"back"	
 	}	
 	"QuickBind1"
 	{
@@ -179,14 +135,6 @@
 		"xpos"										"r0"
 		"labelText"									"&q"
 		"command"									"back"
-	}								
-	"QuickBind2"							
-	{							
-		"ControlName"								"CExButton"
-		"visible"									"1"
-		"xpos"										"r0"
-		"labelText"									"&e"
-		"command"									"close"
 	}		
 	
 	"NotificationsPresentPanel"

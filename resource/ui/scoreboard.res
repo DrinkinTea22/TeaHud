@@ -336,35 +336,43 @@
 		}
 		"KillsLabel"							
 		{							
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}											
 		"DeathsLabel"							
 		{							
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}	
 		"Assists"							
 		{
-			"font"									"Blank"							
+			"wide"									"0"
+			"tall"									"0"						
 		}			
 		"DominationLabel"
 		{
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}											
 		"Domination"							
 		{							
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}							
 		"DestructionLabel"							
 		{							
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}													
 		"Destruction"							
 		{							
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}									
 		"GameType"							
 		{								
-			"font"									"Blank"
+			"wide"									"0"
+			"tall"									"0"
 		}							
 		"Deaths"						
 		{
@@ -834,7 +842,8 @@
 
 		"DuelingLabel"						
 		{						
-			"font"									"Blank"
+			"wide"										"0"
+			"tall"										"0"
 		}						
 		"DuelingIcon"						
 		{						
@@ -895,7 +904,8 @@
 			}					
 			"AvatarTextLabel"					
 			{						
-				"font"								"Blank"
+				"wide"									"0"
+				"tall"									"0"
 			}
 		}
 		"OpponentData"
@@ -954,7 +964,8 @@
 			}					
 			"AvatarTextLabel"					
 			{						
-				"font"								"Blank"
+				"wide"									"0"
+				"tall"									"0"
 			}
 		}
 	}	

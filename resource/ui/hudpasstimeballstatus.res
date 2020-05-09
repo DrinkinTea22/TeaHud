@@ -13,6 +13,7 @@
 	}					
 	"ProgressBallCarrierName"					
 	{					
-		"font"										"Blank"
+		"wide"										"0"
+		"tall"										"0"
 	}	
 }

@@ -11,7 +11,7 @@
 		"tall"										"350"
 		"visible"									"1"
 		"enabled"									"1"
-		"bgcolor_override"							"black"
+		"bgcolor_override"							"MenuBGColor"
 		"paintbackgroundtype"						"2"
 		"settitlebarvisible"						""
 		"paintborder"								"1"
@@ -61,10 +61,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"1"
-		"Command"									"Close"
-		
-		"border_default"						   "QuickplayBorder"      
-		"border_armed"			 				   "QuickplayBorder"		
+		"Command"									"Close"		
 	}
 	"OkButton"
 	{
@@ -86,10 +83,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"default"									"1"
-		"Command"									"Ok"
-		
-		"border_default"		   					"QuickplayBorder"      
-		"border_armed"			   					"QuickplayBorder"		
+		"Command"									"Ok"	
 	}
 	
 	"PanelListPanel"
