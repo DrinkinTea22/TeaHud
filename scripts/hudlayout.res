@@ -114,9 +114,9 @@
 	//Win Panel	
 	WinPanel
 	{
-		"xpos"											"c-159"
+		"xpos"											"c-110"
 		"ypos"											"c60"
-		"wide"											"318"
+		"wide"											"220"
 		"tall"											"150"
 		"Bgcolor_override"								"TransparentLightBlack"	
 		"border"										"QuickplayBorder"
@@ -173,5 +173,12 @@
 		"wide"											"200"
 		"tall"											"100"
 	}	
-	////************************************************Medic Charge	
+	////************************************************Medic Charge
+	
+	////************************************************Competitive Timer
+	HudStopWatch
+	{
+		"xpos"											"c-165"
+	}
+	////************************************************Competitive Timer
 }
