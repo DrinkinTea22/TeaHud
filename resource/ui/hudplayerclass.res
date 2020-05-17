@@ -1,5 +1,5 @@
 #base "../../Customization/Enabled/Full Class Model.res"	//last one selected
-#base "_PlayerModel.res"									//fallback
+#base "_FallBack_C.res"										//fallback
 ////************************************************Player Model Stuff.
 "Resource/UI/HudPlayerClass.res"
 {

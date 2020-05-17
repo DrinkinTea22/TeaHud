@@ -1,5 +1,6 @@
-"Resource/UI/_PlayerModel.res"
+"Resource/UI/_FallBack_C.res"
 {
+	//PlayerModel Fallback
 	"classmodelpanel"
 	{
 		"ControlName"								"CTFPlayerModelPanel"
@@ -138,5 +139,5 @@
 				"origin_z"							"-100"
 			}
 		}
-	}
+	}	
 }	
