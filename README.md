@@ -4,6 +4,7 @@ a HUD for TF2
 Select your current screen resolution in **"TeaHud/Customization/"** otherwise **SpectatorTournament** will not work properly.
 
 [Screentshots](https://imgur.com/a/80qQmgB)
+[TeaHud Discord](https://discord.gg/a3sqCyb)
 
 # Customizations:
 1.  Last Damage Done + SpectatorTournament hud + Transparent Viewmodels + Custom Panel + Full Class Model
