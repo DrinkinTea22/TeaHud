@@ -31,7 +31,7 @@
 		"fillcolor"									"Black"
 		"border"									"QuickplayBorder"
 	}							
-						
+
 	"TournamentSetupLabel"						
 	{							
 		"ControlName"								"Label"
@@ -131,7 +131,6 @@
 		"command"									"teamready" 
 		"default"									"1"
 		"font"										"HudFontSmallestBold"
-		"fgcolor"									"FooterBGBlack"
 		"border_default"							"QuickplayBorder"   	     
 		"border_armed"								"QuickplayBorder"		 
 	}

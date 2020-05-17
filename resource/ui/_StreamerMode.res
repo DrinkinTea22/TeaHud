@@ -127,5 +127,16 @@
 		}	
 	}		
 	////********************************************Spectator Tournament.
+
+	////********************************************End of Match.	
+	"BlueTeamPanel"
+	{
+		"wide_minmode"								"0"
+	}
+	"RedTeamPanel"
+	{
+		"wide_minmode"								"0"
+	}	
+	////********************************************End of Match.
 }
 

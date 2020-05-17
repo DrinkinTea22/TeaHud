@@ -1,4 +1,4 @@
-////************************************************Competitive Timer
+////************************************************Competitive Timer.
 "Resource/UI/HudStopWatch.res"
 {
 	"HudStopWatchBG"
