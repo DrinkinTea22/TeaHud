@@ -32,5 +32,5 @@ Select your current screen resolution in **"TeaHud/Customization/"** otherwise *
 
 -Wiethoofd **Wiethud**	
 
--FlagStatus + HudObjectiveFlagpanel + itemquickswitch  + some lines of code :D
+-itemquickswitch  + some lines of code :D
 
