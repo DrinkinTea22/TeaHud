@@ -88,6 +88,11 @@ Scheme
 		"FAG"										"94 170 49 255"
 		"RSM"										"92 128 166 255"
 		"DisQit"									"192 56 63 255"
+		
+		"MVMsubLabel"								"255 255 255 255"		//MVM Sub Panels Label color
+		"MVMsubPositive"							"230 238 255 255"		//MVM Sub Panels Positive color
+		"MVMsubNegative"							"128 168 255 255"		//MVM Sub Panels Negative color
+		"MVMsubBonus"								"26 98 255 255"			//MVM Sub Panels Bonus color
 		//*******************************************Customization Scheme
 	}
 	Borders
