@@ -5,16 +5,17 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"ServerTimeLimitLabel"
-		"xpos"										"16"
+		"xpos"										"cs-0.5"
 		"ypos"										"15"
 		"zpos"										"5"
-		"wide"										"78"
+		"wide"										"80"
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"%servertimeleft%"
 		"textAlignment"								"center"
-		"font"										"HudFontSmallestBold"
+		"font"										"HudFontSmallBold"
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
@@ -29,15 +30,16 @@
 	{
 		"ControlName"								"ScalableImagePanel"
 		"fieldName"									"TimePanelBG"
-		"xpos"										"16"
+		"xpos"										"cs-0.5"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"78"
+		"wide"										"80"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"								"1"	
+		"proportionaltoparent"						"1"
 
 		"src_corner_height"							"25"
 		"src_corner_width"							"25"	
@@ -50,52 +52,21 @@
 			"visible"								"0"
 		}
 	}
-	
-	
-	"ServerTimeLimitLabelBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ServerTimeLimitLabelBG"
-		"ypos"										"9999"
-		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-		
-		if_match
-		{
-			"visible"								"0"
-		}	
-	}	
-	"TimePanelProgressBar"
-	{
-		"ControlName"								"CTFProgressBar"
-		"fieldName"									"TimePanelProgressBar"
-		"ypos"										"9999"
-		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-		
-		if_match
-		{
-			"visible"								"0"
-		}
-	}
 	"WaitingForPlayersLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"WaitingForPlayersLabel"
-		"xpos"										"16"
-		"ypos"										"34"
-		"zpos"										"5"
-		"wide"										"78"
-		"tall"										"19"
+		"xpos"										"cs-0.5"
+		"ypos"										"20"
+		"zpos"										"2"
+		"wide"										"80"
+		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#game_WaitingForPlayers"
 		"textAlignment"								"center"
-		"font"										"ClockSubTextTiny"
+		"font"										"HudFontSmallestBold"
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
@@ -105,36 +76,22 @@
 			"wide"									"p1"
 			"font"									"HudFontSmallestBold"
 		}
-	}			
-	"WaitingForPlayersBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"WaitingForPlayersBG"
-		"ypos"										"9999"
-		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-		
-		if_match
-		{
-			"visible"								"0"
-		}
 	}
 	"OvertimeLabel"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"OvertimeLabel"
-		"xpos"										"16"
-		"ypos"										"33"
+		"xpos"										"cs-0.5"
+		"ypos"										"20"
 		"zpos"										"5"
-		"wide"										"78"
-		"tall"										"19"
+		"wide"										"80"
+		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#game_Overtime"
 		"textAlignment"								"center"
-		"font"										"ClockSubText"
+		"font"										"HudFontSmallestBold"
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
@@ -149,15 +106,16 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"OvertimeBG"
-		"xpos"										"16"	[$WIN32]
-		"ypos"										"31"
-		"zpos"										"1"
-		"wide"										"78"
+		"xpos"										"cs-0.5"
+		"ypos"										"20"
+		"zpos"										"4"
+		"wide"										"80"
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"								"1"	
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
@@ -168,16 +126,17 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SuddenDeathLabel"
-		"xpos"										"16"
-		"ypos"										"33"
-		"zpos"										"5"
-		"wide"										"78"
-		"tall"										"19"
+		"xpos"										"cs-0.5"
+		"ypos"										"30"
+		"zpos"										"4"
+		"wide"										"80"
+		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#game_SuddenDeath"
 		"textAlignment"								"center"
-		"font"										"ClockSubTextSuddenDeath"
+		"font"										"HudFontSmallestBold"
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
@@ -192,15 +151,16 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SuddenDeathBG"
-		"xpos"										"16"	[$WIN32]
-		"ypos"										"31"
-		"zpos"										"1"
-		"wide"										"78"
+		"xpos"										"cs-0.5"
+		"ypos"										"30"
+		"zpos"										"4"
+		"wide"										"80"
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"								"1"	
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
@@ -211,16 +171,17 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"SetupLabel"
-		"xpos"										"16"
-		"ypos"										"33"
-		"zpos"										"5"
-		"wide"										"78"
-		"tall"										"19"
+		"xpos"										"cs-0.5"
+		"ypos"										"30"
+		"zpos"										"4"
+		"wide"										"80"
+		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"labelText"									"#game_Setup"
 		"textAlignment"								"center"
-		"font"										"ClockSubText"
+		"font"										"HudFontSmallestBold"
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
@@ -235,19 +196,61 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SetupBG"
-		"xpos"										"16"	[$WIN32]
-		"ypos"										"31"
-		"zpos"										"1"
-		"wide"										"78"
+		"xpos"										"cs-0.5"
+		"ypos"										"30"
+		"zpos"										"3"
+		"wide"										"80"
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"								"1"	
+		"proportionaltoparent"						"1"
 
 		if_match
 		{
 			"wide"									"0"
+		}
+	}
+	
+	
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ServerTimeLimitLabelBG"
+		"ypos"										"9999"
+		"tall"										"0"
+		"wide"										"0"
+		
+		if_match
+		{
+			"visible"								"0"
+		}	
+	}	
+	"TimePanelProgressBar"
+	{
+		"ControlName"								"CTFProgressBar"
+		"fieldName"									"TimePanelProgressBar"
+		"ypos"										"9999"
+		"tall"										"0"
+		"wide"										"0"
+		
+		if_match
+		{
+			"visible"								"0"
+		}
+	}			
+	"WaitingForPlayersBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"WaitingForPlayersBG"
+		"ypos"										"9999"
+		"tall"										"0"
+		"wide"										"0"
+		
+		if_match
+		{
+			"visible"								"0"
 		}
 	}
 }

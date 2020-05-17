@@ -1,69 +1,61 @@
-// Flag/carrier Indicator
-// - Capture the Flag
-// - Mann vs. Machine
-// - Player Destruction
-// - Robot Destruction
-// - Special Delivery
-
-////*************************************************Flag Stuff.
+////************************************************FlagStatus.
 "Resource/UI/FlagStatus.res"
-{
+{	
+	//indicator
 	"Arrow"
 	{
 		"ControlName"								"CTFArrowPanel"
 		"fieldName"									"Arrow"
-		"xpos"										"54"
-		"ypos"										"21"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"52"
-		"tall"										"52"
+		"wide"										"45"
+		"tall"										"45"
 		"visible"									"1"
 		"enabled"									"1"
-		"scaleImage"								"1"
-	
-		"if_mvm"								
-		{								
-			"ypos"									"0"
-		}
-	}
-	"Briefcase"
-	{
+		"scaleImage"								"1"	
+	}							
+	//dosier icon							
+	"Briefcase"							
+	{							
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"Briefcase"
-		"xpos"										"68"
-		"ypos"										"34"
+		"xpos"										"13"
+		"ypos"										"13"
 		"zpos"										"2"
-		"wide"										"0"
-		"tall"										"0"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_briefcase"
 		"scaleImage"								"1"
-
-		"if_mvm"							
-		{							
-			"ypos"									"14"
-			"wide"									"24"
-			"tall"									"24"
-		}
-	}
+		
+		"if_mvm"
+		{
+			"xpos"									"13"
+			"ypos"									"13"
+			"wide"									"20"
+			"tall"									"20"
+		}	
+	}	
+	//dosier status
 	"StatusIcon"
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"StatusIcon"
-		"xpos"										"64"
-		"ypos"										"31"
+		"xpos"										"12"
+		"ypos"										"12"
 		"zpos"										"3"
-		"wide"										"32"
-		"tall"										"32"
+		"wide"										"25"
+		"tall"										"25"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/objectives_flagpanel_ico_flag_home"
-		"scaleImage"								"1"
-
+		"scaleImage"								"1"	
+									
 		"if_mvm"							
 		{							
 			"visible"								"0"
 		}
-	}
+	}	
 }

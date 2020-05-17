@@ -22,7 +22,7 @@
 		"tall"										"24"
 		"visible"									"0"
 		"enabled"									"0"
-	}						
+	}							
 	"QuickBind"						
 	{						
 		"controlName"								"CExButton"
@@ -197,9 +197,7 @@
 		"font"										"HudFontSmallBold"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -249,9 +247,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"scout"
 
@@ -303,9 +299,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"soldier"
 
@@ -358,9 +352,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"scout"
 
@@ -412,9 +404,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"demoman"
 
@@ -466,9 +456,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"heavyweapons"
 
@@ -521,9 +509,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"demoman"
 
@@ -575,9 +561,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"medic"
 
@@ -629,9 +613,7 @@
 		"font"										"MenuKeys"
 		"scaleImage"								"1"
 		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
+		"paintbackground"							"0"
 
 		"pin_to_sibling" 							"sniper"
 
@@ -989,7 +971,7 @@
 		"textAlignment"								"center"
 		"Command"									"select 12"
 		"font"										"HudFontSmallBold"
-									
+
 		"pin_to_sibling"							"medic"
 	}							
 	"EditLoadoutButton" 							 
@@ -1007,7 +989,7 @@
 		"textAlignment"								"center"
 		"Command"									"openloadout"
 		"font"										"HudFontSmallBold"
-									
+
 		"pin_to_sibling"							"c_random"
 	}								
 	"CancelButton"  							
@@ -1025,17 +1007,17 @@
 		"textAlignment"								"center"
 		"Command"									"vguicancel"
 		"font"										"HudFontSmallBold"
-									
+
 		"pin_to_sibling"							"EditLoadoutButton"
 	}							
 	"ResetButton"  							
 	{							
 		"ControlName"								"CExButton"
 		"fieldName"									"ResetButton"
-		"xpos"										"r470"
-		"ypos"										"r38"
+		"xpos"										"-25"
+		"ypos"										"-25"
 		"zpos"										"6"
-		"wide"										"110"
+		"wide"										"100"
 		"tall"										"25"
 		"visible"									"0"
 		"enabled"									"1"
@@ -1043,6 +1025,8 @@
 		"textAlignment"								"center"
 		"Command"									"resetclass"
 		"font"										"HudFontSmallBold"
+		
+		"pin_to_sibling"							"CancelButton"
 	}
 	
 	"random"

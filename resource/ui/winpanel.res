@@ -8,7 +8,7 @@
 		"fieldName"									"TeamScoresPanel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"150"
 		"visible"									"1"
 
@@ -18,7 +18,7 @@
 			"fieldName"								"BlueScoreBG"
 			"xpos"									"0"
 			"ypos"									"20"
-			"wide"									"159"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -28,9 +28,9 @@
 		{
 			"ControlName"							"EditablePanel"
 			"fieldName"								"RedScoreBG"
-			"xpos"									"159"
+			"xpos"									"110"
 			"ypos"									"20"
-			"wide"									"159"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -46,7 +46,7 @@
 			"xpos"									"0"
 			"ypos"									"10"
 			"zpos"									"10"
-			"wide"									"159"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -62,7 +62,7 @@
 			"xpos"									"0"
 			"ypos"									"28"
 			"zpos"									"10"
-			"wide"									"159"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -78,8 +78,8 @@
 			"textAlignment"							"center"
 			"xpos"									"1"
 			"ypos"									"29"
-			"zpos"									"10"
-			"wide"									"159"
+			"zpos"									"9"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -90,8 +90,6 @@
 			"fieldName"								"BlueLeaderAvatar"
 			"tall"									"0"
 			"wide"									"0"
-			"visible"								"0"
-			"enabled"								"0"
 		}						
 		"BlueLeaderAvatarBG"						
 		{						
@@ -99,8 +97,6 @@
 			"fieldName"								"BlueLeaderAvatarBG"
 			"tall"									"0"
 			"wide"									"0"
-			"visible"								"0"
-			"enabled"								"0"
 		}									
 		"RedTeamLabel"
 		{
@@ -109,10 +105,10 @@
 			"font"									"HudFontSmallishBold"
 			"labelText"								"%redteamname%"
 			"textAlignment"							"center"
-			"xpos"									"159"
+			"xpos"									"110"
 			"ypos"									"10"
 			"zpos"									"10"
-			"wide"									"159"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -125,10 +121,10 @@
 			"font"									"HudFontBiggerBold"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
-			"xpos"									"159"
+			"xpos"									"110"
 			"ypos"									"28"
 			"zpos"									"10"
-			"wide"									"159"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -142,10 +138,10 @@
 			"fgcolor"								"Black"
 			"labelText"								"%redteamscore%"
 			"textAlignment"							"center"
-			"xpos"									"160"
+			"xpos"									"111"
 			"ypos"									"29"
 			"zpos"									"10"
-			"wide"									"159"
+			"wide"									"110"
 			"tall"									"40"
 			"visible"								"1"
 			"enabled"								"1"
@@ -156,8 +152,6 @@
 			"fieldName"								"RedLeaderAvatar"
 			"tall"									"0"
 			"wide"									"0"
-			"visible"								"0"
-			"enabled"								"0"
 		}						
 		"RedLeaderAvatarBG"						
 		{						
@@ -165,8 +159,6 @@
 			"fieldName"								"RedLeaderAvatarBG"
 			"tall"									"0"
 			"wide"									"0"
-			"visible"								"0"
-			"enabled"								"0"
 		}
 	}
 
@@ -176,8 +168,6 @@
 		"fieldName"									"WinPanelBGBorder"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}							
 	"ShadedBar"							
 	{							
@@ -185,8 +175,6 @@
 		"fieldName"									"ShadedBar"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}								
 	"DetailsLabel"							
 	{								
@@ -194,8 +182,6 @@
 		"fieldName"									"DetailsLabel"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}								
 	"AdvancingTeamLabel"							
 	{								
@@ -203,8 +189,6 @@
 		"fieldName"									"AdvancingTeamLabel"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"AdvancingTeamLabelDropshadow"
 	{	
@@ -212,8 +196,6 @@
 		"fieldName"									"AdvancingTeamLabelDropshadow"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}						
 	"WinningTeamLabel"							
 	{								
@@ -223,7 +205,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"1"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -239,7 +221,7 @@
 		"xpos"										"1"
 		"ypos"										"1"
 		"zpos"										"1"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -254,7 +236,7 @@
 		"xpos"										"0"
 		"ypos"										"60"
 		"zpos"										"1"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -269,7 +251,7 @@
 		"xpos"										"5"
 		"ypos"										"70"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -283,7 +265,7 @@
 		"xpos"										"0"
 		"ypos"										"85"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"1"
 		"visible"									"1"
 		"enabled"									"1"
@@ -294,10 +276,10 @@
 		"ControlName"								"CExLabel"
 		"fieldName"									"PointsThisRoundLabel"
 		"font"										"HudFontSmallestBold"
-		"xpos"										"154"
+		"xpos"										"-5"
 		"ypos"										"70"
 		"zpos"										"3"
-		"wide"										"159"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -310,8 +292,6 @@
 		"fieldName"									"Player1Badge"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"Player1Avatar"
 	{
@@ -319,8 +299,6 @@
 		"fieldName"									"Player1Avatar"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}							
 	"Player2Badge"							
 	{							
@@ -328,8 +306,6 @@
 		"fieldName"									"Player2Badge"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}							
 	"Player2Avatar"							
 	{							
@@ -337,8 +313,6 @@
 		"fieldName"									"Player2Avatar"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}							
 	"Player3Badge"							
 	{							
@@ -346,8 +320,6 @@
 		"fieldName"									"Player3Badge"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}							
 	"Player3Avatar"							
 	{							
@@ -355,8 +327,6 @@
 		"fieldName"									"Player3Avatar"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 
 	
@@ -367,7 +337,7 @@
 		"xpos"										"5"
 		"ypos"										"90"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -382,7 +352,7 @@
 		"xpos"										"0"
 		"ypos"										"90"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -397,7 +367,7 @@
 		"xpos"										"-5"
 		"ypos"										"90"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -412,7 +382,7 @@
 		"xpos"										"5"
 		"ypos"										"110"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -427,7 +397,7 @@
 		"xpos"										"0"
 		"ypos"										"110"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -442,7 +412,7 @@
 		"xpos"										"-5"
 		"ypos"										"110"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -457,7 +427,7 @@
 		"xpos"										"5"
 		"ypos"										"130"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -472,7 +442,7 @@
 		"xpos"										"0"
 		"ypos"										"130"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -487,7 +457,7 @@
 		"xpos"										"-5"
 		"ypos"										"130"
 		"zpos"										"3"
-		"wide"										"318"
+		"wide"										"220"
 		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
@@ -503,8 +473,6 @@
 		"fieldName"									"KillStreakLeaderLabel"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"KillStreakMaxCountLabel"
 	{	
@@ -512,8 +480,6 @@
 		"fieldName"									"KillStreakMaxCountLabel"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"HorizontalLine2"
 	{
@@ -521,8 +487,6 @@
 		"fieldName"									"HorizontalLine2"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"KillStreakPlayer1Badge"
 	{
@@ -530,8 +494,6 @@
 		"fieldName"									"KillStreakPlayer1Badge"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"KillStreakPlayer1Avatar"
 	{
@@ -539,8 +501,6 @@
 		"fieldName"									"KillStreakPlayer1Avatar"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"KillStreakPlayer1Name"
 	{	
@@ -548,8 +508,6 @@
 		"fieldName"									"KillStreakPlayer1Name"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"KillStreakPlayer1Class"
 	{	
@@ -557,8 +515,6 @@
 		"fieldName"									"KillStreakPlayer1Class"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 	"KillStreakPlayer1Score"
 	{	
@@ -566,7 +522,5 @@
 		"fieldName"									"KillStreakPlayer1Score"
 		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }
