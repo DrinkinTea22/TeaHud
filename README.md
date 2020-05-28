@@ -28,10 +28,11 @@ Select your current screen resolution in **"TeaHud/Customization/"** otherwise *
 # Credits to the following people:
 
 -Eniere **Improved Default Hud** SpectatorTournament layout
+-M0re **M0reHud** PassTime and PlayerDestruction files
 
 # HUGE THANKS TO:
 
 -Wiethoofd **Wiethud**	
 
--itemquickswitch  + some lines of code :D
+-itemquickswitch
 
