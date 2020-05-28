@@ -34,7 +34,7 @@
 		"labelText"									"%countdown%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"TanLight"
+		"fgcolor"									"white"
 
 		if_readymode
 		{
@@ -98,7 +98,7 @@
 		"labelText"									"%rank_possibility%"
 		"textAlignment"								"center"
 		"proportionaltoparent"						"1"
-		"fgcolor"									"TanLight"
+		"fgcolor"									"white"
 	}
 	"RankUpShadowLabel"
 	{	
@@ -159,7 +159,7 @@
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
 			"font"									"HudFontMediumSmallBold"
-			"fgcolor"								"TanLight"
+			"fgcolor"								"white"
 			"xpos"									"cs-0.5"
 			"ypos"									"0"
 			"zpos"									"3"
@@ -194,7 +194,7 @@
 		"visible"									"1"
 		"enabled"									"1"
 
-		"max_size"									"30"	//wide size for every icon.
+		"max_size"									"20"	//wide size for every icon.
 		"6v6_gap"									"0"
 		"12v12_gap"									"0"
 
@@ -247,7 +247,7 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"2"
-				"wide"								"f0"
+				"wide"								"22"
 				"tall"								"22"	
 				"visible"							"1"
 				"enabled"							"1"
@@ -262,8 +262,8 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
-				"wide"								"f0"
-				"tall"								"22"		
+				"wide"								"22"
+				"tall"								"22"			
 				"visible"							"1"
 				"enabled"							"1"
 				"textAlignment"						"east"
@@ -278,8 +278,8 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"4"
-				"wide"								"f0"
-				"tall"								"22"		
+				"wide"								"22"
+				"tall"								"22"	
 				"visible"							"1"
 				"enabled"							"1"
 				"textAlignment"						"west"
@@ -294,8 +294,8 @@
 				"xpos"								"0"
 				"ypos"								"0"
 				"zpos"								"3"
-				"wide"								"32"
-				"tall"								"32"
+				"wide"								"22"
+				"tall"								"22"	
 				"visible"							"0"
 				"enabled"							"1"	
 				"HealthBonusPosAdj"					"10"
@@ -308,12 +308,12 @@
 			{
 				"ControlName"						"CExLabel"
 				"fieldName"							"respawntime"
-				"font"								"HudFontMediumSmallBold"
+				"font"								"HudFontSmallBold"
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
 				"zpos"								"6"
-				"wide"								"f0"
-				"tall"								"19"
+				"wide"								"22"
+				"tall"								"22"	
 				"visible"							"1"
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"

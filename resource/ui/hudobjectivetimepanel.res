@@ -151,16 +151,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SuddenDeathBG"
-		"xpos"										"cs-0.5"
-		"ypos"										"30"
-		"zpos"										"4"
-		"wide"										"80"
-		"tall"										"20"
-		"visible"									"0"
-		"enabled"									"1"
-		"image"										"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"								"1"	
-		"proportionaltoparent"						"1"
+		"tall"										"0"
+		"wide"										"0"
 
 		if_match
 		{
@@ -196,16 +188,8 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"SetupBG"
-		"xpos"										"cs-0.5"
-		"ypos"										"30"
-		"zpos"										"3"
-		"wide"										"80"
-		"tall"										"20"
-		"visible"									"0"
-		"enabled"									"1"
-		"image"										"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"								"1"	
-		"proportionaltoparent"						"1"
+		"tall"										"0"
+		"wide"										"0"
 
 		if_match
 		{
@@ -218,7 +202,6 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ServerTimeLimitLabelBG"
-		"ypos"										"9999"
 		"tall"										"0"
 		"wide"										"0"
 		

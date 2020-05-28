@@ -8,8 +8,8 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"2"
-		"wide"										"30"	//size of icons (control points)
-		"tall"										"30"	//size of icons (control points)
+		"wide"										"24"	//size of icons (control points)
+		"tall"										"24"	//size of icons (control points)
 		"visible"									"1"
 		"enabled"									"1"
 	}							
@@ -20,13 +20,13 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"4"
-		"wide"										"26"
-		"tall"										"26"
+		"wide"										"24"
+		"tall"										"24"
 		"visible"									"1"
 		"enabled"									"1"
 	}								
-	"CapPlayerImage"							
-	{							
+	"CapPlayerImage"
+	{
 		"ControlName"								"ImagePanel"		
 		"fieldName"									"CapPlayerImage"
 		"xpos"										"0"
@@ -38,15 +38,14 @@
 		"enabled"									"1"
 		"image"										"capture_icon"
 		"scaleImage"								"1"
-		"draw_color"								"black"
-	}
-	"CapNumPlayers"
-	{	
+	}						
+	"CapNumPlayers"							
+	{								
 		"ControlName"								"Label"
 		"fieldName"									"CapNumPlayers"
-		"font"										"HudFontMediumSmallBold"
+		"font"										"CapPlayerFont"
 		"xpos"										"10"
-		"ypos"										"4"
+		"ypos"										"5"
 		"zpos"										"4"
 		"wide"										"30"
 		"tall"										"21"
@@ -54,16 +53,18 @@
 		"enabled"									"1"
 		"labelText"									"#ControlPointIconCappers"
 		"textAlignment"								"west"
-	}							
+		"dulltext"									"0"
+		"brighttext"								"0"
+	}														
 	"OverlayImage"							
 	{							
 		"ControlName"								"ImagePanel"		
 		"fieldName"									"OverlayImage"
-		"xpos"										"19"
+		"xpos"										"12"
 		"ypos"										"0"
 		"zpos"										"4"
-		"wide"										"14"
-		"tall"										"14"
+		"wide"										"9"
+		"tall"										"9"
 		"visible"									"0"
 		"enabled"									"1"
 		"image"										"capture_icon"
@@ -76,7 +77,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"
-		"wide"										"9"
+		"wide"										"7"
 		"tall"										"20"
 		"visible"									"0"
 		"enabled"									"1"
@@ -85,8 +86,10 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"wrap"										"0"
-		"font"										"ControlPointTimer"
+		"font"										"ControlPointTimerSmaller"
 	}	
+	
+	//idk
 	"CPTimerBG"
 	{
 		"ControlName"								"Panel"

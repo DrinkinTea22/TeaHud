@@ -349,7 +349,7 @@
 	{								
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player1Class"
-		"xpos"										"0"
+		"xpos"										"30"
 		"ypos"										"90"
 		"zpos"										"3"
 		"wide"										"220"
@@ -394,7 +394,7 @@
 	{								
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player2Class"
-		"xpos"										"0"
+		"xpos"										"30"
 		"ypos"										"110"
 		"zpos"										"3"
 		"wide"										"220"
@@ -439,7 +439,7 @@
 	{								
 		"ControlName"								"CExLabel"
 		"fieldName"									"Player3Class"
-		"xpos"										"0"
+		"xpos"										"30"
 		"ypos"										"130"
 		"zpos"										"3"
 		"wide"										"220"
