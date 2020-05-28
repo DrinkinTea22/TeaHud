@@ -1,3 +1,4 @@
+#base "../../../customization/enabled/High Quality Models.res"
 ////************************************************Backpack Screen.
 "Resource/UI/FullLoadoutPanel.res"
 {

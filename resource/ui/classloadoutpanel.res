@@ -1,3 +1,4 @@
+#base "../../customization/enabled/High Quality Models.res"
 ////************************************************Main Class Loadout Screen.
 "Resource/UI/FullLoadoutPanel.res"
 {

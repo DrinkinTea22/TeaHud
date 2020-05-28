@@ -1,3 +1,4 @@
+#base "../../../customization/enabled/High Quality Models.res"
 ////************************************************You've recived items.
 "Resource/UI/ItemPickupPanel.res"
 {
@@ -15,8 +16,8 @@
 		"settitlebarvisible"						"0"
 		"PaintBackgroundType"						"0"
 		"bgcolor_override"							"MenuBGColor"
-		"infocus_bgcolor_override"					"46 43 42 255"
-		"outoffocus_bgcolor_override"				"46 43 42 255"
+		"infocus_bgcolor_override"					"MenuBGColor"
+		"outoffocus_bgcolor_override"				"MenuBGColor"
 		"modelpanels_spacing"						"40"
 		"modelpanels_width"							"500"
 		"modelpanels_height"						"260"
@@ -42,10 +43,9 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget"				"0"
-				"inventory_image_type"				"1"
 			}
 		}
-	}
+	}	
 	"classimage"
 	{
 		"ControlName"								"ImagePanel"
@@ -126,6 +126,32 @@
 		"tall"										"40"
 		"visible"									"1"
 		"enabled"									"1"
+	}
+	"Quick"
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"Quick"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"0"
+		"tall"										"0"
+		"labelText"									"&A"
+		"visible"									"0"
+		"enabled"									"1"
+		"Command"									"previtem"
+	}									
+	"Quick2"							
+	{							
+		"ControlName"								"CExButton"
+		"fieldName"									"Quick2"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"0"
+		"tall"										"0"
+		"labelText"									"&D"
+		"visible"									"0"
+		"enabled"									"1"
+		"Command"									"nextitem"
 	}
 	"NextButton"
 	{
