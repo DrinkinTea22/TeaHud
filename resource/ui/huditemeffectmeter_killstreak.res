@@ -4,6 +4,7 @@
 {
 	HudItemEffectMeter
 	{
+		"ypos"										"rs1-0"	
 	}
 	"ItemEffectMeterBG"
 	{		
@@ -13,11 +14,5 @@
 	}	
 	"ItemEffectMeterCount"
 	{
-		"ypos"										"r48"
-	}					
-	"ItemEffectMeterIcon"					
-	{					
-		"ypos"										"r50"
-		"image"										"../hud/leaderboard_streak"
-	}		
+	}				
 }

@@ -4,13 +4,14 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"										"-40"		
+		"ypos"										"rs1-40"		
 	}
 	"ItemEffectMeterBG"
 	{			
 	}
 	"ItemEffectMeterLabel"
 	{
+		"wide"										"0"
 	}
 	"ItemEffectMeter"
 	{	
@@ -19,11 +20,11 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"ItemEffectIcon"
-		"xpos"										"r30"
-		"ypos"										"r30"
+		"xpos"										"25"
+		"ypos"										"4"
 		"zpos"										"1"
-		"wide"										"24"
-		"tall"										"24"
+		"wide"										"20"
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/ico_powerup_critboost_red"

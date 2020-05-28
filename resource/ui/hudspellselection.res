@@ -3,25 +3,25 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"										"5"	
-		"ypos"										"-15"	
-		"wide"										"f0"
-		"tall"										"f0"
+		"xpos"										"rs1-0"	
+		"ypos"										"rs1-0"
+		"wide"										"50"
+		"tall"										"30"
 	
 		"if_killstreak_visible"					
 		{					
-			"xpos"									"5"	
-			"ypos"									"-35"	
-			"wide"									"f0"
-			"tall"									"f0"
+			"xpos"										"rs1-0"	
+			"ypos"										"rs1-35"
+			"wide"										"50"
+			"tall"										"30"
 		}					
 	}					
 	"SpellIcon"					
 	{					
 		"ControlName"								"ImagePanel"
 		"fieldName"									"SpellIcon"
-		"xpos"										"r30"
-		"ypos"										"r30"
+		"xpos"										"25"
+		"ypos"										"7"
 		"zpos"										"3"
 		"wide"										"15"
 		"tall"										"15"
@@ -37,12 +37,12 @@
 		"fieldName"									"CountText"
 		"font"										"HudFontMediumBold"
 		"labelText"									"%counttext%"
-		"textAlignment" 							"left"
-		"xpos"										"r50"
-		"ypos"										"r35"
+		"textAlignment" 							"east"
+		"xpos"										"0"
+		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"50"
-		"tall"										"22"
+		"tall"										"30"
 		"fgcolor"									"White"
 	}	
 	
