@@ -4,6 +4,7 @@ a HUD for TF2
 Select your current screen resolution in ```"TeaHud/Customization/"``` otherwise **SpectatorTournament** will not work properly.
 
 [Screentshots](https://imgur.com/a/80qQmgB)
+
 [TeaHud Creator](https://steamcommunity.com/id/DrinkinTea_)
 
 # Customizations:
