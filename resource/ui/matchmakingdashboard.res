@@ -84,8 +84,8 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 					
-			"image_drawcolor"						"TanLight"
-			"image_armedcolor"						"TanLight"
+			"image_drawcolor"						"white"
+			"image_armedcolor"						"white"
 					
 			"SubImage"					
 			{					
@@ -298,7 +298,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"HudFontSmallBold"
-				"fgcolor_override"					"TanLight"
+				"fgcolor_override"					"white"
 				"textAlignment"						"center"
 				"labelText"							"%queue_state%"
 				"proportionaltoparent"				"1"
@@ -462,7 +462,7 @@
 				"visible"							"1"
 				"enabled"							"1"
 				"font"								"HudFontSmallestBold"
-				"fgcolor_override"					"TanLight"
+				"fgcolor_override"					"white"
 				"textAlignment"						"west"
 				"labelText"							"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"				"1"
@@ -552,7 +552,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"icon_resume"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override" 				"white"
 			}
 		}
 		"FindAGameButton"
@@ -602,7 +602,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"glyph_multiplayer"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override" 				"white"
 			}
 		}
 		"DisconnectButton"
@@ -637,8 +637,8 @@
 			"armedBgColor_override"					"ButtonHover"
 			"defaultBgColor_override"				"DisQit"
 
-			"image_drawcolor"						"TanLight"
-			"image_armedcolor"						"TanLight"
+			"image_drawcolor"						"white"
+			"image_armedcolor"						"white"
 					
 			"SubImage"					
 			{					
@@ -654,7 +654,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"glyph_disconnect"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override" 				"white"
 			}
 		}		
 		"QuitButton"
@@ -687,8 +687,8 @@
 			"armedBgColor_override"					"ButtonHover"
 			"defaultBgColor_override"				"DisQit"
 
-			"image_drawcolor"						"TanLight"
-			"image_armedcolor"						"TanLight"
+			"image_drawcolor"						"white"
+			"image_armedcolor"						"white"
 
 			"SubImage"
 			{
@@ -704,7 +704,7 @@
 				"scaleImage"						"1"
 				"proportionaltoparent"				"1"
 				"image"								"glyph_quit"
-				"drawcolor_override" 				"TanLight"
+				"drawcolor_override" 				"white"
 			}
 		}
 	}

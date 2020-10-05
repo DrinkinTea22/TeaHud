@@ -1013,7 +1013,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"white"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -1088,7 +1088,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"white"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"

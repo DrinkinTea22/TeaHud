@@ -1,5 +1,4 @@
 #base "../../Customization/Enabled/Custom Panel.res"
-#base "_StreamerMode.res"
 ////************************************************Main Menu.
 "Resource/UI/MainMenuOverride.res"
 {
@@ -447,7 +446,7 @@
 		"textinsety"									"0"
 
 		"font"											"HudFontSmallestBold"
-		"fgcolor_override"								"TanLight"
+		"fgcolor_override"								"white"
 		"labelText"										"#TF_MM_NoGC_Rank"
 		"textAlignment"									"west"
 		"use_proportional_insets"						"1"
@@ -1584,68 +1583,46 @@
 		"ControlName"									"EditablePanel"
 		"fieldname"										"FriendsContainer"
 		"xpos"											"0"
-		"ypos"											"-20"
+		"ypos"											"-35"
 		"zpos"											"5"
-		"wide"											"260"
-		"tall"											"150"
+		"wide"											"190"
+		"tall"											"110"
 		"visible"										"1"
 		"pin_to_sibling"								"TF2SettingsButton"
 
-		"TitleLabel"
-		{
-			"ControlName"								"CExLabel"
-			"fieldName"									"TitleLabel"
-			"font"										"HudFontSmallBold"
-			"labelText"									"#TF_Competitive_Friends"
-			"textAlignment"								"west"
-			"xpos"										"5"
-			"ypos"										"10"
-			"wide"										"f0"
-			"tall"										"30"
-			"visible"									"1"
-			"enabled"									"1"
-			"textinsetx"								"0"
-			"fgcolor_override"							"white"
-		}
-		"InnerShadow"
-		{
-			"ControlName"								"EditablePanel"
-			"fieldname"									"InnerShadow"
-			"border"									"noborder"
-		}
 		"SteamFriendsList"
 		{
 			"ControlName"								"CSteamFriendsListPanel"
 			"fieldname"									"SteamFriendsList"
-			"xpos"										"cs-0.5"
-			"ypos"										"rs1-10"
+			"xpos"										"2"
+			"ypos"										"0"
 			"zpos"										"500"
-			"wide"										"f10"
+			"wide"										"190"
 			"tall"										"110"
 			"visible"									"1"
 			"proportionaltoparent"						"1"
 
 			"columns_count"								"2"
-			"inset_x"									"10"
-			"inset_y"									"5"
-			"row_gap"									"5"
-			"column_gap"								"10"
+			"inset_x"									"2"
+			"inset_y"									"2"
+			"row_gap"									"4"
+			"column_gap"								"0"
 			"restrict_width"							"0"
-							
+
 			"friendpanel_kv"							
 			{							
-				"wide"									"110"
-				"tall"									"20"
+				"wide"									"95"
+				"tall"									"18"
 			}
 
 			"ScrollBar"
 			{
 				"ControlName"							"ScrollBar"
 				"FieldName"								"ScrollBar"
-				"xpos"									"rs1-1"
-				"ypos"									"0"
+				"xpos"									"rs1-2"
+				"ypos"									"2"
 				"tall"									"f0"
-				"wide"									"5" // This gets slammed from client schme.  GG.
+				"wide"									"5"
 				"zpos"									"1000"
 				"nobuttons"								"1"
 				"proportionaltoparent"					"1"
@@ -1675,9 +1652,9 @@
 			"ControlName"	 							"EditablePanel"
 			"fieldname"									"BelowDarken"
 			"xpos"										"cs-0.5"
-			"ypos"										"rs1-10"
+			"ypos"										"0"
 			"zpos"										"499"
-			"wide"										"f10"
+			"wide"										"190"
 			"tall"										"110"
 			"visible"									"1"	
 			"PaintBackgroundType"						"0"
@@ -1686,6 +1663,19 @@
 
 			"border"									"QuickplayBorder"
 			"bgcolor_override"							"black"
+		}
+		"TitleLabel"
+		{
+			"ControlName"								"CExLabel"
+			"fieldName"									"TitleLabel"
+			"wide"										"0"
+			"tall"										"0"
+		}
+		"InnerShadow"
+		{
+			"ControlName"								"EditablePanel"
+			"fieldname"									"InnerShadow"
+			"border"									"noborder"
 		}
 	}	
 	////************************************************Main Buttons.		

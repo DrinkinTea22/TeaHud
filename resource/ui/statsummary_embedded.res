@@ -1,115 +1,227 @@
-#base "Def_Files/statsummary.res"
-
+////************************************************Loadout STATS
 "Resource/UI/winpanel.res"
 {
 	"TFStatsSummary"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"TFStatsSummary"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"0"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"	"TFStatsSummary"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"	"0"
+		"enabled"	"1"
 		"bgcolor_override"	"MenuBGColor"
 	}
 	"MainBackground"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBackground"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
-		"visible"		"0"
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MainBackground"
+		"wide"				"0"
+		"tall"				"0"
 	}
 	"OnYourWayLabel" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
+		"font"			"HudFontMediumBold"
+		"labelText"		"#LoadingMap"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"50"
+		"wide"			"f0"
+		"tall"			"35"
 		"visible"		"0"
+		"enabled"		"1"
 	}					
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
+		"font"			"HudFontMediumBigBold" 
+		"labelText"		"%maplabel%"
+		"textAlignment"	"center" 
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"50"
+		"wide"			"f0" 
+		"tall"			"35"
 		"visible"		"0"
+		"enabled"		"1"
 	}
 	"MapType" 
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
+		"font"			"HudFontMediumBigBold"
+		"labelText"		"%maptype%"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"50"
+		"wide"			"f0" 
 		"visible"		"0"
-		"enabled"		"0"
-	}	
-	
+		"enabled"		"1"
+	}						
 	"StatData"
 	{
-		"tall"	"f0"
-		"ypos"	"-160"
-		
-		"AveragesLabel"
-		{
-			"font"			"ScoreboardMedium"
-			"textAlignment"	"center"
-			"xpos"			"c-285"
-			"wide"			"382"
-			"ypos"			"185"			
-		}		
-		"AveragesBG"
-		{
-			"xpos"			  "0"
-			"wide"		      "0"
-			"border"		  "noborder"
-		}
-		"RecordsBG"
-		{		
-			"border"	      "noborder"
-		}		
-		"InteractiveHeaders"	
-		{
-			"BarChartComboA"	//most Points
-			{
-				"xpos"			"c-285"	//154+35 (half bar bg)
-				"ypos"			"212"
-				"wide"			"190" 
-			}
-			"BarChartComboB"	//Total PlayTime
-			{
-				"xpos"			"c-57-35"
-				"ypos"			"212"
-				"wide"			"188" 
-			}
-			"ClassCombo"		//as any class
-			{
-				"xpos"	"c104"
-				"ypos"	"212"
-			}
-		}		
+		"ControlName"	"EditablePanel"
+		"fieldName"	"StatData"
+		"xpos"		"100"
+		"ypos"		"-130"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"	"1"
+		"enabled"	"1"
+
 		"NonInteractiveHeaders"
 		{
+			"ControlName"	"EditablePanel"
+			"fieldName"	"NonInteractiveHeaders"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"2"
+			"wide"		"f0"
+			"tall"		"480"
+			"visible"	"1"
+			"enabled"	"1"
+	
 			"BarChartLabelA"
 			{
+				"ControlName"	"Label"
+				"fieldName"		"BarChartLabelA"
+				"font"			"ScoreboardVerySmall"
+				"labelText"		"#StatSummary_StatTitle_MostPoints"
+				"textAlignment"		"east"
+				"xpos"			"c-282"
+				"ypos"			"212"
+				"zpos"			"5"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
 			}
 			"BarChartLabelB"
 			{
+				"ControlName"	"Label"
+				"fieldName"		"BarChartLabelB"
+				"font"			"ScoreboardVerySmall"
+				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
+				"textAlignment"		"west"
+				"xpos"			"c-127"
+				"ypos"			"212"
+				"zpos"			"5"
+				"wide"			"150"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
 			}			
 			"OverallRecordLabel"
 			{
+				"ControlName"	"Label"
+				"fieldName"		"OverallRecordLabel"
+				"font"			"ScoreboardVerySmall"
+				"labelText"		"#StatSummary_Label_AsAnyClass"
+				"textAlignment"		"west"
+				"xpos"			"c+130"
+				"ypos"			"200"
+				"zpos"			"5"
+				"wide"			"200"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
 			}				
+		}
+		"InteractiveHeaders"	
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"	"InteractiveHeaders"
+			"xpos"		"0"
+			"ypos"		"0"
+			"zpos"		"2"
+			"wide"		"f0"
+			"tall"		"480"
+			"visible"	"1"
+			"enabled"	"1"
+
+			"BarChartComboA"	//most Points
+			{
+				"ControlName"		"ComboBox"
+				"fieldName"		"BarChartComboA"
+				"xpos"		"c-285"
+				"ypos"		"212"
+				"zpos"		"10"
+				"wide"			"190" 
+				"tall"		"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"textHidden"		"0"
+				"editable"		"0"
+				"maxchars"		"-1"
+				"NumericInputOnly"		"0"
+				"unicode"		"0"
+			}
+			"BarChartComboB"		//Total PlayTime
+			{
+				"ControlName"		"ComboBox"
+				"fieldName"			"BarChartComboB"
+				"xpos"				"c-57-35"
+				"ypos"				"212"
+				"zpos"				"10"
+				"wide"				"188"
+				"tall"				"14"
+				"visible"			"1"
+				"enabled"			"1"
+				"textHidden"		"0"
+				"editable"			"0"
+				"maxchars"			"-1"
+				"NumericInputOnly"	"0"
+				"unicode"			"0"
+			}
+			"ClassCombo"		//as any class
+			{
+				"ControlName"		"ComboBox"
+				"fieldName"		"ClassCombo"
+				"xpos"		"c-285"
+				"ypos"		"190"
+				"zpos"		"10"
+				"wide"			"382" 
+				"tall"		"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"textHidden"		"0"
+				"editable"		"0"
+				"maxchars"		"-1"
+				"NumericInputOnly"		"0"
+				"unicode"		"0"
+			}
+		}
+		"AveragesLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"AveragesLabel"
+			"font"			"ScoreboardMedium"
+			"labelText"		"#StatSummary_Label_PerformanceReport"
+			"textAlignment"	"center"
+			"xpos"			"c-285"
+			"ypos"			"150"
+			"wide"			"382"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"AveragesBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"AveragesBG"
+			"border"		"noborder"
+		}
+		"RecordsBG"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"RecordsBG"
+			"border"		"noborder"
 		}
 		//****************************************Score Left****************************************//					
 		"ClassBarLabel1A"
@@ -788,7 +900,6 @@
 			"ControlName"	"Label"
 			"fieldName"		"ClassLabel2"
 			"font"			"ScoreboardSmall"
-			"font_hidef"	"Default"
 			"font_lodef"	"ScoreboardVerySmall"
 			"labelText"		"%class2%"
 			"textAlignment"	"center"
@@ -897,263 +1008,588 @@
 			"tall"			"20"
 			"pin_to_sibling" "ClassBarBG9B"	
 		}
-		//****************************************Class Label****************************************//			
+		//****************************************Class Label****************************************//	
 		
 		"RecordsLabel1"		//your best moments
 		{
+			"ControlName"	"Label"
+			"fieldName"		"RecordsLabel1"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"	"center"
-			"xpos"			"c104"
-			"ypos"			"185"
-			"wide"			"167"
+			"xpos"			"c-285"
+			"ypos"			"386"
+			"wide"			"382"
 			"tall"			"20"
-		}						
-		"RecordsSubBG1"		//"your best moments" bg	
+			"visible"		"1"	
+			"enabled"		"1"
+		}							
+		"RecordsSubBG1"
 		{
-			"xpos"			"c104"
-			"ypos"			"230"
-			"tall"			"160"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"RecordsSubBG1"
+			"xpos"			"c-285"
+			"ypos"			"400"
+			"zpos"			"2"
+			"wide"			"382"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"
 			"fillcolor"		"TransparentLightBlack"
+		}
+		"RecordsLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"RecordsLabel"
+			"font"			"ScoreboardMedium"
+			"labelText"		"#StatSummary_Records"
+			"textAlignment"	"west"
+			"xpos"			"c-265"
+			"ypos"			"232"
+			"zpos"			"5"
+			"wide"			"220"
+			"tall"			"20"
+			"visible"		"0"	
+			"enabled"		"1"
 		}	
+		
+		////************************************************Labels
 		"OverallRecord1Label"
 		{
-			"xpos"			"c107"
-			"ypos"			"234"
-		}							
-		"OverallRecord1Value"
-		{
-			"xpos"			"40"
-			"ypos"			"0"
-			"textAlignment"	"east"
-			"pin_to_sibling" "OverallRecord1Label"		
-		}							
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord1Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord1label%"
+			"textAlignment"	"west"
+			"xpos"			"c-285"
+			"ypos"			"395"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+		}								
 		"OverallRecord2Label"
 		{
-			"xpos"			"c107"
-			"ypos"			"244"
-		}							
-		"OverallRecord2Value"
-		{
-			"xpos"			"40"
-			"ypos"			"0"
-			"textAlignment"	"east"
-			"pin_to_sibling" "OverallRecord2Label"	
-		}							
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord2Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord2label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord1Label"	
+		}								
 		"OverallRecord3Label"
 		{
-			"xpos"			"c107"
-			"ypos"			"254"
-		}							
-		"OverallRecord3Value"
-		{
-			"xpos"			"40"
-			"ypos"			"0"
-			"textAlignment"	"east"
-			"pin_to_sibling" "OverallRecord3Label"	
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord3Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord3label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord2Label"	
 		}							
 		"OverallRecord4Label"
 		{
-			"xpos"			"c107"
-			"ypos"			"264"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord4Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord4label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord3Label"
+		}									
+		"OverallRecord5Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord5Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord5label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord4Label"
+		}	
+		
+		//div
+		"OverallRecord6Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord6Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord6label%"
+			"textAlignment"	"west"
+			"xpos"			"c-155"
+			"ypos"			"395"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+		}								
+		"OverallRecord7Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord7Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord7label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord6Label"
+		}									
+		"OverallRecord8Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord8Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord8label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord7Label"
+		}				
+		"OverallRecord9Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord9Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord9label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord8Label"
+		}	
+		"OverallRecord10Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord10Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord10label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord9Label"
+		}
+		
+		//div2
+		"OverallRecord11Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord11Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord11label%"
+			"textAlignment"	"west"
+			"xpos"			"c-25"
+			"ypos"			"395"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+		}	
+		"OverallRecord12Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord12Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord12label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord11Label"
+		}			
+		"OverallRecord13Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord13Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord13label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord12Label"
+		}	
+		"OverallRecord14Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord14Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord14label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord13Label"
+		}	
+		"OverallRecord15Label"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Label"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15label%"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"-8"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord14Label"
+		}	
+		////************************************************Labels
+
+		////************************************************Values
+		"OverallRecord1Value"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord1Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord1value%"
+			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord1Label"	
+		}							
+		"OverallRecord2Value"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord2Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord2value%"
+			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord2Label"	
+		}							
+		"OverallRecord3Value"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord3Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord3value%"
+			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"pin_to_sibling" "OverallRecord3Label"	
 		}							
 		"OverallRecord4Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord4Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord4value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord4Label"	
-		}							
-		"OverallRecord5Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"274"
-		}							
+		}						
 		"OverallRecord5Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord5Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord5value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord5Label"	
-		}							
-		"OverallRecord6Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"284"
-		}							
+		}
 		"OverallRecord6Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord6Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord6value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord6Label"	
-		}							
-		"OverallRecord7Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"294"
-		}							
+		}						
 		"OverallRecord7Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord7Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord7value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord7Label"	
-		}							
-		"OverallRecord8Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"304"
-		}							
+		}								
 		"OverallRecord8Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord8Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord8value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord8Label"	
-		}
-		"OverallRecord9Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"314"
-		}							
+		}						
 		"OverallRecord9Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord9Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord9value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord9Label"	
-		}
-		"OverallRecord10Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"324"
-		}							
+		}						
 		"OverallRecord10Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord10Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord10value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord10Label"	
-		}
-		"OverallRecord11Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"334"
-		}							
+		}				
 		"OverallRecord11Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord11Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord11value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord11Label"	
-		}
-		"OverallRecord12Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"344"
-		}							
+		}						
 		"OverallRecord12Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord12Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord12value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord12Label"	
-		}
-		"OverallRecord13Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"354"
-		}							
+		}						
 		"OverallRecord13Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord13Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord13value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord13Label"	
-		}
-		"OverallRecord14Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"364"
-		}							
+		}						
 		"OverallRecord14Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord14Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord14value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord14Label"	
-		}
-		"OverallRecord15Label"
-		{
-			"xpos"			"c107"
-			"ypos"			"374"
-		}							
+		}						
 		"OverallRecord15Value"
 		{
-			"xpos"			"40"
-			"ypos"			"0"
+			"ControlName"	"Label"
+			"fieldName"		"OverallRecord15Value"
+			"font"			"ScoreboardVerySmall"
+			"labelText"		"%classrecord15value%"
 			"textAlignment"	"east"
+			"xpos"			"80"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"200"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
 			"pin_to_sibling" "OverallRecord15Label"	
-		}
+		}	
+		////************************************************Values	
+	}
+	"ResetStatsButton" 
+	{
+		"ControlName"		"Button"
+		"fieldName"			"ResetStatsButton"
+		"xpos"				"9999"	//the normal method doesnt work lol
+		"wide"				"0"
+		"tall"				"0"
+	}
+	"CloseButton" 
+	{
+		"ControlName"		"Button"
+		"fieldName"			"CloseButton"
+		"xpos"				"9999"	//the normal method doesnt work lol
+		"wide"				"0"
+		"tall"				"0"
 	}
 	"TipImage"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"	"TipImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
-		"visible"		"0"
+		"fieldName"			"TipImage"
+		"wide"				"0"
+		"wide"				"0"
+		"tall"				"0"
 	}
 	"TipText"
 	{
 		"ControlName"	"Label"
-		"fieldName"	"TipText"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
-		"visible"		"0"
+		"fieldName"			"TipText"
+		"wide"				"0"
+		"tall"				"0"
 	}
 	"NextTipButton" 
 	{
-		"ControlName"	"Button"
-		"fieldName"	"NextTipButton"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
-		"visible"		"0"
-	}
-	"ResetStatsButton" 
-	{
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
-		"visible"		"0"
-	}
-	"CloseButton" 
-	{
+		"ControlName"		"Button"
+		"fieldName"			"NextTipButton"
+		"xpos"				"9999"	//the normal method doesnt work lol
+		"wide"				"0"
+		"tall"				"0"
 	}
 	"Footer" [$X360]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"tall"			"0"
-		"wide"			"0"
-		"visible"		"0"
-
-		"button"
-		{	
-		}
-		"button"
-		{	
-		}
+		"wide"				"0"
+		"tall"				"0"
 	}		
 	"TitleBanner" [$X360]
 	{
+		"ControlName"		"ImagePanel"
+		"wide"				"0"
+		"tall"				"0"
 	}
 }

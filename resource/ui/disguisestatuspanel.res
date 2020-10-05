@@ -17,6 +17,7 @@
 		"fov"										"54"
 		"start_framed"								"1"
 		"disable_manipulation"						"1"
+		
 		"model"					
 		{					
 			"angles_x"								"10"
@@ -28,11 +29,11 @@
 	{
 		"ControlName"								"CTFImagePanel"
 		"fieldName"									"DisguiseStatusBG"
-		"xpos"										"10"
-		"ypos"										"44"
+		"xpos"										"0"
+		"ypos"										"65"
 		"zpos"										"-1"
 		"wide"										"140"
-		"tall"	 									"22"
+		"tall"	 									"3"
 		"visible"									"1"
 		"enabled"									"1"
 		"image"										"../hud/color_panel_brown"
@@ -45,8 +46,8 @@
 		"src_corner_width"							"25"
 		"draw_corner_width"							"0"			
 		"draw_corner_height"						"0"	
-		"border"									"QuickplayBorder"
-	}
+		"border"									"noborder"
+	}	
 	"DisguiseNameLabel"
 	{	
 		"ControlName"								"Label"
@@ -81,8 +82,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"SpectatorGUIHealth"
-		"xpos"										"10"
-		"ypos"										"39"
+		"xpos"										"0"
+		"ypos"										"35"
 		"wide"										"34"
 		"tall"										"34"
 		"visible"									"1"

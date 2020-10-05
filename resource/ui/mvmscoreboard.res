@@ -56,7 +56,7 @@
 		"ypos"										"45"
 		"wide"										"290"
 		"tall"										"20"
-		"fgcolor"									"tanlight"
+		"fgcolor"									"white"
 	}
 	"DifficultyContainer"
 	{
@@ -79,7 +79,7 @@
 			"ypos"									"0"
 			"wide"									"150"
 			"tall"									"10"
-			"fgcolor"								"tanlight"
+			"fgcolor"								"white"
 		}
 		"DifficultyValue"
 		{
@@ -92,7 +92,7 @@
 			"ypos"									"9"
 			"wide"									"150"
 			"tall"									"10"
-			"fgcolor"								"tanlight"
+			"fgcolor"								"white"
 		}
 	}
 	
@@ -180,7 +180,7 @@
 			"ypos"									"8"
 			"wide"									"275"
 			"tall"									"20"
-			"fgcolor"								"tanlight"
+			"fgcolor"								"white"
 		}
 	}
 }

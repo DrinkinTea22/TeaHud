@@ -57,7 +57,7 @@
 		"ControlName"								"CExRichText"
 		"fieldName"									"MapInfoText"
 		"font"										"HudFontSmallishBold"
-		"xpos"										"c-70"
+		"xpos"										"c-85"
 		"ypos"										"160"
 		"zpos"										"3"
 		"wide"										"170"

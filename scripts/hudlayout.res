@@ -1,22 +1,12 @@
-#base 	"HudLayout_base.res"
+#base "HudLayout_base.res"
 #base "../Customization/Enabled/Transparent Viewmodels.res"
+#base "../resource/ui/_streamermode.res"
 "Resource/HudLayout.res"
 {
-	////*************************************************Streamer Mode.
-	HudVoiceStatus
-	{
-		"text_xpos_minmode"								"9999"
-	}
-	HudSpectatorExtras
-	{
-		"player_name_font_minmode"						"Blank"
-	}
-	////*************************************************Streamer Mode.
-	
 	////*************************************************TargetID
 	CMainTargetID
 	{
-		"ypos"											"c60"
+		"ypos"											"c62"
 	}	
 	CSecondaryTargetID
 	{
@@ -51,7 +41,6 @@
 		"ypos"											"30"
 		"wide"											"637"
 		"TextFont"										"HudFontsmallbold"
-		"TextFont_minmode"								"Blank"
 		"MaxDeathNotices"								"6"
 		"IconScale"										"0.24"
 		"LineHeight"									"12"
@@ -111,6 +100,7 @@
 	}	
 	////************************************************Metal, Health
 
+	////************************************************Win Panel
 	//Win Panel	
 	WinPanel
 	{
@@ -127,6 +117,13 @@
 		"xpos"											"c-145"
 		"ypos"											"235"
 	}	
+	ArenaWinPanel
+	{
+		"xpos"											"0"
+		"ypos"											"0"
+		"wide"											"f0"
+		"tall"											"f0"
+	}
 	////************************************************Win Panel	
 
 	////************************************************Menus		

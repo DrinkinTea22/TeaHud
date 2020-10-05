@@ -7,7 +7,7 @@ Select your current screen resolution in **"TeaHud/Customization/"** otherwise *
 [TeaHud Creator](https://steamcommunity.com/id/DrinkinTea_)
 
 # Customizations:
-1.  Last Damage Done + SpectatorTournament hud + Transparent Viewmodels + Custom Panel + Full Class Model + scoreboard 6s.
+1.  Last Damage Done + SpectatorTournament hud + Transparent Viewmodels + Custom Panel + Full Class Model + scoreboard 6s + healthcross styles.
 2. Colors: Go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors used in the hud.
 
 |**Gamemodes**|**Support**|

@@ -2,10 +2,24 @@
 "Scripts/_StreamerMode.res"
 {
 
-	////********************************************Menu Friendlist.
-	"FriendsContainer"
+	////********************************************HudLayout.
+	HudVoiceStatus
 	{
-		"tall_minmode"								"0"
+		"text_xpos_minmode"							"9999"
+	}
+	HudSpectatorExtras
+	{
+		"wide_minmode"								"0"
+	}
+	HudDeathNotice
+	{
+		"TextFont_minmode"							""
+	}
+	////********************************************HudLayout.
+	
+	////********************************************Menu Friendlist.
+	"NameLabel"
+	{
 		"wide_minmode"								"0"
 	}
 	////********************************************Menu Friendlist.
@@ -22,7 +36,6 @@
 	{
 		"FreezeLabel"
 		{
-			"wide"									"200"
 			"wide_minmode"							"0"
 		}	
 		"FreezeLabelKiller"
@@ -138,5 +151,22 @@
 		"wide_minmode"								"0"
 	}	
 	////********************************************End of Match.
+	
+	////********************************************Arena WinPanel.
+	"ArenaWinPanelWinnersPanel"
+	{						
+		"Name"						
+		{
+			"wide_minmode"							"0"
+		}
+	}
+	"ArenaWinPanelLosersPanel"
+	{						
+		"Name"						
+		{
+			"wide_minmode"							"0"
+		}
+	}
+	////********************************************Arena WinPanel.	
 }
 

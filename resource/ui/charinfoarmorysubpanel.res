@@ -126,7 +126,7 @@
 			"tall"									"125"
 			"visible"								"1"
 			"enabled"								"1"
-			"fgcolor"								"TanLight"
+			"fgcolor"								"white"
 			"wrap"									"1"
 			"highlight_color"						"177 168 149 255"
 			"itemset_color"							"216 244 9 255"

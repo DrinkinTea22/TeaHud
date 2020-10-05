@@ -11,175 +11,62 @@
 		"tall"										"480"
 		"visible"									"1"
 		"enabled"									"1"
-	}							
-	"SysMenu"							
-	{							
+	}
+	"SysMenu"
+	{
 		"ControlName"								"Menu"
 		"fieldName"									"SysMenu"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}							
-	"MapInfo"							
-	{							
-		"ControlName"								"HTML"
-		"fieldName"									"MapInfo"
-		"xpos"										"9999"
-		"ypos"										"9999"
 		"tall"										"0"
-		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 
+	"MapInfo"
+	{
+		"ControlName"								"HTML"
+		"fieldName"									"MapInfo"
+		"wide"										"0"
+		"tall"										"0"
+	}
 	"mapname"
 	{
 		"ControlName"								"Label"
 		"fieldName"									"mapname"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
+		"tall"										"0"
 	}
 	
-	MiddleLeft
+	"teambutton2"
 	{
-		"ControlName"								"CExLabel"	
-		"fieldName" 								"MiddleLeft"
-		"xpos"										"c-40"
-		"ypos"										"c0"
-		"LabelText"									""
-		"visible" 									"1"
-		"enabled"									"1"
-		"wide"										"20"
-		"tall"										"20"
-	}							
-	MiddleCenter							
-	{							
-		"ControlName"								"CExLabel"	
-		"fieldName" 								"MiddleCenter"
-		"LabelText"									""
-		"xpos"										"c0"
-		"ypos"										"c0"
-		"visible" 									"1"
-		"enabled"									"1"
-		"wide"										"20"
-		"tall"										"20"
-	}							
-	MiddleRight							
-	{							
-		"ControlName"								"CExLabel"	
-		"fieldName" 								"MiddleRight"
-		"LabelText"									""
-		"xpos"										"c50"
-		"ypos"										"c0"
-		"visible" 									"1"
-		"enabled"									"1"
-		"wide"										"20"
-		"tall"										"20"
-	}								
-	"teambutton2"							
-	{							
 		"ControlName"								"CTFTeamButton"
 		"fieldName"									"teambutton2"
-		"xpos"										"0"
-		"ypos"										"-50"
+		"xpos"										"c-80"
+		"ypos"										"c0"
 		"zpos"										"3"
-		"wide"										"100"
+		"wide"										"80"
 		"tall"										"30"
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"1"
-		"labelText"									"&1"
-		"textAlignment"								"south-west"
+		"labelText"									"&1"	[$WIN32]
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
 		"command"									"jointeam spectate"
 		"associated_model"							"autodoor"
-		"font"										"HudFontSmallishBold"
-		"fgcolor"									"white"
+		"font"										"MenuMainTitle"
+		"FgColor"									"white"
+		"defaultBgColor_override" 					"Button"
+		"armedBgColor_override" 					"ButtonHover"
 		"paintbackground"							"1"
-		"paintborder"								"1"
-		"defaultBgColor_override"					"TanDark"
-		"armedBgColor_override"						"TFOrange"
-		"depressedBgColor_override"					"TFOrange"
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
-		"pin_to_sibling"							"MiddleLeft"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
 	}
-	"teambutton3"
-	{
-		"ControlName"								"CTFTeamButton"
-		"fieldName"									"teambutton3"
-		"xpos"										"50"
-		"ypos"										"-50"
-		"zpos"										"3"
-		"wide"										"100"
-		"tall"										"30"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"2"
-		"labelText"									"&2"
-		"textAlignment"								"south-west"
-		"command"									"jointeam spectatearena"
-		"associated_model"							"spectate"	
-		"font"										"HudFontSmallishBold"
-		"fgcolor"									"white"
-		"paintbackground"							"1"
-		"paintborder"								"1"
-		"defaultBgColor_override"					"TanDark"
-		"armedBgColor_override"						"TFOrange"
-		"depressedBgColor_override"					"TFOrange"
-		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
-		"depressedFgColor_override" 				"White"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"		
-		"pin_to_sibling"							"MiddleRight"
-		"pin_corner_to_sibling"						"1"
-		"pin_to_sibling_corner"						"1"
-	}
-	"CancelButton"  
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"CancelButton"
-		"xpos"										"50"
-		"ypos"										"-80"
-		"zpos"										"1"
-		"wide"										"100"  
-		"tall"										"30"
-		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"#TF_Cancel"
-		"textAlignment"								"center"
-		"command"									"cancelmenu"
-		"font"										"HudFontSmallishBold"
-		"paintborder"								"1"
-		"border_default"							"QuickplayBorder"
-		"border_armed"								"QuickplayBorder"
-		"border"									"QuickplayBorder"	
-		"pin_to_sibling"							"MiddleCenter"
-	}
-
 	"TeamMenuAuto"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TeamMenuAuto"
 		"xpos"										"0"
-		"ypos"										"30"
+		"ypos"										"20"
 		"zpos"										"1"
-		"wide"										"100"  
-		"tall"										"30"
+		"wide"										"80"  
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Arena_Menu_Fight"
@@ -188,15 +75,40 @@
 		"fgcolor"									"White"
 		"pin_to_sibling"							"teambutton2"
 	}
+	
+	"teambutton3"
+	{
+		"ControlName"								"CTFTeamButton"
+		"fieldName"									"teambutton3"
+		"xpos"										"c0"
+		"ypos"										"c0"
+		"zpos"										"3"
+		"wide"										"80"
+		"tall"										"30"
+		"visible"									"1"
+		"enabled"									"1"
+		"labelText"									"&2"	[$WIN32]
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"paintborder"								"0"
+		"command"									"jointeam spectatearena"
+		"associated_model"							"spectate"	
+		"font"										"MenuMainTitle"
+		"FgColor"									"white"
+		"defaultBgColor_override" 					"Button"
+		"armedBgColor_override" 					"ButtonHover"
+		"paintbackground"							"1"
+	}
 	"TeamMenuSpectate"
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"TeamMenuSpectate"
 		"xpos"										"0"
-		"ypos"										"30"
+		"ypos"										"20"
 		"zpos"										"1"
-		"wide"										"100"  
-		"tall"										"30"
+		"wide"										"80"  
+		"tall"										"20"
 		"visible"									"1"
 		"enabled"									"1"
 		"labelText"									"#TF_Spectate"
@@ -205,8 +117,25 @@
 		"fgcolor"									"white"
 		"pin_to_sibling"							"teambutton3"
 	}
-
-
+	
+	"CancelButton" [$WIN32] 
+	{
+		"ControlName"								"CExButton"
+		"fieldName"									"CancelButton"
+		"xpos"										"c-80"
+		"ypos"										"c40"
+		"zpos"										"6"
+		"wide"										"160"
+		"tall"										"20"
+		"visible"									"0"
+		"enabled"									"1"
+		"labelText"									"#TF_Cancel"
+		"textAlignment"								"center"
+		"dulltext"									"0"
+		"brighttext"								"0"
+		"command"									"cancelmenu"
+		"font"										"MenuSmallFont"
+	}
 
 	"MenuBG"
 	{
@@ -235,13 +164,9 @@
 	{
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
-		"ypos"										"9999"
-		"tall"										"0"
 		"wide"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}		
+		"tall"										"0"
+	}
 	"autodoor"
 	{
 		"ControlName"								"CModelPanel"
@@ -281,7 +206,7 @@
 				"sequence"							"hoverclose"
 			}
 		}
-	}		
+	}	
 	"spectate"
 	{
 		"ControlName"								"CModelPanel"
@@ -295,7 +220,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/vgui/UI_team01_spectate.mdl"
+			"modelname"								"models/vgui/UI_team01_spectate.mdl"
 			"skin"									"0"
 			"angles_x" 								"0"
 			"angles_y" 								"180"
