@@ -5,7 +5,7 @@ Select your current screen resolution in ```"TeaHud/Customization/"``` otherwise
 
 [Screentshots](https://imgur.com/a/80qQmgB)
 
-[TeaHud Creator](https://steamcommunity.com/id/DrinkinTea_)
+[TeaHud Creator](https://steamcommunity.com/profiles/76561198351823352)
 
 # Customizations:
 1. Last Damage Done 
