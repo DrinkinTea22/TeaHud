@@ -4,7 +4,6 @@ a HUD for TF2
 Select your current screen resolution in ```"TeaHud/Customization/"``` otherwise **SpectatorTournament** will not work properly.
 
 [Screentshots](https://imgur.com/a/80qQmgB)
-
 [TeaHud Creator](https://steamcommunity.com/profiles/76561198351823352)
 
 # Customizations:
@@ -15,7 +14,10 @@ Select your current screen resolution in ```"TeaHud/Customization/"``` otherwise
 5. Full Class Model
 6. scoreboard 6s
 7. healthcross styles.
-2. Colors: Go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors used in the hud.
+
+# Notes:
+How to change some colors? -> Colors: Go to "TeaHud/Resource/Clientscheme" and there you have a template with some colors used in the hud.
+why streamermode is active by default? -> streamermode uses ```cl_hud_minmode 1``` to work, so set it to 0 if you dont want it.                        
 
 |**Gamemodes**|**Support**|
 |:-:|:-:|
